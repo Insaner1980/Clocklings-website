@@ -216,6 +216,17 @@
     "q6": "Can we use the 24-hour clock?",
     "a6": "Yes. A setting switches between 12-hour and 24-hour time, and a final lesson explains how the hours of the whole day work."
   },
+  "notFound": {
+    "title": "Clocklings: Page not found",
+    "description": "This page doesn't exist. Go back to the Clocklings home page or read the guide to teaching kids to tell time.",
+    "stageLabel": "A Clocklings companion next to a rainbow clock that stopped at 4:04",
+    "bubble": "Oops!",
+    "pill": "Error 404",
+    "h1": "Oops! This page got lost in time",
+    "lead": "The clock stopped at 4:04, and the page you were looking for is nowhere to be found. It may have moved, or the link has a typo. While you're here, try turning the clock hands.",
+    "homeCta": "Back to the home page",
+    "more": "Or jump straight to:"
+  },
   "footer": {
     "top": "Back to top",
     "tagline": "Learning to tell time, one happy step at a time.",
@@ -306,6 +317,7 @@
     },
     "dragHint": "Drag the hands",
     "backToNow": "Back to now",
-    "heroClockLabel": "Clock. Drag the hands or use the arrow keys to change the time."
+    "heroClockLabel": "Clock. Drag the hands or use the arrow keys to change the time.",
+    "lostGreeting": "Uh-oh, we're lost!"
   }
 }

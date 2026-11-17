@@ -31,36 +31,7 @@
           <p class="hero-note">{{hero.noteBefore}} <strong data-price>{{price.default}}</strong> {{hero.noteAfter}}</p>
         </div>
 
-        <div class="hero-stage" data-stage data-daypart="day" aria-label="{{hero.stageLabel}}">
-          <div class="stage-sky" aria-hidden="true">
-            <span class="sky sky-dawn"></span>
-            <span class="sky sky-day"></span>
-            <span class="sky sky-dusk"></span>
-            <span class="sky sky-night"></span>
-            <span class="stars"></span>
-            <span class="sun" data-sun></span>
-            <span class="moon" data-moon></span>
-            <span class="cloud cloud-a"></span>
-            <span class="cloud cloud-b"></span>
-          </div>
-          <div class="stage-ground" aria-hidden="true"></div>
-          <img class="stage-companion" data-companion-img data-burst src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
-          <div class="stage-bubble">
-            <span data-live-words>{{hero.bubble}}</span>
-          </div>
-          <div class="stage-clock" data-clock="live"></div>
-          <p class="drag-hint" data-drag-hint hidden>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-1.5a1.5 1.5 0 0 1 3 0V11m0-1a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1-6 6h-1.2a5 5 0 0 1-4.1-2.2L4.5 14.5a1.6 1.6 0 0 1 2.4-2L9 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span data-drag-hint-text></span>
-          </p>
-          <button type="button" class="now-btn" data-back-to-now hidden>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span data-back-to-now-text></span>
-          </button>
-          <span class="sparkle s1" aria-hidden="true"></span>
-          <span class="sparkle s2" aria-hidden="true"></span>
-          <span class="sparkle s3" aria-hidden="true"></span>
-        </div>
+{{> stage}}
       </div>
     </section>
 

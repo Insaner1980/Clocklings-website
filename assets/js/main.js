@@ -401,6 +401,8 @@
   /* ================= Hero: elävä kello ja vuorokaudenaika ================= */
 
   const DAY = 1440;
+  const LOST_TIME = 4 * 60 + 4;  // 404-sivun kello: 4.04
+  const INTRO_LOST_MS = 2600;
   const mod = (t, m) => ((t % m) + m) % m;
 
   function dayPart(t) {
@@ -452,7 +454,11 @@
     const stage = host.closest("[data-stage]");
     const words = $("[data-live-words]");
     const hint = $("[data-drag-hint]");
-    const back = $("[data-back-to-now]");
+    // 404-sivulla kello on pysähtynyt aikaan 4.04 eikä seuraa nykyhetkeä.
+    const lost = T.page === "404";
+    const backEl = $("[data-back-to-now]");
+    if (lost && backEl) backEl.remove();
+    const back = lost ? null : backEl;
     const companion = $(".stage-companion");
     const clock = createClock(host);
     const svg = clock.svg;
@@ -461,9 +467,10 @@
       const d = new Date();
       return d.getHours() * 60 + d.getMinutes() + d.getSeconds() / 60;
     };
+    const anchor = () => (lost ? LOST_TIME : now());
 
-    let t = now();
-    let live = true;
+    let t = anchor();
+    let live = !lost;
     let touched = false;
     let lastHour = Math.floor(t / 60);
     let lastKey = "";
@@ -485,7 +492,7 @@
 
     function render(time, { animateHop = true } = {}) {
       const whole = Math.round(time);
-      const greet = greetingFor(whole) || "";
+      const greet = (lost ? T.lostGreeting : greetingFor(whole)) || "";
       const text = capitalize(timeWords(whole));
       if (greet + text !== lastKey) {
         lastKey = greet + text;
@@ -512,12 +519,12 @@
     }
 
     function backToNow() {
-      const target = now();
+      const target = anchor();
       const delta = mod(target - t + 720, DAY) - 720;  // lyhin matka nykyhetkeen
       clock.tweenTo(t + delta, {
         duration: Math.min(1600, 500 + Math.abs(delta) * 1.2),
         onFrame: (v) => { t = v; render(v, { animateHop: false }); },
-        onDone: () => { t = now(); live = true; if (back) back.hidden = true; render(t); },
+        onDone: () => { t = anchor(); live = !lost; if (back) back.hidden = true; render(t); },
       });
     }
 
@@ -549,9 +556,13 @@
     if (back) back.addEventListener("click", backToNow);
 
     // Avaus: sanat ja taivas heti, viisarit pyörähtävät kahdestatoista nykyhetkeen.
+    // 404-sivulla viisarit kieppuvat eksyneinä kaksi kierrosta lisää, ja kaveri hyppää lopuksi.
     render(t, { animateHop: false });
-    clock.setTime(t - mod(t, 720), { animate: false });
-    requestAnimationFrame(() => clock.tweenTo(t, { duration: 1500 }));
+    clock.setTime(t - mod(t, 720) - (lost ? 1440 : 0), { animate: false });
+    requestAnimationFrame(() => clock.tweenTo(t, {
+      duration: lost ? INTRO_LOST_MS : 1500,
+      onDone: lost ? () => hop(companion) : undefined,
+    }));
 
     setInterval(() => {
       if (!live) return;
@@ -567,10 +578,10 @@
         hint.hidden = false;
         if (!reduceMotion) {
           const base = t;
-          clock.tweenTo(base + 7, { duration: 520, onDone: () => { if (live) clock.tweenTo(base, { duration: 650 }); } });
+          clock.tweenTo(base + 7, { duration: 520, onDone: () => { if (!touched) clock.tweenTo(base, { duration: 650 }); } });
         }
         setTimeout(() => { hint.hidden = true; }, 9000);
-      }, 2400);
+      }, lost ? INTRO_LOST_MS + 600 : 2400);
     }
 
     initParallax(stage);

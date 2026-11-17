@@ -216,6 +216,17 @@
     "q6": "Kan vi använda 24-timmarsklockan?",
     "a6": "Ja. En inställning växlar mellan 12- och 24-timmarstid, och en sista lektion förklarar hur dygnets alla timmar fungerar."
   },
+  "notFound": {
+    "title": "Clocklings: Sidan hittades inte",
+    "description": "Den här sidan finns inte. Gå tillbaka till Clocklings startsida eller läs guiden om hur man lär barn klockan.",
+    "stageLabel": "En Clocklings-kompis bredvid en regnbågsklocka som har stannat på 4.04",
+    "bubble": "Hoppsan!",
+    "pill": "Fel 404",
+    "h1": "Hoppsan! Den här sidan gick vilse i tiden",
+    "lead": "Klockan stannade på 4.04, och sidan du letade efter finns ingenstans. Den kan ha flyttats, eller så är det ett stavfel i länken. Under tiden kan du prova att vrida på klockans visare.",
+    "homeCta": "Tillbaka till startsidan",
+    "more": "Eller gå direkt till:"
+  },
   "footer": {
     "top": "Tillbaka till toppen",
     "tagline": "Vi lär oss klockan, ett glatt steg i taget.",
@@ -306,6 +317,7 @@
     },
     "dragHint": "Dra i visarna",
     "backToNow": "Tillbaka till nu",
-    "heroClockLabel": "Klocka. Dra i visarna eller använd piltangenterna för att ändra tiden."
+    "heroClockLabel": "Klocka. Dra i visarna eller använd piltangenterna för att ändra tiden.",
+    "lostGreeting": "Hoppsan, vi har gått vilse!"
   }
 }

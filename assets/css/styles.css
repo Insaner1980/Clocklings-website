@@ -963,3 +963,29 @@ a { color: var(--primary); }
   .journey.is-live .journey-step { transform: none; }
   .sun::before { animation: none; }
 }
+
+/* ---------- 404-sivu ---------- */
+
+.lost-links { display: flex; flex-direction: column; gap: 10px; }
+.lost-links p { font-weight: 700; color: var(--ink-soft); }
+.lost-links ul { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.lost-links a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px;
+  border-radius: 999px; background: var(--surface); color: var(--ink);
+  font-weight: 800; text-decoration: none; box-shadow: 0 3px 0 var(--line);
+  transition: transform .2s ease, background-color .2s ease;
+}
+.lost-links a:hover { background: var(--gold-soft); transform: translateY(-2px); }
+.lost-links a:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--line); }
+
+/* Eksynyt kaveri katselee ympärilleen. Hyppy (.hop) ohittaa tämän. */
+.page-404 .stage-companion:not(.hop) {
+  animation: drop-in 1s var(--ease-bounce) .35s backwards, look-around 5s ease-in-out 1.35s infinite;
+}
+@keyframes look-around {
+  0%, 100% { transform: rotate(0); }
+  18%, 32% { transform: rotate(-4deg); }
+  25% { transform: rotate(-4deg) translateY(-1.5%); }
+  58%, 72% { transform: rotate(4deg); }
+  65% { transform: rotate(4deg) translateY(-1.5%); }
+}
