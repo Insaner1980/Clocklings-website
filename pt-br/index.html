@@ -1,0 +1,611 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clocklings: app para crianças aprenderem as horas</title>
+  <meta name="description" content="Clocklings é um app para crianças aprenderem as horas. Com um amigo divertido, elas aprendem passo a passo a ler o relógio de ponteiros, das horas exatas aos minutos exatos. Em breve no Android.">
+  <meta name="theme-color" content="#FFF5FA">
+  <meta name="color-scheme" content="light">
+
+  <link rel="alternate" hreflang="en" href="/">
+  <link rel="alternate" hreflang="fi" href="/fi/">
+  <link rel="alternate" hreflang="sv" href="/sv/">
+  <link rel="alternate" hreflang="de" href="/de/">
+  <link rel="alternate" hreflang="fr" href="/fr/">
+  <link rel="alternate" hreflang="es" href="/es/">
+  <link rel="alternate" hreflang="pt-BR" href="/pt-br/">
+  <link rel="alternate" hreflang="x-default" href="/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clocklings">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Clocklings: app para crianças aprenderem as horas">
+  <meta property="og:description" content="Aprenda o relógio de ponteiros passo a passo, ganhe estrelas e vista o seu próprio amigo.">
+  <meta property="og:image" content="/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Os amigos do Clocklings ao lado de um relógio arco-íris">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clocklings: app para crianças aprenderem as horas">
+  <meta name="twitter:description" content="Aprenda o relógio de ponteiros passo a passo, ganhe estrelas e vista o seu próprio amigo.">
+  <meta name="twitter:image" content="/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="Os amigos do Clocklings ao lado de um relógio arco-íris">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/fredoka_bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/nunito_semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "name": "Clocklings",
+   "alternateName": "Clocklings: app para crianças aprenderem as horas",
+   "description": "Clocklings é um app para crianças aprenderem as horas. Com um amigo divertido, elas aprendem passo a passo a ler o relógio de ponteiros, das horas exatas aos minutos exatos. Em breve no Android.",
+   "operatingSystem": "Android 8.0+",
+   "applicationCategory": "EducationalApplication",
+   "inLanguage": [
+    "en",
+    "fi",
+    "sv",
+    "de",
+    "fr",
+    "es",
+    "pt-BR"
+   ],
+   "image": "/assets/img/og-image.png",
+   "offers": {
+    "@type": "Offer",
+    "price": "6.99",
+    "priceCurrency": "USD",
+    "category": "one-time purchase"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "inLanguage": "pt-BR",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Para quem é o Clocklings?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Para crianças que estão começando a aprender o relógio de ponteiros. As lições começam pelo que os dois ponteiros fazem, então não é preciso saber nada antes."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Em quais aparelhos funciona?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Em celulares e tablets Android com Android 8.0 ou mais recente. Ele também se adapta a dobráveis e telas maiores."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Existe versão para iPhone ou iPad?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ainda não. O Clocklings chega primeiro ao Android."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "A versão grátis expira?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Não. A parte grátis continua grátis pelo tempo que você quiser. Só faça o upgrade se o seu filho quiser mais."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Meu filho precisa saber ler?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Não muito. Instruções, dicas e horários podem ser ouvidos em voz alta, e o amigo mostra como tudo funciona."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Dá para usar o relógio de 24 horas?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Uma configuração alterna entre 12 e 24 horas, e uma última lição explica as horas do dia inteiro."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <script id="i18n" type="application/json">{"timeSeparator":":","bubbleFirst":"Olhe o relógio. Que horas ele mostra?","bubbleRead":"Que horas este relógio mostra?","bubbleSet":"Arraste os ponteiros ou use os botões de seta. Depois toque em Verificar.","readQuestion":"Que horas são?","setQuestion":"Ajuste o relógio para","praise":["Isso mesmo!","Muito bem!","Ótimo trabalho!","Você acertou!","Boa!","Incrível!","Maravilha!"],"hintReadWhole":"Olhe o ponteiro azul comprido. Quando ele aponta bem para cima, para o 12, é uma hora exata.","hintReadHalf":"O ponteiro azul comprido aponta para baixo, para o 6. Então é e meia.","hintReadHourHalf":"Na meia hora, o ponteiro rosa curto fica entre dois números. Fala-se a hora que ele acabou de passar: três e meia fica entre o três e o quatro.","hintReadHour":"O ponteiro rosa curto mostra a hora. Para qual número ele aponta?","hintSetMinute":"Olhe o ponteiro azul comprido. Na hora exata ele aponta para o 12 e na meia hora para o 6.","hintSetHour":"O ponteiro comprido está certo! Agora olhe o ponteiro rosa curto. Ele mostra a hora.","revealRead":"A resposta é {time}. Você acerta a próxima!","revealSet":"É assim que fica {time}. Viu para onde os dois ponteiros apontam?","result3":"Maravilha!","result2":"Muito bem!","result1":"Continue explorando!","starsOne":"Você ganhou {n} estrela!","starsOther":"Você ganhou {n} estrelas!","resultUnlock":"No app, as estrelas liberam roupas novas para o seu amigo.","progress":"Tarefa {n} de {total}","clockLabel":"Relógio arco-íris mostrando {time}","practiceClock":"Relógio de treino. Leia a hora e escolha uma resposta.","sliderLabel":"Ponteiros do relógio. Use as setas para movê-los meia hora por vez.","priceNoteDefault":"Preço em dólares americanos. O Google Play mostra o preço final na sua moeda local.","priceNoteLocal":"Preço conforme a sua localização. O Google Play confirma o preço final antes da compra.","playGet":"Disponível no","playPill":"Já no Android","companions":{"doll":{"name":"Boneca","line":"Adora rodopiar com um vestido novo e está sempre pronta para a próxima lição."},"cat":{"name":"Gato","line":"Curioso, fofo e ótimo em perceber para onde os ponteiros apontam."},"dog":{"name":"Cachorro","line":"Abana o rabo a cada acerto e nunca desiste."},"robot":{"name":"Robô","line":"Apita feliz a cada tique e a cada taque. Precisão é com ele mesmo."},"dragon":{"name":"Dragão","line":"Um pequeno mago do tempo que solta purpurina em vez de fogo."},"dinosaur":{"name":"Dinossauro","line":"Velho como as montanhas, mas novinho em ler as horas. Aprende junto com você."},"bunny":{"name":"Coelho","line":"Pula de hora em hora e sempre chega na hora certa."},"unicorn":{"name":"Unicórnio","line":"Espalha um pouco de magia em cada hora exata e cada meia hora."},"car":{"name":"Carro","line":"Corre em volta do mostrador e adora o Desafio de um minuto."}},"greetings":{"morning":"Bom dia!","day":"Olá!","evening":"Boa noite!","night":"Olá, corujinha!"},"dragHint":"Arraste os ponteiros","backToNow":"Voltar para agora","heroClockLabel":"Relógio. Arraste os ponteiros ou use as setas para mudar a hora.","lang":"pt-BR","locale":"pt-BR","page":"home","suggest":{"en":{"text":"This page is also available in English.","link":"Switch to English","paths":{"home":"/","guide":"/how-to-teach-a-child-to-tell-time/"}},"fi":{"text":"Tämä sivu on saatavilla myös suomeksi.","link":"Suomenkieliselle sivulle","paths":{"home":"/fi/","guide":"/fi/miten-opettaa-lapselle-kello/"}},"sv":{"text":"Den här sidan finns också på svenska.","link":"Till den svenska sidan","paths":{"home":"/sv/","guide":"/sv/hur-lar-man-barn-klockan/"}},"de":{"text":"Diese Seite gibt es auch auf Deutsch.","link":"Zur deutschen Seite","paths":{"home":"/de/","guide":"/de/kindern-die-uhr-beibringen/"}},"fr":{"text":"Cette page existe aussi en français.","link":"Voir la page en français","paths":{"home":"/fr/","guide":"/fr/apprendre-l-heure-a-un-enfant/"}},"es":{"text":"Esta página también está disponible en español.","link":"Ir a la página en español","paths":{"home":"/es/","guide":"/es/como-ensenar-la-hora-a-un-nino/"}},"pt-BR":{"text":"Esta página também está disponível em português.","link":"Ir para a página em português","paths":{"home":"/pt-br/","guide":"/pt-br/como-ensinar-as-horas-para-criancas/"}}}}</script>
+  <script src="/assets/js/main.js" defer></script>
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <div class="lang-banner" data-lang-banner hidden>
+    <div class="wrap lang-banner-row">
+      <p data-lang-banner-text></p>
+      <div class="lang-banner-actions">
+        <a class="btn btn-primary btn-small" data-lang-banner-link href="/"></a>
+        <button type="button" class="round-btn round-btn-small" data-lang-banner-close aria-label="Fechar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/pt-br/" class="wordmark" aria-label="Clocklings, início">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <nav class="site-nav" aria-label="Menu principal">
+        <a href="/pt-br/#companions">Amigos</a>
+        <a href="/pt-br/#try">Experimente</a>
+        <a href="/pt-br/como-ensinar-as-horas-para-criancas/">Guia</a>
+        <a href="/pt-br/#pricing">Preço</a>
+      </nav>
+      <div class="header-actions">
+        <details class="lang-menu" data-lang-menu>
+          <summary aria-label="Idioma">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.5 3.9 5.5 3.9 9s-1.3 6.5-3.9 9c-2.6-2.5-3.9-5.5-3.9-9S9.4 5.5 12 3z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <span>PT</span>
+          </summary>
+          <ul class="lang-list">
+            <li><a href="/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+            <li><a href="/fi/" hreflang="fi" lang="fi" data-lang-link="fi">Suomi</a></li>
+            <li><a href="/sv/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+            <li><a href="/de/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+            <li><a href="/fr/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+            <li><a href="/es/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+            <li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR" aria-current="page">Português (Brasil)</a></li>
+          </ul>
+        </details>
+        <a href="/pt-br/#pricing" class="btn btn-primary btn-small header-cta">Baixar o app</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="pill pill-gold">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z"/></svg>
+            <span data-soon-pill>Em breve no Android</span>
+          </p>
+          <h1>Aprender as horas é mais divertido com um amigo</h1>
+          <p class="lead">Clocklings transforma o relógio de ponteiros numa aventura divertida. As crianças aprendem passo a passo, praticam ler e ajustar o relógio, ganham estrelas e vestem o seu próprio amigo.</p>
+          <div class="hero-actions">
+            <a class="play-button" href="#pricing" data-play-link>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+              <span>
+                <small data-play-eyebrow>Em breve no</small>
+                Google Play
+              </span>
+            </a>
+            <a class="btn btn-tonal" href="#try">Experimente uma minilição</a>
+          </div>
+          <p class="hero-note">Grátis para experimentar. Versão completa por <strong data-price>US$ 6,99</strong> em um único pagamento, sem anúncios e sem assinatura.</p>
+        </div>
+
+        <div class="hero-stage" data-stage data-daypart="day" aria-label="Um amigo do Clocklings ao lado de um relógio arco-íris que mostra a hora atual">
+          <div class="stage-sky" aria-hidden="true">
+            <span class="sky sky-dawn"></span>
+            <span class="sky sky-day"></span>
+            <span class="sky sky-dusk"></span>
+            <span class="sky sky-night"></span>
+            <span class="stars"></span>
+            <span class="sun" data-sun></span>
+            <span class="moon" data-moon></span>
+            <span class="cloud cloud-a"></span>
+            <span class="cloud cloud-b"></span>
+          </div>
+          <div class="stage-ground" aria-hidden="true"></div>
+          <img class="stage-companion" data-companion-img data-burst src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
+          <div class="stage-bubble">
+            <span data-live-words>Hora de aprender!</span>
+          </div>
+          <div class="stage-clock" data-clock="live"></div>
+          <p class="drag-hint" data-drag-hint hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-1.5a1.5 1.5 0 0 1 3 0V11m0-1a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1-6 6h-1.2a5 5 0 0 1-4.1-2.2L4.5 14.5a1.6 1.6 0 0 1 2.4-2L9 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-drag-hint-text></span>
+          </p>
+          <button type="button" class="now-btn" data-back-to-now hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-back-to-now-text></span>
+          </button>
+          <span class="sparkle s1" aria-hidden="true"></span>
+          <span class="sparkle s2" aria-hidden="true"></span>
+          <span class="sparkle s3" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="Clocklings em números">
+      <div class="wrap stats-row">
+        <div class="stat stat-1"><span class="stat-num" data-count="9">9</span><span class="stat-label">Amigos</span></div>
+        <div class="stat stat-2"><span class="stat-num" data-count="146">146</span><span class="stat-label">Peças de roupa</span></div>
+        <div class="stat stat-3"><span class="stat-num" data-count="15">15</span><span class="stat-label">Estrelas para ganhar</span></div>
+        <div class="stat stat-4"><span class="stat-num" data-count="7">7</span><span class="stat-label">Idiomas</span></div>
+      </div>
+    </section>
+
+    <!-- COMPANIONS -->
+    <section class="section companions" id="companions" aria-labelledby="companions-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Conheça os Clocklings</p>
+          <h2 id="companions-title">Escolha um amigo para aprender junto</h2>
+          <p class="section-lead">Nove amigos, cada um com seu estilo. Seu amigo torce por você, comemora cada estrela e adora experimentar roupas novas.</p>
+        </header>
+
+        <div class="companion-show">
+          <div class="companion-stage">
+            <img data-companion-big data-burst src="/assets/img/characters/doll.webp" alt="Boneca" width="382" height="627" loading="lazy">
+          </div>
+          <div class="companion-info">
+            <h3 data-companion-name>Boneca</h3>
+            <p data-companion-line>Adora rodopiar com um vestido novo e está sempre pronta para a próxima lição.</p>
+            <p class="companion-hint">Sua escolha acompanha você pela página toda, até na minilição.</p>
+          </div>
+        </div>
+
+        <div class="companion-picker" role="radiogroup" aria-label="Escolha um amigo" data-companion-picker></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how" aria-labelledby="how-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Como funciona</p>
+          <h2 id="how-title">Passos pequenos, sorrisos grandes</h2>
+          <p class="section-lead">Clocklings acompanha as crianças desde a primeira hora exata até os minutos exatos.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step step-learn">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5.5c3-1.3 6-1.3 9 .6v13c-3-1.9-6-1.9-9-.6zM21 5.5c-3-1.3-6-1.3-9 .6v13c3-1.9 6-1.9 9-.6z" fill="#fff" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Aprender</h3>
+            <p>Lições claras mostram o que os ponteiros fazem, com animações e um narrador que lê tudo em voz alta.</p>
+          </li>
+          <li class="step step-play">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Jogar</h3>
+            <p>Leia o relógio e depois ajuste você mesmo. Depois de um erro vem uma dica, então ninguém fica empacado.</p>
+          </li>
+          <li class="step step-stars">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z" fill="#FCC419" stroke="#F59F00" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Ganhe estrelas</h3>
+            <p>Cada nível vale até três estrelas. Jogue de novo quando quiser para melhorar seu resultado.</p>
+          </li>
+          <li class="step step-dress">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8.5 3.5 4 6l1.8 4 2-.9V20.5h8.4V9.1l2 .9L20 6l-4.5-2.5c-.6 1.5-2 2.4-3.5 2.4S9.1 5 8.5 3.5z" fill="#fff" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Vista seu amigo</h3>
+            <p>As estrelas liberam chapéus, coroas, cachecóis e muito mais. Mais de 140 peças esperam no guarda-roupa.</p>
+          </li>
+        </ol>
+
+        <div class="journey" data-journey>
+          <h3 class="journey-title" id="path-title">A trilha</h3>
+          <div class="journey-grid">
+            <div class="journey-visual" aria-hidden="true">
+              <div class="journey-sticky">
+                <div class="journey-clock" data-clock="journey"></div>
+                <p class="journey-caption" data-journey-caption></p>
+              </div>
+            </div>
+            <ol class="journey-steps" aria-labelledby="path-title">
+              <li class="journey-step" data-time="180"><span class="journey-num">1</span><div><h4>Horas exatas</h4><p>O ponteiro comprido aponta bem para cima, para o 12. Leia o ponteiro curto e você sabe a hora.</p></div></li>
+              <li class="journey-step" data-time="270"><span class="journey-num">2</span><div><h4>Meia hora</h4><p>O ponteiro comprido deu meia volta até o 6. O ponteiro curto fica entre dois números: é e meia.</p></div></li>
+              <li class="journey-step" data-time="345"><span class="journey-num">3</span><div><h4>Quartos de hora</h4><p>E quinze quando o ponteiro comprido está no 3, quinze para quando está no 9. O mostrador se divide em quatro partes fáceis.</p></div></li>
+              <li class="journey-step" data-time="445"><span class="journey-num">4</span><div><h4>De cinco em cinco</h4><p>Cada número vale cinco minutos. Conte de cinco em cinco enquanto o ponteiro comprido anda.</p></div></li>
+              <li class="journey-step" data-time="527"><span class="journey-num">5</span><div><h4>Minutos exatos</h4><p>Os risquinhos são minutos. Conte até o último múltiplo de cinco e some o resto.</p></div></li>
+              <li class="journey-step" data-time="930" data-h24><span class="journey-num">6</span><div><h4>O dia inteiro</h4><p>O ponteiro curto dá duas voltas por dia. 15:30 é o mesmo que três e meia da tarde.</p></div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRY IT -->
+    <section class="section try" id="try" aria-labelledby="try-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Experimente você mesmo</p>
+          <h2 id="try-title">Um gostinho do treino</h2>
+          <p class="section-lead">Cinco tarefas rápidas com horas exatas e meias horas, como nos primeiros níveis do app. Preparado?</p>
+        </header>
+
+        <div class="trainer" data-trainer>
+          <div class="trainer-top">
+            <ol class="progress" data-progress aria-hidden="true"></ol>
+            <p class="visually-hidden" data-progress-text aria-live="polite"></p>
+          </div>
+
+          <div class="trainer-body">
+            <div class="trainer-clock-wrap">
+              <div class="trainer-clock" data-clock="trainer"></div>
+              <div class="set-controls" data-set-controls hidden>
+                <button type="button" class="round-btn" data-step="-30" aria-label="Voltar o relógio 30 minutos">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <span class="set-readout" data-set-readout aria-hidden="true"></span>
+                <button type="button" class="round-btn" data-step="30" aria-label="Adiantar o relógio 30 minutos">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 7h5V2M19.4 7A8 8 0 1 0 20 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="trainer-panel">
+              <div class="buddy">
+                <img class="buddy-img" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+                <p class="bubble" data-bubble aria-live="polite">Vamos lá!</p>
+              </div>
+
+              <h3 class="task-title" data-task-title>Que horas são?</h3>
+              <div class="options" data-options></div>
+              <div class="trainer-actions">
+                <button type="button" class="btn btn-primary" data-check hidden>Verificar</button>
+                <button type="button" class="btn btn-primary" data-next hidden>Próximo
+                  <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button type="button" class="btn btn-primary" data-start>Começar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="trainer-result" data-result hidden>
+            <div class="result-stars" data-result-stars aria-hidden="true"></div>
+            <img class="result-companion" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+            <h3 data-result-title></h3>
+            <p data-result-text></p>
+            <p class="result-more">O app continua com quartos de hora, de cinco em cinco, minutos exatos, o dia inteiro e o agitado Desafio de um minuto.</p>
+            <div class="result-actions">
+              <a class="btn btn-primary" href="#pricing">Baixar o Clocklings</a>
+              <button type="button" class="btn btn-white" data-restart>
+                <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Jogar de novo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" aria-labelledby="features-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Muito mais para descobrir</p>
+          <h2 id="features-title">Muitos jeitos de brincar</h2>
+        </header>
+
+        <ul class="tiles">
+          <li class="tile tile-explore">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="#3A2453" stroke-width="2"/><path d="M12 6.5V12l-3 2" fill="none" stroke="#E64980" stroke-width="2.2" stroke-linecap="round"/><path d="M12 12V5" stroke="#228BE6" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+            <h3>Explorar</h3>
+            <p>Gire os ponteiros à vontade e ouça que horas são.</p>
+          </li>
+          <li class="tile tile-together">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round"><circle cx="8.5" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M3.5 19.5c0-3 2.2-5 5-5s5 2 5 5M13.5 14.6c.8-.1 1.6-.1 2.5-.1 2.8 0 4.5 2 4.5 5"/></svg></span>
+            <h3>Jogar em dupla</h3>
+            <p>Um ajusta uma hora e o outro adivinha. Depois vocês trocam a vez.</p>
+          </li>
+          <li class="tile tile-challenge">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V9.5M10 2.5h4M18.5 6.5l1.5-1.5"/></svg></span>
+            <h3>Desafio de um minuto</h3>
+            <p>Quantos relógios você consegue ler em sessenta segundos?</p>
+          </li>
+          <li class="tile tile-styles">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="#FF6B6B" stroke-width="3"/><circle cx="12" cy="12" r="9" fill="none" stroke="#339AF0" stroke-width="3" stroke-dasharray="14 42.5"/><circle cx="12" cy="12" r="9" fill="none" stroke="#51CF66" stroke-width="3" stroke-dasharray="14 42.5" stroke-dashoffset="-14"/><circle cx="12" cy="12" r="9" fill="none" stroke="#FCC419" stroke-width="3" stroke-dasharray="14 42.5" stroke-dashoffset="-28"/></svg></span>
+            <h3>Estilos de relógio</h3>
+            <p>Arco-íris, Espaço, Oceano, Floresta e mais. Ou crie o seu.</p>
+          </li>
+          <li class="tile tile-voice">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg></span>
+            <h3>Leitura em voz alta</h3>
+            <p>Um narrador gentil guia os pequenos que ainda estão aprendendo a ler.</p>
+          </li>
+          <li class="tile tile-lang">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H9l-4 3.5V14H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M17 9h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-3.5-3H14"/></svg></span>
+            <h3>Sete idiomas</h3>
+            <p>Português do Brasil, inglês, finlandês, sueco, alemão, francês e espanhol.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- OUTFITS -->
+    <section class="section outfits" aria-labelledby="outfits-title">
+      <div class="wrap outfits-grid">
+        <div class="outfits-copy">
+          <p class="eyebrow">O guarda-roupa</p>
+          <h2 id="outfits-title">Cada estrela é uma pequena recompensa</h2>
+          <p class="section-lead">Coroas, chapéus de mago, asas de fada e chapéus de festa são liberados conforme as crianças ganham estrelas. Cada amigo também tem quatro cores.</p>
+          <ul class="checks">
+            <li>Mais de 140 peças para nove amigos</li>
+            <li>As estrelas nunca são gastas, então as recompensas continuam liberadas</li>
+            <li>Dê um nome ao seu amigo e deixe ele com a sua cara</li>
+          </ul>
+        </div>
+        <div class="outfit-row" role="group" aria-label="Exemplos de roupas">
+          <figure class="outfit-card oc-1"><img src="/assets/img/characters/doll-fairy.webp" alt="Boneca com asas de fada e vestido de bolinhas" width="354" height="626" loading="lazy"></figure>
+          <figure class="outfit-card oc-2"><img src="/assets/img/characters/cat-blue.webp" alt="Gato azul com coroa dourada e coleira de guizo" width="479" height="720" loading="lazy"></figure>
+          <figure class="outfit-card oc-3"><img src="/assets/img/characters/dinosaur-blue.webp" alt="Dinossauro azul com chapéu de festa e boia de patinho" width="493" height="720" loading="lazy"></figure>
+          <figure class="outfit-card oc-4"><img src="/assets/img/characters/robot-hero.webp" alt="Robô com fones de ouvido e capa de super-herói" width="580" height="720" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARENTS -->
+    <section class="section parents" id="parents" aria-labelledby="parents-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Para os pais</p>
+          <h2 id="parents-title">Feito com carinho, pensado para durar</h2>
+          <p class="section-lead">Clocklings é um lugar calmo e seguro para aprender. Sem surpresas e sem distrações.</p>
+        </header>
+        <ul class="promises">
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>
+            <h3>Nunca tem anúncios</h3>
+            <p>Nada aparece do nada e nada tenta vender algo para o seu filho.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+            <h3>Sem contas</h3>
+            <p>Sem cadastro e sem perfis. O progresso fica no seu aparelho.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <h3>Controle dos pais</h3>
+            <p>As compras ficam protegidas por um pequeno desafio que só adultos resolvem.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15z"/><path d="M9.5 10h.01M14.5 10h.01M9 14c1.6 1.4 4.4 1.4 6 0"/></svg></span>
+            <h3>Para todo tipo de criança</h3>
+            <p>Texto grande, suporte a leitores de tela e animações mais calmas quando necessário.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Preço</p>
+          <h2 id="pricing-title">Experimente grátis, libere uma vez</h2>
+          <p class="section-lead">Uma única compra libera tudo para sempre. Sem assinatura e sem moedas dentro do app.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan plan-free">
+            <h3>Grátis</h3>
+            <p class="plan-price" data-price-zero>US$ 0</p>
+            <p class="plan-once">Grátis para sempre</p>
+            <ul class="checks">
+              <li>A lição de horas exatas e o primeiro nível de prática</li>
+              <li>Explorar e Jogar em dupla</li>
+              <li>Todos os estilos de relógio</li>
+              <li>Os amigos Boneca e Gato</li>
+            </ul>
+          </article>
+
+          <article class="plan plan-full">
+            <span class="plan-badge">Tudo incluído</span>
+            <h3>Versão completa</h3>
+            <p class="plan-price"><span data-price>US$ 6,99</span></p>
+            <p class="plan-once">Pagamento único</p>
+            <ul class="checks">
+              <li>Todas as lições, das horas exatas aos minutos exatos</li>
+              <li>Os cinco níveis de prática e o Desafio de um minuto</li>
+              <li>Os nove amigos em quatro cores</li>
+              <li>O guarda-roupa completo</li>
+            </ul>
+            <a class="play-button play-button-wide" href="#pricing" data-play-link>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+              <span>
+                <small data-play-eyebrow>Em breve no</small>
+                Google Play
+              </span>
+            </a>
+          </article>
+        </div>
+        <p class="price-note" data-price-note>Preço em dólares americanos. O Google Play mostra o preço final na sua moeda local.</p>
+      </div>
+    </section>
+
+    <!-- GUIDE + WORKSHEETS -->
+    <section class="section learn-more" aria-labelledby="learn-more-title">
+      <div class="wrap learn-more-card">
+        <div class="learn-more-copy">
+          <p class="eyebrow">Para pais e professores</p>
+          <h2 id="learn-more-title">Ensinando as horas em casa ou na escola?</h2>
+          <p class="section-lead">Nosso guia explica passo a passo como ensinar as horas para uma criança, e as atividades grátis para imprimir dão prática extra longe das telas.</p>
+          <div class="learn-more-actions">
+            <a class="btn btn-primary" href="/pt-br/como-ensinar-as-horas-para-criancas/">Ler o guia</a>
+            <a class="btn btn-white" href="/pt-br/como-ensinar-as-horas-para-criancas/#worksheets">Atividades grátis</a>
+          </div>
+        </div>
+        <div class="learn-more-art" aria-hidden="true">
+          <span class="sheet sheet-back"></span>
+          <span class="sheet sheet-front"><span class="mini-clock" data-mini-clock="270"></span><span class="sheet-lines"></span></span>
+          <img src="/assets/img/characters/bunny.webp" alt="" width="586" height="720" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="wrap faq-wrap">
+        <header class="section-head">
+          <p class="eyebrow">Perguntas</p>
+          <h2 id="faq-title">Bom saber</h2>
+        </header>
+        <div class="faq-list">
+          <details><summary>Para quem é o Clocklings?</summary><p>Para crianças que estão começando a aprender o relógio de ponteiros. As lições começam pelo que os dois ponteiros fazem, então não é preciso saber nada antes.</p></details>
+          <details><summary>Em quais aparelhos funciona?</summary><p>Em celulares e tablets Android com Android 8.0 ou mais recente. Ele também se adapta a dobráveis e telas maiores.</p></details>
+          <details><summary>Existe versão para iPhone ou iPad?</summary><p>Ainda não. O Clocklings chega primeiro ao Android.</p></details>
+          <details><summary>A versão grátis expira?</summary><p>Não. A parte grátis continua grátis pelo tempo que você quiser. Só faça o upgrade se o seu filho quiser mais.</p></details>
+          <details><summary>Meu filho precisa saber ler?</summary><p>Não muito. Instruções, dicas e horários podem ser ouvidos em voz alta, e o amigo mostra como tudo funciona.</p></details>
+          <details><summary>Dá para usar o relógio de 24 horas?</summary><p>Sim. Uma configuração alterna entre 12 e 24 horas, e uma última lição explica as horas do dia inteiro.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a href="/pt-br/" class="wordmark wordmark-small" aria-label="Voltar ao topo">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <p class="footer-copy">Aprendendo as horas, um passo feliz de cada vez.</p>
+      <ul class="footer-links">
+        <li><a href="/pt-br/">Início</a></li>
+        <li><a href="/pt-br/como-ensinar-as-horas-para-criancas/">Guia para os pais</a></li>
+        <li><a href="/pt-br/como-ensinar-as-horas-para-criancas/#worksheets">Atividades para imprimir</a></li>
+      </ul>
+      <ul class="footer-langs" aria-label="Idioma">
+        <li><a href="/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+        <li><a href="/fi/" hreflang="fi" lang="fi" data-lang-link="fi">Suomi</a></li>
+        <li><a href="/sv/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+        <li><a href="/de/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+        <li><a href="/fr/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+        <li><a href="/es/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+        <li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR" aria-current="page">Português (Brasil)</a></li>
+      </ul>
+      <p class="footer-legal">© 2026 Clocklings. Google Play é uma marca registrada da Google LLC.</p>
+    </div>
+  </footer>
+
+  <a href="#main" class="scroll-clock" data-scroll-clock aria-label="Voltar ao topo" hidden>
+    <span class="scroll-clock-face" data-clock="scroll"></span>
+  </a>
+
+</body>
+</html>

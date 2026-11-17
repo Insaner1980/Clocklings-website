@@ -1,0 +1,10 @@
+{
+  "name": "clocklings-website",
+  "private": true,
+  "description": "Clocklings landing page. Static site; pages are generated from src/*.html and i18n/*.json.",
+  "scripts": {
+    "build": "python tools/build.py --strict",
+    "worksheets": "uv run --with reportlab==5.1.0 --with pillow python tools/worksheets.py",
+    "dev": "python tools/build.py && python -m http.server 8787 --bind 127.0.0.1"
+  }
+}

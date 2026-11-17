@@ -1,0 +1,7 @@
+# Koostin kirjoittaa LF-rivinvaihdot, joten pidetään ne myös Windowsissa
+* text=auto eol=lf
+*.pdf binary
+*.woff2 binary
+*.ttf binary
+*.webp binary
+*.png binary

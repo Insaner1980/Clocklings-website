@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "apprendre-l-heure-a-un-enfant",
+    "navTitle": "Guide pour les parents",
+    "title": "Comment apprendre l’heure à un enfant : guide pas à pas et fiches gratuites",
+    "description": "Un guide pas à pas pour les parents et les enseignants : apprendre à lire l’horloge à aiguilles, des heures pile aux minutes précises. Avec des fiches gratuites à imprimer.",
+    "h1": "Comment apprendre l’heure à un enfant",
+    "intro": "L’horloge à aiguilles s’apprend plus facilement par petites étapes, toujours dans le même ordre. Ce guide suit le même parcours que l’appli Clocklings : d’abord les aiguilles, puis les heures pile, les demi-heures, les quarts d’heure, les minutes de cinq en cinq et enfin les minutes précises. Chaque étape propose une activité à faire à la maison, et vous trouverez à la fin des fiches gratuites à imprimer.",
+    "crumbsLabel": "Fil d’Ariane",
+    "startCta": "Commencer par l’étape 1",
+    "worksheetsCta": "Fiches gratuites",
+    "tocTitle": "Dans ce guide",
+    "stepLabel": "Étape",
+    "tryThis": "À essayer :",
+    "before": {
+      "title": "Avant de commencer",
+      "text": "Il n’y a pas d’âge idéal pour commencer. Beaucoup d’enfants sont prêts dans leurs premières années d’école, mais la maturité compte plus que l’âge. Ces trois compétences facilitent beaucoup l’apprentissage :",
+      "c1": "Reconnaître les nombres de 1 à 12",
+      "c2": "Compter jusqu’à 60, ou compter de cinq en cinq avec un peu d’aide",
+      "c3": "Comprendre des mots comme avant, après, matin et soir"
+    },
+    "s1": {
+      "title": "Découvrir les deux aiguilles",
+      "text": "Commencez par ce qui compose l’horloge. La petite aiguille indique l’heure et la grande aiguille indique les minutes. Les deux tournent toujours dans le même sens, celui des aiguilles d’une montre. Pendant que la grande aiguille fait un tour complet du cadran, la petite passe d’un chiffre au suivant.",
+      "tip": "Montrez chaque aiguille et donnez-lui un nom : la petite aiguille rose pour les heures et la grande aiguille bleue pour les minutes. Dans Clocklings, les couleurs restent les mêmes dans chaque leçon, pour que l’enfant sache toujours laquelle est laquelle."
+    },
+    "s2": {
+      "title": "Les heures pile",
+      "text": "Quand la grande aiguille pointe tout en haut vers le 12, les minutes sont à zéro : c’est l’heure pile. Il suffit alors de regarder la petite aiguille : le chiffre qu’elle indique, c’est l’heure. C’est la première étape et la plus importante, prenez votre temps.",
+      "tip": "Dites l’heure à voix haute à des moments fixes de la journée : « Il est sept heures, c’est l’heure du petit-déjeuner. » Les enfants apprennent plus vite quand l’horloge est liée à leur propre journée."
+    },
+    "s3": {
+      "title": "Les demi-heures",
+      "text": "Quand la grande aiguille pointe vers le bas, sur le 6, elle a fait la moitié du tour : c’est la demie. La petite aiguille se trouve maintenant à mi-chemin entre deux chiffres. En français, on dit l’heure qu’elle a déjà dépassée : entre 3 et 4, il est trois heures et demie.",
+      "tip": "Découpez un cercle en papier, pliez-le en deux et posez la moitié sur le cadran. Un demi-cercle, c’est une demi-heure, soit trente minutes."
+    },
+    "s4": {
+      "title": "Les quarts d’heure",
+      "text": "Partagez le cadran en quatre parts, comme une pizza. Quand la grande aiguille pointe sur le 3, un quart d’heure est passé : il est telle heure et quart, par exemple sept heures et quart. Quand elle pointe sur le 9, il reste un quart d’heure avant l’heure suivante : on dit alors l’heure qui arrive, moins le quart, par exemple quatre heures moins le quart.",
+      "tip": "Dessinez une horloge et coloriez les quatre quarts de couleurs différentes. Avancez la grande aiguille part par part et dites les heures ensemble."
+    },
+    "s5": {
+      "title": "De cinq en cinq",
+      "text": "Pour la grande aiguille, chaque chiffre du cadran vaut cinq minutes : le 1 vaut cinq, le 2 dix, le 3 quinze, et ainsi de suite jusqu’au 12, qui vaut soixante. Jusqu’à la demie, on ajoute les minutes : trois heures dix. Après la demie, on dit souvent l’heure suivante moins les minutes qui restent : quatre heures moins dix.",
+      "tip": "Fabriquez une horloge avec une assiette en carton et écrivez 5, 10, 15 et ainsi de suite à côté des chiffres. Entraînez-vous à compter de cinq en cinq en faisant tourner la grande aiguille."
+    },
+    "s6": {
+      "title": "Les minutes précises",
+      "text": "Les petits traits entre les chiffres sont les minutes. Pour lire une heure précise, on repère le dernier chiffre dépassé par la grande aiguille, on compte de cinq en cinq jusqu’à lui, puis on ajoute les petits traits un par un.",
+      "tip": "Jouez à « devine la minute » : vous réglez l’horloge, l’enfant compte les minutes, puis vous échangez les rôles."
+    },
+    "s7": {
+      "title": "Toute la journée",
+      "text": "La petite aiguille fait deux fois le tour du cadran chaque jour. Les horloges numériques et les horaires utilisent le format 24 heures, où l’après-midi continue à partir de 13. Ainsi, 15 h 30, c’est trois heures et demie de l’après-midi. Abordez cette étape en dernier, quand la lecture de l’horloge à aiguilles est devenue facile.",
+      "tip": "Regardez ensemble un horaire de bus ou un programme télé et traduisez les heures : « 15 h 30, c’est trois heures et demie de l’après-midi. »"
+    },
+    "tips": {
+      "title": "S’entraîner au quotidien",
+      "lead": "Quelques minutes par jour valent mieux qu’une longue séance une fois par semaine. Ces petites habitudes intègrent l’horloge à la vie de tous les jours :",
+      "t1": "Accrochez une horloge à aiguilles à hauteur des yeux de votre enfant, là où il la voit souvent.",
+      "t2": "Dites l’heure pendant les routines : le réveil, le déjeuner, le bain et le coucher.",
+      "t3": "Confiez une mission à votre enfant : « Préviens-moi quand la grande aiguille sera sur le 6, et on ira au parc. »",
+      "t4": "Fabriquez ensemble une horloge en assiette en carton avec des aiguilles mobiles et jouez avec.",
+      "t5": "Restez léger. Félicitez les efforts, arrêtez tant que c’est encore amusant et reprenez demain."
+    },
+    "mistakes": {
+      "title": "Erreurs fréquentes et comment aider",
+      "m1": {
+        "title": "Confondre les aiguilles",
+        "text": "Les enfants lisent souvent la grande aiguille comme l’heure. Rappelez-leur : petite aiguille, les heures. Grande aiguille, les minutes. Garder toujours les mêmes couleurs aide beaucoup."
+      },
+      "m2": {
+        "title": "Se tromper d’heure",
+        "text": "À 3 h 50, la petite aiguille est presque sur le 4. On peut dire trois heures cinquante ou quatre heures moins dix : avec « moins », on nomme l’heure qui arrive. Montrez bien quel chiffre la petite aiguille a déjà dépassé."
+      },
+      "m3": {
+        "title": "Lire les minutes comme des chiffres",
+        "text": "Quand la grande aiguille pointe sur le 4, l’enfant peut dire quatre minutes au lieu de vingt. Entraînez-vous à compter de cinq en cinq autour du cadran jusqu’à ce que ce soit naturel."
+      }
+    },
+    "cta": {
+      "title": "S’entraîner avec un ami",
+      "text": "Clocklings transforme chaque étape de ce guide en petits exercices ludiques, avec des indices bienveillants, des étoiles à gagner et un compagnon qui encourage votre enfant.",
+      "try": "Essayer une mini-leçon"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Fiches à imprimer",
+    "title": "Fiches gratuites à imprimer pour apprendre l’heure",
+    "lead": "Chaque PDF contient deux pages d’exercices et un corrigé. On lit d’abord les horloges et on écrit l’heure, puis on dessine les aiguilles pour une heure donnée. Imprimez-les pour la maison ou la classe.",
+    "d1": "Lire et dessiner des heures pile. Une première fiche idéale.",
+    "d2": "Des demi-heures mélangées avec des heures pile.",
+    "d3": "Et quart et moins le quart, avec quelques demies.",
+    "d4": "Des heures de cinq en cinq minutes tout autour du cadran.",
+    "download": "Télécharger le PDF",
+    "note": "Libre d’imprimer et de partager pour la maison et la classe.",
+    "fileBase": "fiche-apprendre-l-heure",
+    "pdf": {
+      "sheet": "Fiche pour apprendre l’heure",
+      "name": "Prénom",
+      "readTitle": "Quelle heure est-il ?",
+      "readInstr": "Regarde chaque horloge et écris l’heure.",
+      "drawTitle": "Dessine les aiguilles",
+      "drawInstr": "Dessine les aiguilles pour que l’horloge indique l’heure.",
+      "keyTitle": "Corrigé",
+      "footer": "Fiche gratuite de Clocklings, l’appli pour apprendre l’heure aux enfants"
+    }
+  }
+}

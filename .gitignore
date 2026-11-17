@@ -1,0 +1,15 @@
+# Paikalliset raportit (lint- ja security-check)
+reports/
+
+# Python ja Node
+__pycache__/
+*.pyc
+node_modules/
+
+# Claude Coden paikalliset asetukset
+.claude/settings.local.json
+
+# Käyttöjärjestelmä
+.DS_Store
+Thumbs.db
+desktop.ini

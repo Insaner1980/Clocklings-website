@@ -1,0 +1,336 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómo enseñar la hora a un niño: guía paso a paso y fichas gratuitas</title>
+  <meta name="description" content="Una guía paso a paso para familias y docentes: cómo enseñar a leer el reloj de agujas, desde las horas en punto hasta los minutos exactos. Con fichas gratuitas para imprimir.">
+  <meta name="theme-color" content="#FFF5FA">
+  <meta name="color-scheme" content="light">
+
+  <link rel="alternate" hreflang="en" href="/how-to-teach-a-child-to-tell-time/">
+  <link rel="alternate" hreflang="fi" href="/fi/miten-opettaa-lapselle-kello/">
+  <link rel="alternate" hreflang="sv" href="/sv/hur-lar-man-barn-klockan/">
+  <link rel="alternate" hreflang="de" href="/de/kindern-die-uhr-beibringen/">
+  <link rel="alternate" hreflang="fr" href="/fr/apprendre-l-heure-a-un-enfant/">
+  <link rel="alternate" hreflang="es" href="/es/como-ensenar-la-hora-a-un-nino/">
+  <link rel="alternate" hreflang="pt-BR" href="/pt-br/como-ensinar-as-horas-para-criancas/">
+  <link rel="alternate" hreflang="x-default" href="/how-to-teach-a-child-to-tell-time/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clocklings">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Cómo enseñar la hora a un niño: guía paso a paso y fichas gratuitas">
+  <meta property="og:description" content="Una guía paso a paso para familias y docentes: cómo enseñar a leer el reloj de agujas, desde las horas en punto hasta los minutos exactos. Con fichas gratuitas para imprimir.">
+  <meta property="og:image" content="/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Los compañeros de Clocklings junto a un reloj arcoíris">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cómo enseñar la hora a un niño: guía paso a paso y fichas gratuitas">
+  <meta name="twitter:description" content="Una guía paso a paso para familias y docentes: cómo enseñar a leer el reloj de agujas, desde las horas en punto hasta los minutos exactos. Con fichas gratuitas para imprimir.">
+  <meta name="twitter:image" content="/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="Los compañeros de Clocklings junto a un reloj arcoíris">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/fredoka_bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/nunito_semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "Cómo enseñar la hora a un niño",
+   "description": "Una guía paso a paso para familias y docentes: cómo enseñar a leer el reloj de agujas, desde las horas en punto hasta los minutos exactos. Con fichas gratuitas para imprimir.",
+   "inLanguage": "es",
+   "image": "/assets/img/og-image.png",
+   "author": {
+    "@type": "Organization",
+    "name": "Clocklings"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Clocklings"
+   },
+   "datePublished": "2026-11-17"
+  }
+ ]
+}
+  </script>
+  <script id="i18n" type="application/json">{"timeSeparator":":","bubbleFirst":"Mira el reloj. ¿Qué hora marca?","bubbleRead":"¿Qué hora marca este reloj?","bubbleSet":"Arrastra las agujas o usa los botones de flecha. Luego pulsa Comprobar.","readQuestion":"¿Qué hora es?","setQuestion":"Pon esta hora en el reloj:","praise":["¡Correcto!","¡Muy bien!","¡Buen trabajo!","¡Lo has conseguido!","¡Bien hecho!","¡Genial!","¡Estupendo!"],"hintReadWhole":"Mira la aguja larga azul. Cuando señala justo arriba, al 12, es una hora en punto.","hintReadHalf":"La aguja larga azul señala abajo, al 6. Entonces son y media.","hintReadHourHalf":"A las y media, la aguja corta rosa está entre dos números. Se dice la hora que acaba de pasar: las tres y media está entre el tres y el cuatro.","hintReadHour":"La aguja corta rosa marca la hora. ¿A qué número señala?","hintSetMinute":"Mira la aguja larga azul. En punto señala al 12 y a las y media, al 6.","hintSetHour":"¡La aguja larga está bien! Ahora mira la aguja corta rosa. Marca la hora.","revealRead":"La respuesta es {time}. ¡La próxima te sale!","revealSet":"Así se ve esta hora: {time}. ¿Ves adónde señalan las dos agujas?","result3":"¡Estupendo!","result2":"¡Muy bien!","result1":"¡Sigue explorando!","starsOne":"¡Has ganado {n} estrella!","starsOther":"¡Has ganado {n} estrellas!","resultUnlock":"En la app, las estrellas desbloquean conjuntos nuevos para tu compañero.","progress":"Ejercicio {n} de {total}","clockLabel":"Reloj arcoíris que marca {time}","practiceClock":"Reloj de práctica. Lee la hora y elige una respuesta.","sliderLabel":"Agujas del reloj. Usa las flechas para moverlas media hora.","priceNoteDefault":"Precio en dólares estadounidenses. Google Play muestra el precio final en tu moneda local.","priceNoteLocal":"Precio según tu ubicación. Google Play confirma el precio final antes de la compra.","playGet":"Disponible en","playPill":"Ya en Android","companions":{"doll":{"name":"Muñeca","line":"Le encanta girar con un vestido nuevo y siempre está lista para la próxima lección."},"cat":{"name":"Gato","line":"Curioso, mimoso y muy bueno fijándose en adónde señalan las agujas."},"dog":{"name":"Perro","line":"Mueve la cola con cada acierto y nunca se rinde."},"robot":{"name":"Robot","line":"Pita feliz con cada tic y cada tac. La precisión es lo suyo."},"dragon":{"name":"Dragón","line":"Un pequeño mago del tiempo que echa purpurina en vez de fuego."},"dinosaur":{"name":"Dinosaurio","line":"Más viejo que las montañas, pero nuevo en leer la hora. Aprende contigo."},"bunny":{"name":"Conejo","line":"Salta de hora en hora y siempre llega puntual."},"unicorn":{"name":"Unicornio","line":"Espolvorea un poco de magia en cada hora en punto y cada y media."},"car":{"name":"Coche","line":"Recorre la esfera a toda velocidad y le encanta el Reto del minuto."}},"greetings":{"morning":"¡Buenos días!","day":"¡Hola!","evening":"¡Buenas tardes!","night":"¡Hola, búho nocturno!"},"dragHint":"Arrastra las agujas","backToNow":"Volver a ahora","heroClockLabel":"Reloj. Arrastra las agujas o usa las flechas para cambiar la hora.","lang":"es","locale":"es","page":"guide","suggest":{"en":{"text":"This page is also available in English.","link":"Switch to English","paths":{"home":"/","guide":"/how-to-teach-a-child-to-tell-time/"}},"fi":{"text":"Tämä sivu on saatavilla myös suomeksi.","link":"Suomenkieliselle sivulle","paths":{"home":"/fi/","guide":"/fi/miten-opettaa-lapselle-kello/"}},"sv":{"text":"Den här sidan finns också på svenska.","link":"Till den svenska sidan","paths":{"home":"/sv/","guide":"/sv/hur-lar-man-barn-klockan/"}},"de":{"text":"Diese Seite gibt es auch auf Deutsch.","link":"Zur deutschen Seite","paths":{"home":"/de/","guide":"/de/kindern-die-uhr-beibringen/"}},"fr":{"text":"Cette page existe aussi en français.","link":"Voir la page en français","paths":{"home":"/fr/","guide":"/fr/apprendre-l-heure-a-un-enfant/"}},"es":{"text":"Esta página también está disponible en español.","link":"Ir a la página en español","paths":{"home":"/es/","guide":"/es/como-ensenar-la-hora-a-un-nino/"}},"pt-BR":{"text":"Esta página também está disponível em português.","link":"Ir para a página em português","paths":{"home":"/pt-br/","guide":"/pt-br/como-ensinar-as-horas-para-criancas/"}}}}</script>
+  <script src="/assets/js/main.js" defer></script>
+
+</head>
+<body class="page-guide">
+  <a class="skip-link" href="#main">Ir al contenido</a>
+
+  <div class="lang-banner" data-lang-banner hidden>
+    <div class="wrap lang-banner-row">
+      <p data-lang-banner-text></p>
+      <div class="lang-banner-actions">
+        <a class="btn btn-primary btn-small" data-lang-banner-link href="/"></a>
+        <button type="button" class="round-btn round-btn-small" data-lang-banner-close aria-label="Cerrar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/es/" class="wordmark" aria-label="Clocklings, inicio">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <nav class="site-nav" aria-label="Menú principal">
+        <a href="/es/#companions">Compañeros</a>
+        <a href="/es/#try">Pruébalo</a>
+        <a href="/es/como-ensenar-la-hora-a-un-nino/">Guía</a>
+        <a href="/es/#pricing">Precio</a>
+      </nav>
+      <div class="header-actions">
+        <details class="lang-menu" data-lang-menu>
+          <summary aria-label="Idioma">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.5 3.9 5.5 3.9 9s-1.3 6.5-3.9 9c-2.6-2.5-3.9-5.5-3.9-9S9.4 5.5 12 3z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <span>ES</span>
+          </summary>
+          <ul class="lang-list">
+            <li><a href="/how-to-teach-a-child-to-tell-time/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+            <li><a href="/fi/miten-opettaa-lapselle-kello/" hreflang="fi" lang="fi" data-lang-link="fi">Suomi</a></li>
+            <li><a href="/sv/hur-lar-man-barn-klockan/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+            <li><a href="/de/kindern-die-uhr-beibringen/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+            <li><a href="/fr/apprendre-l-heure-a-un-enfant/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+            <li><a href="/es/como-ensenar-la-hora-a-un-nino/" hreflang="es" lang="es" data-lang-link="es" aria-current="page">Español</a></li>
+            <li><a href="/pt-br/como-ensinar-as-horas-para-criancas/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+          </ul>
+        </details>
+        <a href="/es/#pricing" class="btn btn-primary btn-small header-cta">Consigue la app</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <article class="guide">
+      <header class="guide-hero">
+        <div class="wrap guide-hero-grid">
+          <div class="guide-hero-copy">
+            <nav class="crumbs" aria-label="Ruta de navegación">
+              <a href="/es/">Clocklings</a>
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span aria-current="page">Guía para familias</span>
+            </nav>
+            <h1>Cómo enseñar la hora a un niño</h1>
+            <p class="lead">El reloj de agujas se aprende mejor en pasos pequeños y siempre en el mismo orden. Esta guía sigue el mismo camino que la app Clocklings: primero las agujas, luego las horas en punto, las medias horas, los cuartos de hora, los minutos de cinco en cinco y, por último, los minutos exactos. Cada paso incluye una actividad para hacer en casa, y al final encontrarás fichas gratuitas para imprimir.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#step-1">Empezar por el paso 1</a>
+              <a class="btn btn-tonal" href="#worksheets">Fichas gratuitas</a>
+            </div>
+          </div>
+          <div class="guide-hero-art" aria-hidden="true">
+            <div class="guide-hero-clock" data-clock="live"></div>
+            <img class="guide-hero-companion" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
+          </div>
+        </div>
+      </header>
+
+      <div class="wrap guide-body">
+        <nav class="guide-toc" aria-labelledby="toc-title">
+          <p class="toc-title" id="toc-title">En esta guía</p>
+          <ol>
+            <li><a href="#before">Antes de empezar</a></li>
+            <li><a href="#step-1">Conoce las dos agujas</a></li>
+            <li><a href="#step-2">Horas en punto</a></li>
+            <li><a href="#step-3">Y media</a></li>
+            <li><a href="#step-4">Cuartos de hora</a></li>
+            <li><a href="#step-5">De cinco en cinco</a></li>
+            <li><a href="#step-6">Minutos exactos</a></li>
+            <li><a href="#step-7">El día entero</a></li>
+            <li><a href="#everyday">Formas de practicar cada día</a></li>
+            <li><a href="#mistakes">Errores frecuentes y cómo ayudar</a></li>
+            <li><a href="#worksheets">Fichas gratuitas para aprender la hora</a></li>
+          </ol>
+        </nav>
+
+        <div class="guide-content">
+          <section class="guide-block" id="before">
+            <h2>Antes de empezar</h2>
+            <p>No hay una edad perfecta para empezar. Muchos niños están preparados en sus primeros cursos de primaria, pero la madurez importa más que la edad. Estas tres habilidades facilitan mucho aprender la hora:</p>
+            <ul class="checks">
+              <li>Reconocer los números del 1 al 12</li>
+              <li>Contar hasta 60, o contar de cinco en cinco con un poco de ayuda</li>
+              <li>Entender palabras como antes, después, mañana y noche</li>
+            </ul>
+          </section>
+
+          <ol class="guide-steps">
+            <li class="guide-step tint-1" id="step-1">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="600" data-full-clock></span></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 1</p>
+                <h2>Conoce las dos agujas</h2>
+                <p>Empieza por cómo es el reloj. La aguja corta marca la hora y la aguja larga marca los minutos. Las dos giran siempre en el mismo sentido, el de las agujas del reloj. Mientras la aguja larga da una vuelta completa a la esfera, la corta pasa de un número al siguiente.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Señala cada aguja y ponle nombre: la aguja corta rosa para las horas y la larga azul para los minutos. En Clocklings los colores son los mismos en todas las lecciones, así el niño siempre sabe cuál es cuál.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-2" id="step-2">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="180" data-full-clock></span><p class="clock-caption" data-time-caption="180"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 2</p>
+                <h2>Horas en punto</h2>
+                <p>Cuando la aguja larga señala justo arriba, al 12, es la hora en punto. Entonces basta con mirar la aguja corta: el número al que señala es la hora. Es el primer paso y el más importante, así que tómatelo con calma.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Di la hora en voz alta en momentos fijos del día: «Son las siete en punto, hora de desayunar». Los niños aprenden más rápido cuando el reloj se relaciona con su propio día.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-3" id="step-3">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="270" data-full-clock></span><p class="clock-caption" data-time-caption="270"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 3</p>
+                <h2>Y media</h2>
+                <p>Cuando la aguja larga señala abajo, al 6, ha recorrido media vuelta: son y media. La aguja corta está ahora a mitad de camino entre dos números. En español se dice la hora que ya ha pasado: entre el 3 y el 4 son las tres y media.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Recorta un círculo de papel, dóblalo por la mitad y coloca la mitad sobre la esfera. Medio círculo es media hora, es decir, treinta minutos.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-4" id="step-4">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="435" data-full-clock></span><p class="clock-caption" data-time-caption="435"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 4</p>
+                <h2>Cuartos de hora</h2>
+                <p>Divide la esfera en cuatro partes, como una pizza. Cuando la aguja larga señala el 3, ha pasado un cuarto de hora: son las tantas y cuarto, por ejemplo, las siete y cuarto. Cuando señala el 9, falta un cuarto para la hora siguiente: se dice la hora que viene menos cuarto, por ejemplo, las cuatro menos cuarto.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Dibuja un reloj y colorea los cuatro cuartos con colores distintos. Mueve la aguja larga trozo a trozo y decid las horas juntos.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-5" id="step-5">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="565" data-full-clock></span><p class="clock-caption" data-time-caption="565"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 5</p>
+                <h2>De cinco en cinco</h2>
+                <p>Para la aguja larga, cada número de la esfera vale cinco minutos: el 1 son cinco, el 2 diez, el 3 quince y así hasta el 12, que son sesenta. Hasta y media se suman los minutos: las tres y diez. Después de y media se dice la hora siguiente menos los minutos que faltan: las cuatro menos diez.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Haz un reloj con un plato de cartón y escribe 5, 10, 15 y así sucesivamente junto a los números. Practicad contar de cinco en cinco mientras gira la aguja larga.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-6" id="step-6">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="227" data-full-clock></span><p class="clock-caption" data-time-caption="227"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 6</p>
+                <h2>Minutos exactos</h2>
+                <p>Las rayitas entre los números son los minutos sueltos. Para leer una hora exacta, busca el último número que ha pasado la aguja larga, cuenta de cinco en cinco hasta él y después suma las rayitas una a una.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Jugad a «adivina el minuto»: tú pones el reloj, el niño cuenta los minutos y luego cambiáis los papeles.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-7" id="step-7">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="930" data-full-clock></span><p class="clock-caption" data-time-caption="930" data-h24></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Paso 7</p>
+                <h2>El día entero</h2>
+                <p>La aguja corta da dos vueltas a la esfera cada día. Los relojes digitales y los horarios suelen usar el formato de 24 horas, en el que la tarde sigue a partir de las 13. Por eso, las 15:30 son las tres y media de la tarde. Enséñalo al final, cuando leer el reloj de agujas ya resulte fácil.</p>
+                <p class="guide-tip"><strong>Prueba esto:</strong> Mirad juntos un horario de autobús o la programación de la tele y convertid las horas: «Las 15:30, eso son las tres y media de la tarde».</p>
+              </div>
+            </li>
+          </ol>
+
+          <section class="guide-block" id="everyday">
+            <h2>Formas de practicar cada día</h2>
+            <p>Unos minutos al día funcionan mejor que una sesión larga una vez por semana. Estos pequeños hábitos hacen del reloj algo cotidiano:</p>
+            <ul class="checks">
+              <li>Cuelga un reloj de agujas a la altura de los ojos de tu hijo, donde lo vea a menudo.</li>
+              <li>Menciona la hora en las rutinas: al despertarse, al comer, en el baño y al irse a dormir.</li>
+              <li>Dale una misión: «Avísame cuando la aguja larga llegue al 6 y nos vamos al parque».</li>
+              <li>Haced juntos un reloj con un plato de cartón y agujas móviles, y jugad con él.</li>
+              <li>Que sea divertido. Elogia el esfuerzo, para cuando todavía apetece y seguid mañana.</li>
+            </ul>
+          </section>
+
+          <section class="guide-block" id="mistakes">
+            <h2>Errores frecuentes y cómo ayudar</h2>
+            <div class="mistakes">
+              <div class="mistake"><h3>Confundir las agujas</h3><p>Los niños suelen leer la aguja larga como la hora. Recuérdales: aguja corta, horas. Aguja larga, minutos. Usar siempre los mismos colores ayuda mucho.</p></div>
+              <div class="mistake"><h3>Equivocarse de hora</h3><p>A las 3:50 la aguja corta está casi en el 4. Se dice las cuatro menos diez: con «menos» se nombra la hora que viene. Fíjate con el niño en qué número ha pasado ya la aguja corta.</p></div>
+              <div class="mistake"><h3>Leer los minutos como números</h3><p>Cuando la aguja larga señala el 4, el niño puede decir cuatro minutos en vez de veinte. Practicad contar de cinco en cinco alrededor de la esfera hasta que salga solo.</p></div>
+            </div>
+          </section>
+
+          <section class="guide-block worksheets" id="worksheets">
+            <h2>Fichas gratuitas para aprender la hora</h2>
+            <p>Cada PDF tiene dos páginas de ejercicios y las soluciones. Primero se leen los relojes y se escribe la hora, después se dibujan las agujas para una hora dada. Imprímelas para casa o para clase.</p>
+            <ul class="sheet-grid">
+              <li class="sheet-card tint-1">
+                <span class="mini-clock" data-mini-clock="180"></span>
+                <h3>Horas en punto</h3>
+                <p>Leer y dibujar horas en punto. Una primera ficha ideal.</p>
+                <a class="btn btn-white btn-small" href="/es/como-ensenar-la-hora-a-un-nino/ficha-aprender-la-hora-1.pdf" download>Descargar PDF</a>
+              </li>
+              <li class="sheet-card tint-2">
+                <span class="mini-clock" data-mini-clock="270"></span>
+                <h3>Y media</h3>
+                <p>Medias horas mezcladas con horas en punto.</p>
+                <a class="btn btn-white btn-small" href="/es/como-ensenar-la-hora-a-un-nino/ficha-aprender-la-hora-2.pdf" download>Descargar PDF</a>
+              </li>
+              <li class="sheet-card tint-3">
+                <span class="mini-clock" data-mini-clock="435"></span>
+                <h3>Cuartos de hora</h3>
+                <p>Y cuarto y menos cuarto, con algunas medias horas.</p>
+                <a class="btn btn-white btn-small" href="/es/como-ensenar-la-hora-a-un-nino/ficha-aprender-la-hora-3.pdf" download>Descargar PDF</a>
+              </li>
+              <li class="sheet-card tint-4">
+                <span class="mini-clock" data-mini-clock="565"></span>
+                <h3>De cinco en cinco</h3>
+                <p>Horas de cinco en cinco minutos por toda la esfera.</p>
+                <a class="btn btn-white btn-small" href="/es/como-ensenar-la-hora-a-un-nino/ficha-aprender-la-hora-4.pdf" download>Descargar PDF</a>
+              </li>
+            </ul>
+            <p class="sheet-note">Gratis para imprimir y compartir en casa y en clase.</p>
+          </section>
+
+          <section class="guide-cta">
+            <img data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+            <div>
+              <h2>Practica con un amigo</h2>
+              <p>Clocklings convierte cada paso de esta guía en ejercicios cortos y divertidos, con pistas amables, estrellas para coleccionar y un compañero que anima a tu hijo.</p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="/es/#try">Prueba una minilección</a>
+                <a class="btn btn-white" href="/es/#pricing">Consigue la app</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a href="/es/" class="wordmark wordmark-small" aria-label="Volver arriba">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <p class="footer-copy">Aprender la hora, un paso feliz cada vez.</p>
+      <ul class="footer-links">
+        <li><a href="/es/">Inicio</a></li>
+        <li><a href="/es/como-ensenar-la-hora-a-un-nino/">Guía para familias</a></li>
+        <li><a href="/es/como-ensenar-la-hora-a-un-nino/#worksheets">Fichas para imprimir</a></li>
+      </ul>
+      <ul class="footer-langs" aria-label="Idioma">
+        <li><a href="/how-to-teach-a-child-to-tell-time/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+        <li><a href="/fi/miten-opettaa-lapselle-kello/" hreflang="fi" lang="fi" data-lang-link="fi">Suomi</a></li>
+        <li><a href="/sv/hur-lar-man-barn-klockan/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+        <li><a href="/de/kindern-die-uhr-beibringen/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+        <li><a href="/fr/apprendre-l-heure-a-un-enfant/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+        <li><a href="/es/como-ensenar-la-hora-a-un-nino/" hreflang="es" lang="es" data-lang-link="es" aria-current="page">Español</a></li>
+        <li><a href="/pt-br/como-ensinar-as-horas-para-criancas/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+      </ul>
+      <p class="footer-legal">© 2026 Clocklings. Google Play es una marca de Google LLC.</p>
+    </div>
+  </footer>
+
+  <a href="#main" class="scroll-clock" data-scroll-clock aria-label="Volver arriba" hidden>
+    <span class="scroll-clock-face" data-clock="scroll"></span>
+  </a>
+
+</body>
+</html>

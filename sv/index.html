@@ -1,0 +1,611 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clocklings: App för barn som lär sig klockan</title>
+  <meta name="description" content="Clocklings är en app där barn lär sig klockan. Steg för steg lär de sig läsa av en analog klocka med en lekfull kompis, från hela timmar till exakta minuter. Kommer snart till Android.">
+  <meta name="theme-color" content="#FFF5FA">
+  <meta name="color-scheme" content="light">
+
+  <link rel="alternate" hreflang="en" href="/">
+  <link rel="alternate" hreflang="fi" href="/fi/">
+  <link rel="alternate" hreflang="sv" href="/sv/">
+  <link rel="alternate" hreflang="de" href="/de/">
+  <link rel="alternate" hreflang="fr" href="/fr/">
+  <link rel="alternate" hreflang="es" href="/es/">
+  <link rel="alternate" hreflang="pt-BR" href="/pt-br/">
+  <link rel="alternate" hreflang="x-default" href="/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clocklings">
+  <meta property="og:locale" content="sv_SE">
+  <meta property="og:title" content="Clocklings: App för barn som lär sig klockan">
+  <meta property="og:description" content="Lär dig den analoga klockan steg för steg, samla stjärnor och klä upp din alldeles egna kompis.">
+  <meta property="og:image" content="/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Clocklings-kompisar bredvid en regnbågsklocka">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clocklings: App för barn som lär sig klockan">
+  <meta name="twitter:description" content="Lär dig den analoga klockan steg för steg, samla stjärnor och klä upp din alldeles egna kompis.">
+  <meta name="twitter:image" content="/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="Clocklings-kompisar bredvid en regnbågsklocka">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/fredoka_bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/nunito_semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "name": "Clocklings",
+   "alternateName": "Clocklings: App för barn som lär sig klockan",
+   "description": "Clocklings är en app där barn lär sig klockan. Steg för steg lär de sig läsa av en analog klocka med en lekfull kompis, från hela timmar till exakta minuter. Kommer snart till Android.",
+   "operatingSystem": "Android 8.0+",
+   "applicationCategory": "EducationalApplication",
+   "inLanguage": [
+    "en",
+    "fi",
+    "sv",
+    "de",
+    "fr",
+    "es",
+    "pt-BR"
+   ],
+   "image": "/assets/img/og-image.png",
+   "offers": {
+    "@type": "Offer",
+    "price": "6.99",
+    "priceCurrency": "USD",
+    "category": "one-time purchase"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "inLanguage": "sv",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Vem är Clocklings till för?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Barn som börjar lära sig den analoga klockan. Lektionerna börjar med vad de två visarna gör, så inga förkunskaper behövs."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Vilka enheter fungerar den på?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Android-telefoner och surfplattor med Android 8.0 eller senare. Appen anpassar sig också till vikbara enheter och större skärmar."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Finns det en version för iPhone eller iPad?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Inte än. Clocklings släpps först för Android."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Går gratisversionen ut?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nej. Gratisdelen är gratis så länge du vill. Uppgradera bara om ditt barn vill ha mer."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Behöver mitt barn kunna läsa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Inte direkt. Instruktioner, ledtrådar och klockslag kan läsas upp, och kompisen visar hur allt fungerar."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kan vi använda 24-timmarsklockan?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ja. En inställning växlar mellan 12- och 24-timmarstid, och en sista lektion förklarar hur dygnets alla timmar fungerar."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <script id="i18n" type="application/json">{"timeSeparator":".","bubbleFirst":"Titta på klockan. Vilken tid visar den?","bubbleRead":"Vad visar den här klockan?","bubbleSet":"Dra i visarna eller använd pilknapparna. Tryck sedan på Kontrollera.","readQuestion":"Vad är klockan?","setQuestion":"Ställ klockan på","praise":["Rätt!","Bra gjort!","Fint jobbat!","Du klarade det!","Snyggt jobbat!","Strålande!","Underbart!"],"hintReadWhole":"Titta på den långa blå visaren. När den pekar rakt upp mot 12 är det en hel timme.","hintReadHalf":"Den långa blå visaren pekar ner mot 6. Då är klockan halv.","hintReadHourHalf":"Vid halv står den korta rosa visaren mellan två siffror. Efter halv säger man nästa timme: halv fyra är mellan tre och fyra.","hintReadHour":"Den korta rosa visaren visar timmen. Vilken siffra pekar den på?","hintSetMinute":"Titta på den långa blå visaren. Vid hel timme pekar den på 12 och vid halv på 6.","hintSetHour":"Den långa visaren är rätt! Titta nu på den korta rosa visaren. Den visar timmen.","revealRead":"Klockan är {time}. Nästa går säkert bättre!","revealSet":"Så här ser {time} ut. Se var båda visarna pekar.","result3":"Underbart!","result2":"Bra gjort!","result1":"Fortsätt utforska!","starsOne":"Du fick {n} stjärna!","starsOther":"Du fick {n} stjärnor!","resultUnlock":"I appen låser stjärnorna upp nya kläder åt din kompis.","progress":"Uppgift {n} av {total}","clockLabel":"Regnbågsklocka som visar {time}","practiceClock":"Övningsklocka. Läs av tiden och välj ett svar.","sliderLabel":"Klockans visare. Flytta dem en halvtimme i taget med piltangenterna.","priceNoteDefault":"Priset visas i amerikanska dollar. Google Play visar slutpriset i din egen valuta.","priceNoteLocal":"Priset baseras på var du befinner dig. Google Play bekräftar slutpriset innan du köper.","playGet":"Ladda ned på","playPill":"Nu på Android","companions":{"doll":{"name":"Docka","line":"Älskar att snurra runt i en ny klänning och är alltid redo för nästa lektion."},"cat":{"name":"Katt","line":"Nyfiken, mysig och väldigt bra på att se exakt vart visarna pekar."},"dog":{"name":"Hund","line":"Viftar glatt på svansen vid varje rätt svar och ger aldrig upp."},"robot":{"name":"Robot","line":"Piper glatt vid varje tick och varje tack. Noggrannhet är dess mellannamn."},"dragon":{"name":"Drake","line":"En liten tidstrollkarl som sprutar glitter i stället för eld."},"dinosaur":{"name":"Dinosaurie","line":"Urgammal, men helt ny på att läsa klockan. Lär sig tillsammans med dig."},"bunny":{"name":"Kanin","line":"Skuttar från timme till timme och kommer alltid fram i tid."},"unicorn":{"name":"Enhörning","line":"Strör lite magi över varje hel och halv timme."},"car":{"name":"Bil","line":"Susar runt urtavlan och älskar en snabb Minututmaning."}},"greetings":{"morning":"God morgon!","day":"Hej!","evening":"God kväll!","night":"Hej, nattuggla!"},"dragHint":"Dra i visarna","backToNow":"Tillbaka till nu","heroClockLabel":"Klocka. Dra i visarna eller använd piltangenterna för att ändra tiden.","lang":"sv","locale":"sv","page":"home","suggest":{"en":{"text":"This page is also available in English.","link":"Switch to English","paths":{"home":"/","guide":"/how-to-teach-a-child-to-tell-time/"}},"fi":{"text":"Tämä sivu on saatavilla myös suomeksi.","link":"Suomenkieliselle sivulle","paths":{"home":"/fi/","guide":"/fi/miten-opettaa-lapselle-kello/"}},"sv":{"text":"Den här sidan finns också på svenska.","link":"Till den svenska sidan","paths":{"home":"/sv/","guide":"/sv/hur-lar-man-barn-klockan/"}},"de":{"text":"Diese Seite gibt es auch auf Deutsch.","link":"Zur deutschen Seite","paths":{"home":"/de/","guide":"/de/kindern-die-uhr-beibringen/"}},"fr":{"text":"Cette page existe aussi en français.","link":"Voir la page en français","paths":{"home":"/fr/","guide":"/fr/apprendre-l-heure-a-un-enfant/"}},"es":{"text":"Esta página también está disponible en español.","link":"Ir a la página en español","paths":{"home":"/es/","guide":"/es/como-ensenar-la-hora-a-un-nino/"}},"pt-BR":{"text":"Esta página também está disponível em português.","link":"Ir para a página em português","paths":{"home":"/pt-br/","guide":"/pt-br/como-ensinar-as-horas-para-criancas/"}}}}</script>
+  <script src="/assets/js/main.js" defer></script>
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+
+  <div class="lang-banner" data-lang-banner hidden>
+    <div class="wrap lang-banner-row">
+      <p data-lang-banner-text></p>
+      <div class="lang-banner-actions">
+        <a class="btn btn-primary btn-small" data-lang-banner-link href="/"></a>
+        <button type="button" class="round-btn round-btn-small" data-lang-banner-close aria-label="Stäng">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/sv/" class="wordmark" aria-label="Clocklings, startsida">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <nav class="site-nav" aria-label="Huvudmeny">
+        <a href="/sv/#companions">Kompisar</a>
+        <a href="/sv/#try">Prova</a>
+        <a href="/sv/hur-lar-man-barn-klockan/">Guide</a>
+        <a href="/sv/#pricing">Pris</a>
+      </nav>
+      <div class="header-actions">
+        <details class="lang-menu" data-lang-menu>
+          <summary aria-label="Språk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.5 3.9 5.5 3.9 9s-1.3 6.5-3.9 9c-2.6-2.5-3.9-5.5-3.9-9S9.4 5.5 12 3z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <span>SV</span>
+          </summary>
+          <ul class="lang-list">
+            <li><a href="/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+            <li><a href="/fi/" hreflang="fi" lang="fi" data-lang-link="fi">Suomi</a></li>
+            <li><a href="/sv/" hreflang="sv" lang="sv" data-lang-link="sv" aria-current="page">Svenska</a></li>
+            <li><a href="/de/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+            <li><a href="/fr/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+            <li><a href="/es/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+            <li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+          </ul>
+        </details>
+        <a href="/sv/#pricing" class="btn btn-primary btn-small header-cta">Skaffa appen</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="pill pill-gold">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z"/></svg>
+            <span data-soon-pill>Kommer snart till Android</span>
+          </p>
+          <h1>Det är roligare att lära sig klockan med en kompis</h1>
+          <p class="lead">Clocklings gör den analoga klockan till ett lekfullt äventyr. Barnen lär sig steg för steg, övar på att läsa av och ställa klockan, samlar stjärnor och klär upp sin alldeles egna kompis.</p>
+          <div class="hero-actions">
+            <a class="play-button" href="#pricing" data-play-link>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+              <span>
+                <small data-play-eyebrow>Kommer snart på</small>
+                Google Play
+              </span>
+            </a>
+            <a class="btn btn-tonal" href="#try">Prova en minilektion</a>
+          </div>
+          <p class="hero-note">Gratis att prova. Hela versionen för <strong data-price>6,99 US$</strong> en gång, utan reklam och utan prenumeration.</p>
+        </div>
+
+        <div class="hero-stage" data-stage data-daypart="day" aria-label="En Clocklings-kompis står bredvid en regnbågsklocka som visar vad klockan är just nu">
+          <div class="stage-sky" aria-hidden="true">
+            <span class="sky sky-dawn"></span>
+            <span class="sky sky-day"></span>
+            <span class="sky sky-dusk"></span>
+            <span class="sky sky-night"></span>
+            <span class="stars"></span>
+            <span class="sun" data-sun></span>
+            <span class="moon" data-moon></span>
+            <span class="cloud cloud-a"></span>
+            <span class="cloud cloud-b"></span>
+          </div>
+          <div class="stage-ground" aria-hidden="true"></div>
+          <img class="stage-companion" data-companion-img data-burst src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
+          <div class="stage-bubble">
+            <span data-live-words>Nu ska vi lära oss klockan!</span>
+          </div>
+          <div class="stage-clock" data-clock="live"></div>
+          <p class="drag-hint" data-drag-hint hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-1.5a1.5 1.5 0 0 1 3 0V11m0-1a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1-6 6h-1.2a5 5 0 0 1-4.1-2.2L4.5 14.5a1.6 1.6 0 0 1 2.4-2L9 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-drag-hint-text></span>
+          </p>
+          <button type="button" class="now-btn" data-back-to-now hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-back-to-now-text></span>
+          </button>
+          <span class="sparkle s1" aria-hidden="true"></span>
+          <span class="sparkle s2" aria-hidden="true"></span>
+          <span class="sparkle s3" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="Clocklings i siffror">
+      <div class="wrap stats-row">
+        <div class="stat stat-1"><span class="stat-num" data-count="9">9</span><span class="stat-label">Kompisar</span></div>
+        <div class="stat stat-2"><span class="stat-num" data-count="146">146</span><span class="stat-label">Kläddelar</span></div>
+        <div class="stat stat-3"><span class="stat-num" data-count="15">15</span><span class="stat-label">Stjärnor att samla</span></div>
+        <div class="stat stat-4"><span class="stat-num" data-count="7">7</span><span class="stat-label">Språk</span></div>
+      </div>
+    </section>
+
+    <!-- COMPANIONS -->
+    <section class="section companions" id="companions" aria-labelledby="companions-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Möt Clocklings</p>
+          <h2 id="companions-title">Välj en kompis att lära dig med</h2>
+          <p class="section-lead">Nio kompisar med var sin stil. Din kompis hejar på, firar varje stjärna och älskar att prova nya kläder.</p>
+        </header>
+
+        <div class="companion-show">
+          <div class="companion-stage">
+            <img data-companion-big data-burst src="/assets/img/characters/doll.webp" alt="Docka" width="382" height="627" loading="lazy">
+          </div>
+          <div class="companion-info">
+            <h3 data-companion-name>Docka</h3>
+            <p data-companion-line>Älskar att snurra runt i en ny klänning och är alltid redo för nästa lektion.</p>
+            <p class="companion-hint">Kompisen du väljer följer med dig på hela sidan, även in i minilektionen.</p>
+          </div>
+        </div>
+
+        <div class="companion-picker" role="radiogroup" aria-label="Välj en kompis" data-companion-picker></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how" aria-labelledby="how-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Så fungerar det</p>
+          <h2 id="how-title">Små steg, stora leenden</h2>
+          <p class="section-lead">Clocklings guidar barnen från den allra första hela timmen ända fram till exakta minuter.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step step-learn">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5.5c3-1.3 6-1.3 9 .6v13c-3-1.9-6-1.9-9-.6zM21 5.5c-3-1.3-6-1.3-9 .6v13c3-1.9 6-1.9 9-.6z" fill="#fff" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Lär dig</h3>
+            <p>Tydliga lektioner visar vad visarna gör, med animationer och en berättare som läser allt högt.</p>
+          </li>
+          <li class="step step-play">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Spela</h3>
+            <p>Läs av klockan och ställ den sedan själv. Efter ett misstag kommer en ledtråd, så ingen kör fast.</p>
+          </li>
+          <li class="step step-stars">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z" fill="#FCC419" stroke="#F59F00" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Samla stjärnor</h3>
+            <p>Varje nivå ger upp till tre stjärnor. Spela igen när du vill och slå ditt eget rekord.</p>
+          </li>
+          <li class="step step-dress">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8.5 3.5 4 6l1.8 4 2-.9V20.5h8.4V9.1l2 .9L20 6l-4.5-2.5c-.6 1.5-2 2.4-3.5 2.4S9.1 5 8.5 3.5z" fill="#fff" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Klä upp</h3>
+            <p>Stjärnorna låser upp hattar, kronor, halsdukar och mycket mer. Över 140 kläddelar väntar i garderoben.</p>
+          </li>
+        </ol>
+
+        <div class="journey" data-journey>
+          <h3 class="journey-title" id="path-title">Vägen till klockan</h3>
+          <div class="journey-grid">
+            <div class="journey-visual" aria-hidden="true">
+              <div class="journey-sticky">
+                <div class="journey-clock" data-clock="journey"></div>
+                <p class="journey-caption" data-journey-caption></p>
+              </div>
+            </div>
+            <ol class="journey-steps" aria-labelledby="path-title">
+              <li class="journey-step" data-time="180"><span class="journey-num">1</span><div><h4>Hela timmar</h4><p>Den långa visaren pekar rakt upp mot 12. Läs av den korta visaren så vet du timmen.</p></div></li>
+              <li class="journey-step" data-time="270"><span class="journey-num">2</span><div><h4>Halva timmar</h4><p>Den långa visaren har gått halva varvet till 6. Den korta visaren står mellan två siffror, och efter halv säger man nästa timme.</p></div></li>
+              <li class="journey-step" data-time="345"><span class="journey-num">3</span><div><h4>Kvartar</h4><p>Kvart över när den långa visaren pekar på 3, kvart i när den pekar på 9. Urtavlan delas i fyra enkla bitar.</p></div></li>
+              <li class="journey-step" data-time="445"><span class="journey-num">4</span><div><h4>Fem minuter i taget</h4><p>Varje siffra är värd fem minuter. Räkna femtal medan den långa visaren går runt.</p></div></li>
+              <li class="journey-step" data-time="527"><span class="journey-num">5</span><div><h4>Exakta minuter</h4><p>De små strecken är enstaka minuter. Räkna till sista femtalet och lägg till resten.</p></div></li>
+              <li class="journey-step" data-time="930" data-h24><span class="journey-num">6</span><div><h4>Hela dygnet</h4><p>Den korta visaren går två varv per dygn. 15.30 är samma sak som halv fyra på eftermiddagen.</p></div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRY IT -->
+    <section class="section try" id="try" aria-labelledby="try-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Prova själv</p>
+          <h2 id="try-title">Ett litet smakprov</h2>
+          <p class="section-lead">Fem snabba uppgifter med hela och halva timmar, precis som de första nivåerna i appen. Redo?</p>
+        </header>
+
+        <div class="trainer" data-trainer>
+          <div class="trainer-top">
+            <ol class="progress" data-progress aria-hidden="true"></ol>
+            <p class="visually-hidden" data-progress-text aria-live="polite"></p>
+          </div>
+
+          <div class="trainer-body">
+            <div class="trainer-clock-wrap">
+              <div class="trainer-clock" data-clock="trainer"></div>
+              <div class="set-controls" data-set-controls hidden>
+                <button type="button" class="round-btn" data-step="-30" aria-label="Vrid klockan 30 minuter bakåt">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <span class="set-readout" data-set-readout aria-hidden="true"></span>
+                <button type="button" class="round-btn" data-step="30" aria-label="Vrid klockan 30 minuter framåt">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 7h5V2M19.4 7A8 8 0 1 0 20 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="trainer-panel">
+              <div class="buddy">
+                <img class="buddy-img" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+                <p class="bubble" data-bubble aria-live="polite">Nu kör vi!</p>
+              </div>
+
+              <h3 class="task-title" data-task-title>Vad är klockan?</h3>
+              <div class="options" data-options></div>
+              <div class="trainer-actions">
+                <button type="button" class="btn btn-primary" data-check hidden>Kontrollera</button>
+                <button type="button" class="btn btn-primary" data-next hidden>Nästa
+                  <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button type="button" class="btn btn-primary" data-start>Starta</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="trainer-result" data-result hidden>
+            <div class="result-stars" data-result-stars aria-hidden="true"></div>
+            <img class="result-companion" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+            <h3 data-result-title></h3>
+            <p data-result-text></p>
+            <p class="result-more">Appen fortsätter med kvartar, fem minuter i taget, exakta minuter, hela dygnet och en snabb Minututmaning.</p>
+            <div class="result-actions">
+              <a class="btn btn-primary" href="#pricing">Skaffa Clocklings</a>
+              <button type="button" class="btn btn-white" data-restart>
+                <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Spela igen
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" aria-labelledby="features-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Mer att upptäcka</p>
+          <h2 id="features-title">Massor av sätt att leka</h2>
+        </header>
+
+        <ul class="tiles">
+          <li class="tile tile-explore">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="#3A2453" stroke-width="2"/><path d="M12 6.5V12l-3 2" fill="none" stroke="#E64980" stroke-width="2.2" stroke-linecap="round"/><path d="M12 12V5" stroke="#228BE6" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+            <h3>Utforska</h3>
+            <p>Snurra fritt på visarna och hör vad klockan är.</p>
+          </li>
+          <li class="tile tile-together">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round"><circle cx="8.5" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M3.5 19.5c0-3 2.2-5 5-5s5 2 5 5M13.5 14.6c.8-.1 1.6-.1 2.5-.1 2.8 0 4.5 2 4.5 5"/></svg></span>
+            <h3>Spela tillsammans</h3>
+            <p>En ställer in en tid, den andra gissar. Sedan byter ni tur.</p>
+          </li>
+          <li class="tile tile-challenge">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V9.5M10 2.5h4M18.5 6.5l1.5-1.5"/></svg></span>
+            <h3>Minututmaningen</h3>
+            <p>Hur många klockor hinner du läsa av på sextio sekunder?</p>
+          </li>
+          <li class="tile tile-styles">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="#FF6B6B" stroke-width="3"/><circle cx="12" cy="12" r="9" fill="none" stroke="#339AF0" stroke-width="3" stroke-dasharray="14 42.5"/><circle cx="12" cy="12" r="9" fill="none" stroke="#51CF66" stroke-width="3" stroke-dasharray="14 42.5" stroke-dashoffset="-14"/><circle cx="12" cy="12" r="9" fill="none" stroke="#FCC419" stroke-width="3" stroke-dasharray="14 42.5" stroke-dashoffset="-28"/></svg></span>
+            <h3>Klockstilar</h3>
+            <p>Regnbåge, Rymden, Havet, Skogen och fler. Eller designa din egen.</p>
+          </li>
+          <li class="tile tile-voice">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg></span>
+            <h3>Uppläst</h3>
+            <p>En vänlig berättare guidar de små som fortfarande lär sig läsa.</p>
+          </li>
+          <li class="tile tile-lang">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H9l-4 3.5V14H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M17 9h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-3.5-3H14"/></svg></span>
+            <h3>Sju språk</h3>
+            <p>Svenska, finska, engelska, tyska, franska, spanska och brasiliansk portugisiska.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- OUTFITS -->
+    <section class="section outfits" aria-labelledby="outfits-title">
+      <div class="wrap outfits-grid">
+        <div class="outfits-copy">
+          <p class="eyebrow">Garderoben</p>
+          <h2 id="outfits-title">Varje stjärna är en liten belöning</h2>
+          <p class="section-lead">Kronor, trollkarlshattar, älvvingar och partyhattar låses upp när barnen samlar stjärnor. Varje kompis finns dessutom i fyra färger.</p>
+          <ul class="checks">
+            <li>Över 140 kläddelar till nio kompisar</li>
+            <li>Stjärnorna tar aldrig slut, så belöningarna förblir upplåsta</li>
+            <li>Ge din kompis ett namn och gör den helt till din egen</li>
+          </ul>
+        </div>
+        <div class="outfit-row" role="group" aria-label="Exempel på kläder">
+          <figure class="outfit-card oc-1"><img src="/assets/img/characters/doll-fairy.webp" alt="Docka med älvvingar och prickig klänning" width="354" height="626" loading="lazy"></figure>
+          <figure class="outfit-card oc-2"><img src="/assets/img/characters/cat-blue.webp" alt="Blå katt med guldkrona och bjällerhalsband" width="479" height="720" loading="lazy"></figure>
+          <figure class="outfit-card oc-3"><img src="/assets/img/characters/dinosaur-blue.webp" alt="Blå dinosaurie med partyhatt och badring formad som en anka" width="493" height="720" loading="lazy"></figure>
+          <figure class="outfit-card oc-4"><img src="/assets/img/characters/robot-hero.webp" alt="Robot med hörlurar och superhjältemantel" width="580" height="720" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARENTS -->
+    <section class="section parents" id="parents" aria-labelledby="parents-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">För föräldrar</p>
+          <h2 id="parents-title">Gjord med omsorg, byggd för att hålla</h2>
+          <p class="section-lead">Clocklings är en lugn och trygg plats att lära sig på. Inga överraskningar, inga distraktioner.</p>
+        </header>
+        <ul class="promises">
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>
+            <h3>Aldrig någon reklam</h3>
+            <p>Ingenting dyker upp och ingenting försöker sälja till ditt barn.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+            <h3>Inga konton</h3>
+            <p>Ingen registrering och inga profiler. Framstegen stannar på din enhet.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <h3>Föräldraspärr</h3>
+            <p>Köp ligger bakom en liten gåta som bara vuxna löser.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15z"/><path d="M9.5 10h.01M14.5 10h.01M9 14c1.6 1.4 4.4 1.4 6 0"/></svg></span>
+            <h3>För alla som lär sig</h3>
+            <p>Stor text, stöd för skärmläsare och lugnare rörelser vid behov.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Pris</p>
+          <h2 id="pricing-title">Prova gratis, lås upp en gång</h2>
+          <p class="section-lead">Ett enda köp låser upp allt för alltid. Ingen prenumeration och inga mynt i appen.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan plan-free">
+            <h3>Gratis</h3>
+            <p class="plan-price" data-price-zero>0 US$</p>
+            <p class="plan-once">Gratis för alltid</p>
+            <ul class="checks">
+              <li>Lektionen om hela timmar och första övningsnivån</li>
+              <li>Utforska och Spela tillsammans</li>
+              <li>Alla klockstilar</li>
+              <li>Kompisarna Docka och Katt</li>
+            </ul>
+          </article>
+
+          <article class="plan plan-full">
+            <span class="plan-badge">Allt ingår</span>
+            <h3>Hela versionen</h3>
+            <p class="plan-price"><span data-price>6,99 US$</span></p>
+            <p class="plan-once">Engångsköp</p>
+            <ul class="checks">
+              <li>Alla lektioner, från hela timmar till exakta minuter</li>
+              <li>Alla fem övningsnivåer och Minututmaningen</li>
+              <li>Alla nio kompisar i fyra färger</li>
+              <li>Hela garderoben med kläder</li>
+            </ul>
+            <a class="play-button play-button-wide" href="#pricing" data-play-link>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+              <span>
+                <small data-play-eyebrow>Kommer snart på</small>
+                Google Play
+              </span>
+            </a>
+          </article>
+        </div>
+        <p class="price-note" data-price-note>Priset visas i amerikanska dollar. Google Play visar slutpriset i din egen valuta.</p>
+      </div>
+    </section>
+
+    <!-- GUIDE + WORKSHEETS -->
+    <section class="section learn-more" aria-labelledby="learn-more-title">
+      <div class="wrap learn-more-card">
+        <div class="learn-more-copy">
+          <p class="eyebrow">För föräldrar och lärare</p>
+          <h2 id="learn-more-title">Lär du ut klockan hemma eller i skolan?</h2>
+          <p class="section-lead">Vår guide visar steg för steg hur man lär ett barn klockan, och de kostnadsfria övningsbladen ger extra träning utan skärm.</p>
+          <div class="learn-more-actions">
+            <a class="btn btn-primary" href="/sv/hur-lar-man-barn-klockan/">Läs guiden</a>
+            <a class="btn btn-white" href="/sv/hur-lar-man-barn-klockan/#worksheets">Gratis övningsblad</a>
+          </div>
+        </div>
+        <div class="learn-more-art" aria-hidden="true">
+          <span class="sheet sheet-back"></span>
+          <span class="sheet sheet-front"><span class="mini-clock" data-mini-clock="270"></span><span class="sheet-lines"></span></span>
+          <img src="/assets/img/characters/bunny.webp" alt="" width="586" height="720" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="wrap faq-wrap">
+        <header class="section-head">
+          <p class="eyebrow">Frågor</p>
+          <h2 id="faq-title">Bra att veta</h2>
+        </header>
+        <div class="faq-list">
+          <details><summary>Vem är Clocklings till för?</summary><p>Barn som börjar lära sig den analoga klockan. Lektionerna börjar med vad de två visarna gör, så inga förkunskaper behövs.</p></details>
+          <details><summary>Vilka enheter fungerar den på?</summary><p>Android-telefoner och surfplattor med Android 8.0 eller senare. Appen anpassar sig också till vikbara enheter och större skärmar.</p></details>
+          <details><summary>Finns det en version för iPhone eller iPad?</summary><p>Inte än. Clocklings släpps först för Android.</p></details>
+          <details><summary>Går gratisversionen ut?</summary><p>Nej. Gratisdelen är gratis så länge du vill. Uppgradera bara om ditt barn vill ha mer.</p></details>
+          <details><summary>Behöver mitt barn kunna läsa?</summary><p>Inte direkt. Instruktioner, ledtrådar och klockslag kan läsas upp, och kompisen visar hur allt fungerar.</p></details>
+          <details><summary>Kan vi använda 24-timmarsklockan?</summary><p>Ja. En inställning växlar mellan 12- och 24-timmarstid, och en sista lektion förklarar hur dygnets alla timmar fungerar.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a href="/sv/" class="wordmark wordmark-small" aria-label="Tillbaka till toppen">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <p class="footer-copy">Vi lär oss klockan, ett glatt steg i taget.</p>
+      <ul class="footer-links">
+        <li><a href="/sv/">Startsida</a></li>
+        <li><a href="/sv/hur-lar-man-barn-klockan/">Guide för föräldrar</a></li>
+        <li><a href="/sv/hur-lar-man-barn-klockan/#worksheets">Övningsblad</a></li>
+      </ul>
+      <ul class="footer-langs" aria-label="Språk">
+        <li><a href="/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+        <li><a href="/fi/" hreflang="fi" lang="fi" data-lang-link="fi">Suomi</a></li>
+        <li><a href="/sv/" hreflang="sv" lang="sv" data-lang-link="sv" aria-current="page">Svenska</a></li>
+        <li><a href="/de/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+        <li><a href="/fr/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+        <li><a href="/es/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+        <li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+      </ul>
+      <p class="footer-legal">© 2026 Clocklings. Google Play är ett varumärke som tillhör Google LLC.</p>
+    </div>
+  </footer>
+
+  <a href="#main" class="scroll-clock" data-scroll-clock aria-label="Tillbaka till toppen" hidden>
+    <span class="scroll-clock-face" data-clock="scroll"></span>
+  </a>
+
+</body>
+</html>

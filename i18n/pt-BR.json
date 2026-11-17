@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "htmlLang": "pt-BR",
+    "short": "PT",
+    "native": "Português (Brasil)",
+    "ogLocale": "pt_BR",
+    "title": "Clocklings: app para crianças aprenderem as horas",
+    "description": "Clocklings é um app para crianças aprenderem as horas. Com um amigo divertido, elas aprendem passo a passo a ler o relógio de ponteiros, das horas exatas aos minutos exatos. Em breve no Android.",
+    "ogDescription": "Aprenda o relógio de ponteiros passo a passo, ganhe estrelas e vista o seu próprio amigo.",
+    "suggestText": "Esta página também está disponível em português.",
+    "suggestLink": "Ir para a página em português",
+    "ogImageAlt": "Os amigos do Clocklings ao lado de um relógio arco-íris"
+  },
+  "nav": {
+    "skip": "Pular para o conteúdo",
+    "home": "Clocklings, início",
+    "label": "Menu principal",
+    "companions": "Amigos",
+    "try": "Experimente",
+    "parents": "Para os pais",
+    "pricing": "Preço",
+    "cta": "Baixar o app",
+    "language": "Idioma",
+    "close": "Fechar",
+    "guide": "Guia"
+  },
+  "play": {
+    "soon": "Em breve no"
+  },
+  "price": {
+    "default": "US$ 6,99",
+    "zero": "US$ 0",
+    "noteDefault": "Preço em dólares americanos. O Google Play mostra o preço final na sua moeda local."
+  },
+  "hero": {
+    "pill": "Em breve no Android",
+    "title": "Aprender as horas é mais divertido com um amigo",
+    "lead": "Clocklings transforma o relógio de ponteiros numa aventura divertida. As crianças aprendem passo a passo, praticam ler e ajustar o relógio, ganham estrelas e vestem o seu próprio amigo.",
+    "tryCta": "Experimente uma minilição",
+    "noteBefore": "Grátis para experimentar. Versão completa por",
+    "noteAfter": "em um único pagamento, sem anúncios e sem assinatura.",
+    "stageLabel": "Um amigo do Clocklings ao lado de um relógio arco-íris que mostra a hora atual",
+    "bubble": "Hora de aprender!"
+  },
+  "stats": {
+    "label": "Clocklings em números",
+    "companions": "Amigos",
+    "outfits": "Peças de roupa",
+    "stars": "Estrelas para ganhar",
+    "languages": "Idiomas"
+  },
+  "companions": {
+    "eyebrow": "Conheça os Clocklings",
+    "title": "Escolha um amigo para aprender junto",
+    "lead": "Nove amigos, cada um com seu estilo. Seu amigo torce por você, comemora cada estrela e adora experimentar roupas novas.",
+    "hint": "Sua escolha acompanha você pela página toda, até na minilição.",
+    "pickerLabel": "Escolha um amigo"
+  },
+  "how": {
+    "eyebrow": "Como funciona",
+    "title": "Passos pequenos, sorrisos grandes",
+    "lead": "Clocklings acompanha as crianças desde a primeira hora exata até os minutos exatos.",
+    "learn": {
+      "title": "Aprender",
+      "text": "Lições claras mostram o que os ponteiros fazem, com animações e um narrador que lê tudo em voz alta."
+    },
+    "practise": {
+      "title": "Jogar",
+      "text": "Leia o relógio e depois ajuste você mesmo. Depois de um erro vem uma dica, então ninguém fica empacado."
+    },
+    "stars": {
+      "title": "Ganhe estrelas",
+      "text": "Cada nível vale até três estrelas. Jogue de novo quando quiser para melhorar seu resultado."
+    },
+    "dress": {
+      "title": "Vista seu amigo",
+      "text": "As estrelas liberam chapéus, coroas, cachecóis e muito mais. Mais de 140 peças esperam no guarda-roupa."
+    }
+  },
+  "path": {
+    "title": "A trilha",
+    "whole": "Horas exatas",
+    "half": "Meia hora",
+    "quarter": "Quartos de hora",
+    "five": "De cinco em cinco",
+    "exact": "Minutos exatos",
+    "day": "O dia inteiro"
+  },
+  "journey": {
+    "whole": "O ponteiro comprido aponta bem para cima, para o 12. Leia o ponteiro curto e você sabe a hora.",
+    "half": "O ponteiro comprido deu meia volta até o 6. O ponteiro curto fica entre dois números: é e meia.",
+    "quarter": "E quinze quando o ponteiro comprido está no 3, quinze para quando está no 9. O mostrador se divide em quatro partes fáceis.",
+    "five": "Cada número vale cinco minutos. Conte de cinco em cinco enquanto o ponteiro comprido anda.",
+    "exact": "Os risquinhos são minutos. Conte até o último múltiplo de cinco e some o resto.",
+    "day": "O ponteiro curto dá duas voltas por dia. 15:30 é o mesmo que três e meia da tarde."
+  },
+  "try": {
+    "eyebrow": "Experimente você mesmo",
+    "title": "Um gostinho do treino",
+    "lead": "Cinco tarefas rápidas com horas exatas e meias horas, como nos primeiros níveis do app. Preparado?",
+    "back": "Voltar o relógio 30 minutos",
+    "forward": "Adiantar o relógio 30 minutos",
+    "ready": "Vamos lá!",
+    "readQuestion": "Que horas são?",
+    "check": "Verificar",
+    "next": "Próximo",
+    "start": "Começar",
+    "more": "O app continua com quartos de hora, de cinco em cinco, minutos exatos, o dia inteiro e o agitado Desafio de um minuto.",
+    "get": "Baixar o Clocklings",
+    "again": "Jogar de novo"
+  },
+  "features": {
+    "eyebrow": "Muito mais para descobrir",
+    "title": "Muitos jeitos de brincar",
+    "explore": {
+      "title": "Explorar",
+      "text": "Gire os ponteiros à vontade e ouça que horas são."
+    },
+    "together": {
+      "title": "Jogar em dupla",
+      "text": "Um ajusta uma hora e o outro adivinha. Depois vocês trocam a vez."
+    },
+    "challenge": {
+      "title": "Desafio de um minuto",
+      "text": "Quantos relógios você consegue ler em sessenta segundos?"
+    },
+    "styles": {
+      "title": "Estilos de relógio",
+      "text": "Arco-íris, Espaço, Oceano, Floresta e mais. Ou crie o seu."
+    },
+    "voice": {
+      "title": "Leitura em voz alta",
+      "text": "Um narrador gentil guia os pequenos que ainda estão aprendendo a ler."
+    },
+    "languages": {
+      "title": "Sete idiomas",
+      "text": "Português do Brasil, inglês, finlandês, sueco, alemão, francês e espanhol."
+    }
+  },
+  "outfits": {
+    "eyebrow": "O guarda-roupa",
+    "title": "Cada estrela é uma pequena recompensa",
+    "lead": "Coroas, chapéus de mago, asas de fada e chapéus de festa são liberados conforme as crianças ganham estrelas. Cada amigo também tem quatro cores.",
+    "point1": "Mais de 140 peças para nove amigos",
+    "point2": "As estrelas nunca são gastas, então as recompensas continuam liberadas",
+    "point3": "Dê um nome ao seu amigo e deixe ele com a sua cara",
+    "label": "Exemplos de roupas",
+    "alt1": "Boneca com asas de fada e vestido de bolinhas",
+    "alt2": "Gato azul com coroa dourada e coleira de guizo",
+    "alt3": "Dinossauro azul com chapéu de festa e boia de patinho",
+    "alt4": "Robô com fones de ouvido e capa de super-herói"
+  },
+  "parents": {
+    "eyebrow": "Para os pais",
+    "title": "Feito com carinho, pensado para durar",
+    "lead": "Clocklings é um lugar calmo e seguro para aprender. Sem surpresas e sem distrações.",
+    "ads": {
+      "title": "Nunca tem anúncios",
+      "text": "Nada aparece do nada e nada tenta vender algo para o seu filho."
+    },
+    "accounts": {
+      "title": "Sem contas",
+      "text": "Sem cadastro e sem perfis. O progresso fica no seu aparelho."
+    },
+    "gate": {
+      "title": "Controle dos pais",
+      "text": "As compras ficam protegidas por um pequeno desafio que só adultos resolvem."
+    },
+    "kind": {
+      "title": "Para todo tipo de criança",
+      "text": "Texto grande, suporte a leitores de tela e animações mais calmas quando necessário."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Preço",
+    "title": "Experimente grátis, libere uma vez",
+    "lead": "Uma única compra libera tudo para sempre. Sem assinatura e sem moedas dentro do app.",
+    "free": {
+      "title": "Grátis",
+      "sub": "Grátis para sempre",
+      "point1": "A lição de horas exatas e o primeiro nível de prática",
+      "point2": "Explorar e Jogar em dupla",
+      "point3": "Todos os estilos de relógio",
+      "point4": "Os amigos Boneca e Gato"
+    },
+    "full": {
+      "badge": "Tudo incluído",
+      "title": "Versão completa",
+      "sub": "Pagamento único",
+      "point1": "Todas as lições, das horas exatas aos minutos exatos",
+      "point2": "Os cinco níveis de prática e o Desafio de um minuto",
+      "point3": "Os nove amigos em quatro cores",
+      "point4": "O guarda-roupa completo"
+    }
+  },
+  "learnMore": {
+    "eyebrow": "Para pais e professores",
+    "title": "Ensinando as horas em casa ou na escola?",
+    "lead": "Nosso guia explica passo a passo como ensinar as horas para uma criança, e as atividades grátis para imprimir dão prática extra longe das telas.",
+    "guideCta": "Ler o guia",
+    "worksheetsCta": "Atividades grátis"
+  },
+  "faq": {
+    "eyebrow": "Perguntas",
+    "title": "Bom saber",
+    "q1": "Para quem é o Clocklings?",
+    "a1": "Para crianças que estão começando a aprender o relógio de ponteiros. As lições começam pelo que os dois ponteiros fazem, então não é preciso saber nada antes.",
+    "q2": "Em quais aparelhos funciona?",
+    "a2": "Em celulares e tablets Android com Android 8.0 ou mais recente. Ele também se adapta a dobráveis e telas maiores.",
+    "q3": "Existe versão para iPhone ou iPad?",
+    "a3": "Ainda não. O Clocklings chega primeiro ao Android.",
+    "q4": "A versão grátis expira?",
+    "a4": "Não. A parte grátis continua grátis pelo tempo que você quiser. Só faça o upgrade se o seu filho quiser mais.",
+    "q5": "Meu filho precisa saber ler?",
+    "a5": "Não muito. Instruções, dicas e horários podem ser ouvidos em voz alta, e o amigo mostra como tudo funciona.",
+    "q6": "Dá para usar o relógio de 24 horas?",
+    "a6": "Sim. Uma configuração alterna entre 12 e 24 horas, e uma última lição explica as horas do dia inteiro."
+  },
+  "footer": {
+    "top": "Voltar ao topo",
+    "tagline": "Aprendendo as horas, um passo feliz de cada vez.",
+    "legal": "© 2026 Clocklings. Google Play é uma marca registrada da Google LLC.",
+    "homeLink": "Início"
+  },
+  "js": {
+    "timeSeparator": ":",
+    "bubbleFirst": "Olhe o relógio. Que horas ele mostra?",
+    "bubbleRead": "Que horas este relógio mostra?",
+    "bubbleSet": "Arraste os ponteiros ou use os botões de seta. Depois toque em Verificar.",
+    "readQuestion": "Que horas são?",
+    "setQuestion": "Ajuste o relógio para",
+    "praise": [
+      "Isso mesmo!",
+      "Muito bem!",
+      "Ótimo trabalho!",
+      "Você acertou!",
+      "Boa!",
+      "Incrível!",
+      "Maravilha!"
+    ],
+    "hintReadWhole": "Olhe o ponteiro azul comprido. Quando ele aponta bem para cima, para o 12, é uma hora exata.",
+    "hintReadHalf": "O ponteiro azul comprido aponta para baixo, para o 6. Então é e meia.",
+    "hintReadHourHalf": "Na meia hora, o ponteiro rosa curto fica entre dois números. Fala-se a hora que ele acabou de passar: três e meia fica entre o três e o quatro.",
+    "hintReadHour": "O ponteiro rosa curto mostra a hora. Para qual número ele aponta?",
+    "hintSetMinute": "Olhe o ponteiro azul comprido. Na hora exata ele aponta para o 12 e na meia hora para o 6.",
+    "hintSetHour": "O ponteiro comprido está certo! Agora olhe o ponteiro rosa curto. Ele mostra a hora.",
+    "revealRead": "A resposta é {time}. Você acerta a próxima!",
+    "revealSet": "É assim que fica {time}. Viu para onde os dois ponteiros apontam?",
+    "result3": "Maravilha!",
+    "result2": "Muito bem!",
+    "result1": "Continue explorando!",
+    "starsOne": "Você ganhou {n} estrela!",
+    "starsOther": "Você ganhou {n} estrelas!",
+    "resultUnlock": "No app, as estrelas liberam roupas novas para o seu amigo.",
+    "progress": "Tarefa {n} de {total}",
+    "clockLabel": "Relógio arco-íris mostrando {time}",
+    "practiceClock": "Relógio de treino. Leia a hora e escolha uma resposta.",
+    "sliderLabel": "Ponteiros do relógio. Use as setas para movê-los meia hora por vez.",
+    "priceNoteDefault": "Preço em dólares americanos. O Google Play mostra o preço final na sua moeda local.",
+    "priceNoteLocal": "Preço conforme a sua localização. O Google Play confirma o preço final antes da compra.",
+    "playGet": "Disponível no",
+    "playPill": "Já no Android",
+    "companions": {
+      "doll": {
+        "name": "Boneca",
+        "line": "Adora rodopiar com um vestido novo e está sempre pronta para a próxima lição."
+      },
+      "cat": {
+        "name": "Gato",
+        "line": "Curioso, fofo e ótimo em perceber para onde os ponteiros apontam."
+      },
+      "dog": {
+        "name": "Cachorro",
+        "line": "Abana o rabo a cada acerto e nunca desiste."
+      },
+      "robot": {
+        "name": "Robô",
+        "line": "Apita feliz a cada tique e a cada taque. Precisão é com ele mesmo."
+      },
+      "dragon": {
+        "name": "Dragão",
+        "line": "Um pequeno mago do tempo que solta purpurina em vez de fogo."
+      },
+      "dinosaur": {
+        "name": "Dinossauro",
+        "line": "Velho como as montanhas, mas novinho em ler as horas. Aprende junto com você."
+      },
+      "bunny": {
+        "name": "Coelho",
+        "line": "Pula de hora em hora e sempre chega na hora certa."
+      },
+      "unicorn": {
+        "name": "Unicórnio",
+        "line": "Espalha um pouco de magia em cada hora exata e cada meia hora."
+      },
+      "car": {
+        "name": "Carro",
+        "line": "Corre em volta do mostrador e adora o Desafio de um minuto."
+      }
+    },
+    "greetings": {
+      "morning": "Bom dia!",
+      "day": "Olá!",
+      "evening": "Boa noite!",
+      "night": "Olá, corujinha!"
+    },
+    "dragHint": "Arraste os ponteiros",
+    "backToNow": "Voltar para agora",
+    "heroClockLabel": "Relógio. Arraste os ponteiros ou use as setas para mudar a hora."
+  }
+}

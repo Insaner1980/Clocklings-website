@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "htmlLang": "fi",
+    "short": "FI",
+    "native": "Suomi",
+    "ogLocale": "fi_FI",
+    "title": "Clocklings: Kellon opettelu -sovellus lapsille",
+    "description": "Clocklings on lasten sovellus kellon opetteluun. Lapsi oppii lukemaan viisarikelloa askel kerrallaan leikkisän kaverin kanssa, tasatunneista tarkkoihin minuutteihin. Tulossa pian Androidille.",
+    "ogDescription": "Opi viisarikello askel kerrallaan, kerää tähtiä ja pue oma kaverisi.",
+    "suggestText": "Tämä sivu on saatavilla myös suomeksi.",
+    "suggestLink": "Suomenkieliselle sivulle",
+    "ogImageAlt": "Clocklings-kaverit sateenkaarikellon vieressä"
+  },
+  "nav": {
+    "skip": "Siirry sisältöön",
+    "home": "Clocklings, etusivu",
+    "label": "Päävalikko",
+    "companions": "Kaverit",
+    "try": "Kokeile",
+    "parents": "Vanhemmille",
+    "pricing": "Hinta",
+    "cta": "Hanki sovellus",
+    "language": "Kieli",
+    "close": "Sulje",
+    "guide": "Opas"
+  },
+  "play": {
+    "soon": "Tulossa pian"
+  },
+  "price": {
+    "default": "6,99 €",
+    "zero": "0 €",
+    "noteDefault": "Google Play näyttää lopullisen hinnan omassa valuutassasi."
+  },
+  "hero": {
+    "pill": "Tulossa pian Androidille",
+    "title": "Kellon oppiminen on kivempaa kaverin kanssa",
+    "lead": "Clocklings tekee viisarikellosta leikkisän seikkailun. Lapsi oppii askel kerrallaan, harjoittelee kellon lukemista ja asettamista, kerää tähtiä ja pukee oman kaverinsa.",
+    "tryCta": "Kokeile minitehtäviä",
+    "noteBefore": "Maksuton kokeilla. Koko versio",
+    "noteAfter": "kertamaksulla, ilman mainoksia ja tilausta.",
+    "stageLabel": "Clocklings-kaveri seisoo sateenkaarikellon vieressä. Kello näyttää tämänhetkisen ajan.",
+    "bubble": "Nyt opitaan kelloa!"
+  },
+  "stats": {
+    "label": "Clocklings lukuina",
+    "companions": "Kaveria",
+    "outfits": "Asustetta",
+    "stars": "Tähteä kerättäväksi",
+    "languages": "Kieltä"
+  },
+  "companions": {
+    "eyebrow": "Tutustu kavereihin",
+    "title": "Valitse kaveri, jonka kanssa opit",
+    "lead": "Yhdeksän kaveria, jokaisella oma tyylinsä. Kaveri kannustaa, iloitsee jokaisesta tähdestä ja rakastaa uusien asujen sovittamista.",
+    "hint": "Valitsemasi kaveri kulkee mukanasi koko sivulla, myös minitehtävissä.",
+    "pickerLabel": "Valitse kaveri"
+  },
+  "how": {
+    "eyebrow": "Näin se toimii",
+    "title": "Pieniä askelia, isoja hymyjä",
+    "lead": "Clocklings opastaa lasta ensimmäisestä tasatunnista aina tarkkoihin minuutteihin asti.",
+    "learn": {
+      "title": "Opi",
+      "text": "Selkeät oppitunnit näyttävät, mitä viisarit tekevät. Mukana on animaatioita ja kertoja, joka lukee kaiken ääneen."
+    },
+    "practise": {
+      "title": "Pelaa",
+      "text": "Lue kelloa ja aseta se itse. Virheen jälkeen saat vihjeen, joten kukaan ei jää jumiin."
+    },
+    "stars": {
+      "title": "Kerää tähtiä",
+      "text": "Jokaisesta tasosta saa enintään kolme tähteä. Voit pelata uudelleen milloin haluat ja parantaa tulostasi."
+    },
+    "dress": {
+      "title": "Pue kaveri",
+      "text": "Tähdillä avautuu hattuja, kruunuja, huiveja ja paljon muuta. Vaatekaapissa odottaa yli 140 asustetta."
+    }
+  },
+  "path": {
+    "title": "Oppimisen polku",
+    "whole": "Tasatunnit",
+    "half": "Puoli tuntia",
+    "quarter": "Vartit",
+    "five": "Viiden minuutin välein",
+    "exact": "Tarkat minuutit",
+    "day": "Koko vuorokausi"
+  },
+  "journey": {
+    "whole": "Pitkä viisari osoittaa suoraan ylös 12:een. Lue lyhyt viisari, niin tiedät tunnin.",
+    "half": "Pitkä viisari on kulkenut puoli kierrosta 6:een. Lyhyt viisari on kahden numeron välissä, ja puolen jälkeen sanotaan seuraava tunti.",
+    "quarter": "Varttia yli, kun pitkä viisari on 3:ssa, ja varttia vaille, kun se on 9:ssä. Kellotaulu jakautuu neljään helppoon palaan.",
+    "five": "Jokainen numero on viisi minuuttia. Laske viiden välein, kun pitkä viisari kiertää.",
+    "exact": "Pienet viivat ovat yksittäisiä minuutteja. Laske viimeiseen viitoseen ja lisää loput.",
+    "day": "Lyhyt viisari kiertää kahdesti vuorokaudessa. 15.30 on sama kuin puoli neljä iltapäivällä."
+  },
+  "try": {
+    "eyebrow": "Kokeile itse",
+    "title": "Pieni maistiainen harjoittelusta",
+    "lead": "Viisi nopeaa tehtävää tasatunneista ja puolista tunneista, samaan tapaan kuin sovelluksen ensimmäisillä tasoilla. Valmiina?",
+    "back": "Siirrä kelloa 30 minuuttia taaksepäin",
+    "forward": "Siirrä kelloa 30 minuuttia eteenpäin",
+    "ready": "Aloitetaan!",
+    "readQuestion": "Mitä kello on?",
+    "check": "Tarkista",
+    "next": "Seuraava",
+    "start": "Aloita",
+    "more": "Sovelluksessa jatketaan varteilla, viiden minuutin väleillä, tarkoilla minuuteilla, koko vuorokaudella ja vauhdikkaalla Minuuttihaasteella.",
+    "get": "Hanki Clocklings",
+    "again": "Pelaa uudelleen"
+  },
+  "features": {
+    "eyebrow": "Lisää löydettävää",
+    "title": "Monta tapaa leikkiä",
+    "explore": {
+      "title": "Tutki",
+      "text": "Pyörittele viisareita vapaasti ja kuule, mitä kello on."
+    },
+    "together": {
+      "title": "Pelaa yhdessä",
+      "text": "Yksi asettaa ajan, toinen arvaa. Sitten vaihdetaan vuoroa."
+    },
+    "challenge": {
+      "title": "Minuuttihaaste",
+      "text": "Montako kelloa ehdit lukea kuudessakymmenessä sekunnissa?"
+    },
+    "styles": {
+      "title": "Kellotyylit",
+      "text": "Sateenkaari, Avaruus, Meri, Metsä ja muita. Voit myös suunnitella oman kellon."
+    },
+    "voice": {
+      "title": "Ääneen luettuna",
+      "text": "Ystävällinen kertoja opastaa pieniä, jotka vasta opettelevat lukemaan."
+    },
+    "languages": {
+      "title": "Seitsemän kieltä",
+      "text": "Suomi, ruotsi, englanti, saksa, ranska, espanja ja brasilianportugali."
+    }
+  },
+  "outfits": {
+    "eyebrow": "Vaatekaappi",
+    "title": "Jokainen tähti on pieni palkinto",
+    "lead": "Kruunut, velhonhatut, keijunsiivet ja juhlahatut avautuvat, kun lapsi kerää tähtiä. Jokaisesta kaverista on lisäksi neljä väriä.",
+    "point1": "Yli 140 asustetta yhdeksälle kaverille",
+    "point2": "Tähdet eivät kulu, joten palkinnot pysyvät auki",
+    "point3": "Nimeä kaverisi ja tee siitä omanlaisesi",
+    "label": "Esimerkkejä asuista",
+    "alt1": "Nukke, jolla on keijunsiivet ja pilkullinen mekko",
+    "alt2": "Sininen kissa, jolla on kultainen kruunu ja kellopanta",
+    "alt3": "Sininen dinosaurus, jolla on juhlahattu ja ankkauimarengas",
+    "alt4": "Robotti, jolla on kuulokkeet ja supersankarin viitta"
+  },
+  "parents": {
+    "eyebrow": "Vanhemmille",
+    "title": "Tehty huolella, kestämään käyttöä",
+    "lead": "Clocklings on rauhallinen ja turvallinen paikka oppia. Ei yllätyksiä, ei häiriötekijöitä.",
+    "ads": {
+      "title": "Ei mainoksia",
+      "text": "Mikään ei ponnahda esiin, eikä mikään yritä myydä lapsellesi."
+    },
+    "accounts": {
+      "title": "Ei tilejä",
+      "text": "Ei rekisteröitymistä eikä profiileja. Edistyminen pysyy laitteellasi."
+    },
+    "gate": {
+      "title": "Vanhempien lukko",
+      "text": "Ostot ovat pienen tehtävän takana, jonka vain aikuinen osaa ratkaista."
+    },
+    "kind": {
+      "title": "Sopii jokaiselle oppijalle",
+      "text": "Suuri teksti, ruudunlukijan tuki ja rauhallisempi liike tarvittaessa."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Hinta",
+    "title": "Kokeile maksutta, avaa kerralla",
+    "lead": "Yksi osto avaa kaiken pysyvästi. Ei tilausta eikä sovelluksen sisäisiä kolikoita.",
+    "free": {
+      "title": "Maksuton",
+      "sub": "Maksuton aina",
+      "point1": "Tasatuntien oppitunti ja ensimmäinen harjoitustaso",
+      "point2": "Tutki ja Pelaa yhdessä",
+      "point3": "Kaikki kellotyylit",
+      "point4": "Nukke ja Kissa"
+    },
+    "full": {
+      "badge": "Kaikki mukana",
+      "title": "Koko versio",
+      "sub": "Kertaosto",
+      "point1": "Kaikki oppitunnit tasatunneista tarkkoihin minuutteihin",
+      "point2": "Kaikki viisi harjoitustasoa ja Minuuttihaaste",
+      "point3": "Kaikki yhdeksän kaveria neljässä värissä",
+      "point4": "Koko vaatekaappi asuineen"
+    }
+  },
+  "learnMore": {
+    "eyebrow": "Vanhemmille ja opettajille",
+    "title": "Opetatko kelloa kotona tai koulussa?",
+    "lead": "Vaiheittainen oppaamme kertoo, miten lapselle opetetaan kello, ja maksuttomilla tulostettavilla tehtäväarkeilla voi harjoitella ilman ruutua.",
+    "guideCta": "Lue opas",
+    "worksheetsCta": "Maksuttomat tehtäväarkit"
+  },
+  "faq": {
+    "eyebrow": "Kysymyksiä",
+    "title": "Hyvä tietää",
+    "q1": "Kenelle Clocklings on tehty?",
+    "a1": "Lapsille, jotka ovat aloittamassa viisarikellon opettelua. Oppitunnit alkavat siitä, mitä kaksi viisaria tekevät, joten aiempaa osaamista ei tarvita.",
+    "q2": "Millä laitteilla se toimii?",
+    "a2": "Android-puhelimilla ja -tableteilla, joissa on Android 8.0 tai uudempi. Sovellus mukautuu myös taittuviin laitteisiin ja isoihin näyttöihin.",
+    "q3": "Onko iPhone- tai iPad-versiota?",
+    "a3": "Ei vielä. Clocklings julkaistaan ensin Androidille.",
+    "q4": "Vanheneeko maksuton versio?",
+    "a4": "Ei. Maksuton osa pysyy maksuttomana niin pitkään kuin haluat. Koko version voi ostaa, jos lapsi haluaa lisää.",
+    "q5": "Pitääkö lapsen osata lukea?",
+    "a5": "Ei oikeastaan. Ohjeet, vihjeet ja kellonajat voi kuunnella ääneen luettuina, ja kaveri näyttää, miten asiat toimivat.",
+    "q6": "Voiko käyttää 24 tunnin kelloa?",
+    "a6": "Kyllä. Asetuksista voi valita 12 tai 24 tunnin ajan, ja viimeinen oppitunti kertoo, miten koko vuorokauden tunnit toimivat."
+  },
+  "footer": {
+    "top": "Takaisin ylös",
+    "tagline": "Kellon oppimista, yksi iloinen askel kerrallaan.",
+    "legal": "© 2026 Clocklings. Google Play on Google LLC:n tavaramerkki.",
+    "homeLink": "Etusivu"
+  },
+  "js": {
+    "timeSeparator": ".",
+    "bubbleFirst": "Katso kelloa. Mitä aikaa se näyttää?",
+    "bubbleRead": "Mitä tämä kello näyttää?",
+    "bubbleSet": "Raahaa viisareita tai käytä nuolinappeja. Paina sitten Tarkista.",
+    "readQuestion": "Mitä kello on?",
+    "setQuestion": "Aseta kelloon aika",
+    "praise": [
+      "Oikein!",
+      "Hyvin tehty!",
+      "Hienoa työtä!",
+      "Sinä osasit!",
+      "Mainiosti!",
+      "Loistavaa!",
+      "Upeaa!"
+    ],
+    "hintReadWhole": "Katso pitkää sinistä viisaria. Kun se osoittaa suoraan ylös 12:een, kello on tasan.",
+    "hintReadHalf": "Pitkä sininen viisari osoittaa alas 6:een. Silloin kello on puoli.",
+    "hintReadHourHalf": "Kun kello on puoli, lyhyt pinkki viisari on kahden numeron välissä. Puoli-sanan jälkeen sanotaan seuraava tunti: puoli neljä on kolmen ja neljän välissä.",
+    "hintReadHour": "Lyhyt pinkki viisari näyttää tunnin. Mihin numeroon se osoittaa?",
+    "hintSetMinute": "Tarkista pitkä sininen viisari. Tasan-ajoissa se osoittaa 12:een ja puolen tunnin kohdalla 6:een.",
+    "hintSetHour": "Pitkä viisari on oikein! Katso nyt lyhyttä pinkkiä viisaria. Se näyttää tunnin.",
+    "revealRead": "Kello on {time}. Seuraava menee varmasti!",
+    "revealSet": "Tältä näyttää {time}. Katso, mihin kumpikin viisari osoittaa.",
+    "result3": "Upeaa!",
+    "result2": "Hyvin tehty!",
+    "result1": "Jatka tutkimista!",
+    "starsOne": "Sait {n} tähden!",
+    "starsOther": "Sait {n} tähteä!",
+    "resultUnlock": "Sovelluksessa tähdillä avataan uusia asuja kaverillesi.",
+    "progress": "Tehtävä {n}/{total}",
+    "clockLabel": "Sateenkaarikello näyttää: {time}",
+    "practiceClock": "Harjoituskello. Lue aika ja valitse vastaus.",
+    "sliderLabel": "Kellon viisarit. Siirrä niitä puoli tuntia kerrallaan nuolinäppäimillä.",
+    "priceNoteDefault": "Hinta Yhdysvaltain dollareina. Google Play näyttää lopullisen hinnan omassa valuutassasi.",
+    "priceNoteLocal": "Hinta sijaintisi mukaan. Google Play vahvistaa lopullisen hinnan ennen ostoa.",
+    "playGet": "Lataa",
+    "playPill": "Nyt Androidilla",
+    "companions": {
+      "doll": {
+        "name": "Nukke",
+        "line": "Rakastaa pyörähdellä uudessa mekossa ja on aina valmis seuraavaan oppituntiin."
+      },
+      "cat": {
+        "name": "Kissa",
+        "line": "Utelias ja lempeä, ja huomaa tarkasti, mihin viisarit osoittavat."
+      },
+      "dog": {
+        "name": "Koira",
+        "line": "Heiluttaa häntäänsä jokaiselle oikealle vastaukselle eikä luovuta koskaan."
+      },
+      "robot": {
+        "name": "Robotti",
+        "line": "Piippaa iloisesti jokaiselle tikille ja takille. Tarkkuus on sen toinen nimi."
+      },
+      "dragon": {
+        "name": "Lohikäärme",
+        "line": "Pieni ajan velho, joka puhaltaa tulen sijaan kimalletta."
+      },
+      "dinosaur": {
+        "name": "Dinosaurus",
+        "line": "Ikivanha, mutta kellon lukemisessa ihan uusi. Oppii yhdessä sinun kanssasi."
+      },
+      "bunny": {
+        "name": "Pupu",
+        "line": "Hyppii tunnista toiseen ja ehtii aina ajoissa perille."
+      },
+      "unicorn": {
+        "name": "Yksisarvinen",
+        "line": "Ripottelee taikaa jokaiseen tasatuntiin ja puoleen tuntiin."
+      },
+      "car": {
+        "name": "Auto",
+        "line": "Kiitää kellotaulun ympäri ja rakastaa vauhdikasta Minuuttihaastetta."
+      }
+    },
+    "greetings": {
+      "morning": "Hyvää huomenta!",
+      "day": "Hei!",
+      "evening": "Hyvää iltaa!",
+      "night": "Hei, yökukkuja!"
+    },
+    "dragHint": "Raahaa viisareita",
+    "backToNow": "Takaisin nykyhetkeen",
+    "heroClockLabel": "Kello. Muuta aikaa raahaamalla viisareita tai nuolinäppäimillä."
+  }
+}

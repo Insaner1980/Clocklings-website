@@ -1,0 +1,200 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="{{meta.htmlLang}}">
+<head>
+{{> head}}
+</head>
+<body class="page-guide">
+{{> header}}
+
+  <main id="main">
+    <article class="guide">
+      <header class="guide-hero">
+        <div class="wrap guide-hero-grid">
+          <div class="guide-hero-copy">
+            <nav class="crumbs" aria-label="{{guide.crumbsLabel}}">
+              <a href="{{paths.home}}">Clocklings</a>
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span aria-current="page">{{guide.navTitle}}</span>
+            </nav>
+            <h1>{{guide.h1}}</h1>
+            <p class="lead">{{guide.intro}}</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#step-1">{{guide.startCta}}</a>
+              <a class="btn btn-tonal" href="#worksheets">{{guide.worksheetsCta}}</a>
+            </div>
+          </div>
+          <div class="guide-hero-art" aria-hidden="true">
+            <div class="guide-hero-clock" data-clock="live"></div>
+            <img class="guide-hero-companion" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
+          </div>
+        </div>
+      </header>
+
+      <div class="wrap guide-body">
+        <nav class="guide-toc" aria-labelledby="toc-title">
+          <p class="toc-title" id="toc-title">{{guide.tocTitle}}</p>
+          <ol>
+            <li><a href="#before">{{guide.before.title}}</a></li>
+            <li><a href="#step-1">{{guide.s1.title}}</a></li>
+            <li><a href="#step-2">{{guide.s2.title}}</a></li>
+            <li><a href="#step-3">{{guide.s3.title}}</a></li>
+            <li><a href="#step-4">{{guide.s4.title}}</a></li>
+            <li><a href="#step-5">{{guide.s5.title}}</a></li>
+            <li><a href="#step-6">{{guide.s6.title}}</a></li>
+            <li><a href="#step-7">{{guide.s7.title}}</a></li>
+            <li><a href="#everyday">{{guide.tips.title}}</a></li>
+            <li><a href="#mistakes">{{guide.mistakes.title}}</a></li>
+            <li><a href="#worksheets">{{worksheets.title}}</a></li>
+          </ol>
+        </nav>
+
+        <div class="guide-content">
+          <section class="guide-block" id="before">
+            <h2>{{guide.before.title}}</h2>
+            <p>{{guide.before.text}}</p>
+            <ul class="checks">
+              <li>{{guide.before.c1}}</li>
+              <li>{{guide.before.c2}}</li>
+              <li>{{guide.before.c3}}</li>
+            </ul>
+          </section>
+
+          <ol class="guide-steps">
+            <li class="guide-step tint-1" id="step-1">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="600" data-full-clock></span></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 1</p>
+                <h2>{{guide.s1.title}}</h2>
+                <p>{{guide.s1.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s1.tip}}</p>
+              </div>
+            </li>
+            <li class="guide-step tint-2" id="step-2">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="180" data-full-clock></span><p class="clock-caption" data-time-caption="180"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 2</p>
+                <h2>{{guide.s2.title}}</h2>
+                <p>{{guide.s2.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s2.tip}}</p>
+              </div>
+            </li>
+            <li class="guide-step tint-3" id="step-3">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="270" data-full-clock></span><p class="clock-caption" data-time-caption="270"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 3</p>
+                <h2>{{guide.s3.title}}</h2>
+                <p>{{guide.s3.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s3.tip}}</p>
+              </div>
+            </li>
+            <li class="guide-step tint-4" id="step-4">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="435" data-full-clock></span><p class="clock-caption" data-time-caption="435"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 4</p>
+                <h2>{{guide.s4.title}}</h2>
+                <p>{{guide.s4.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s4.tip}}</p>
+              </div>
+            </li>
+            <li class="guide-step tint-5" id="step-5">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="565" data-full-clock></span><p class="clock-caption" data-time-caption="565"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 5</p>
+                <h2>{{guide.s5.title}}</h2>
+                <p>{{guide.s5.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s5.tip}}</p>
+              </div>
+            </li>
+            <li class="guide-step tint-6" id="step-6">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="227" data-full-clock></span><p class="clock-caption" data-time-caption="227"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 6</p>
+                <h2>{{guide.s6.title}}</h2>
+                <p>{{guide.s6.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s6.tip}}</p>
+              </div>
+            </li>
+            <li class="guide-step tint-7" id="step-7">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="930" data-full-clock></span><p class="clock-caption" data-time-caption="930" data-h24></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">{{guide.stepLabel}} 7</p>
+                <h2>{{guide.s7.title}}</h2>
+                <p>{{guide.s7.text}}</p>
+                <p class="guide-tip"><strong>{{guide.tryThis}}</strong> {{guide.s7.tip}}</p>
+              </div>
+            </li>
+          </ol>
+
+          <section class="guide-block" id="everyday">
+            <h2>{{guide.tips.title}}</h2>
+            <p>{{guide.tips.lead}}</p>
+            <ul class="checks">
+              <li>{{guide.tips.t1}}</li>
+              <li>{{guide.tips.t2}}</li>
+              <li>{{guide.tips.t3}}</li>
+              <li>{{guide.tips.t4}}</li>
+              <li>{{guide.tips.t5}}</li>
+            </ul>
+          </section>
+
+          <section class="guide-block" id="mistakes">
+            <h2>{{guide.mistakes.title}}</h2>
+            <div class="mistakes">
+              <div class="mistake"><h3>{{guide.mistakes.m1.title}}</h3><p>{{guide.mistakes.m1.text}}</p></div>
+              <div class="mistake"><h3>{{guide.mistakes.m2.title}}</h3><p>{{guide.mistakes.m2.text}}</p></div>
+              <div class="mistake"><h3>{{guide.mistakes.m3.title}}</h3><p>{{guide.mistakes.m3.text}}</p></div>
+            </div>
+          </section>
+
+          <section class="guide-block worksheets" id="worksheets">
+            <h2>{{worksheets.title}}</h2>
+            <p>{{worksheets.lead}}</p>
+            <ul class="sheet-grid">
+              <li class="sheet-card tint-1">
+                <span class="mini-clock" data-mini-clock="180"></span>
+                <h3>{{path.whole}}</h3>
+                <p>{{worksheets.d1}}</p>
+                <a class="btn btn-white btn-small" href="{{paths.guide}}{{worksheets.fileBase}}-1.pdf" download>{{worksheets.download}}</a>
+              </li>
+              <li class="sheet-card tint-2">
+                <span class="mini-clock" data-mini-clock="270"></span>
+                <h3>{{path.half}}</h3>
+                <p>{{worksheets.d2}}</p>
+                <a class="btn btn-white btn-small" href="{{paths.guide}}{{worksheets.fileBase}}-2.pdf" download>{{worksheets.download}}</a>
+              </li>
+              <li class="sheet-card tint-3">
+                <span class="mini-clock" data-mini-clock="435"></span>
+                <h3>{{path.quarter}}</h3>
+                <p>{{worksheets.d3}}</p>
+                <a class="btn btn-white btn-small" href="{{paths.guide}}{{worksheets.fileBase}}-3.pdf" download>{{worksheets.download}}</a>
+              </li>
+              <li class="sheet-card tint-4">
+                <span class="mini-clock" data-mini-clock="565"></span>
+                <h3>{{path.five}}</h3>
+                <p>{{worksheets.d4}}</p>
+                <a class="btn btn-white btn-small" href="{{paths.guide}}{{worksheets.fileBase}}-4.pdf" download>{{worksheets.download}}</a>
+              </li>
+            </ul>
+            <p class="sheet-note">{{worksheets.note}}</p>
+          </section>
+
+          <section class="guide-cta">
+            <img data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+            <div>
+              <h2>{{guide.cta.title}}</h2>
+              <p>{{guide.cta.text}}</p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="{{paths.home}}#try">{{guide.cta.try}}</a>
+                <a class="btn btn-white" href="{{paths.home}}#pricing">{{nav.cta}}</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+{{> footer}}
+</body>
+</html>

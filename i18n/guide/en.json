@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "how-to-teach-a-child-to-tell-time",
+    "navTitle": "Parents' guide",
+    "title": "How to Teach a Child to Tell Time: Step-by-Step Guide and Free Worksheets",
+    "description": "A step-by-step guide for parents and teachers on teaching kids to read an analog clock, from o'clock to exact minutes. Includes free printable telling time worksheets.",
+    "h1": "How to teach a child to tell time",
+    "intro": "Reading an analog clock is easiest to learn in small steps, in a fixed order. This guide follows the same path as the Clocklings app: first the hands, then whole hours, half hours, quarter hours, five-minute steps and finally exact minutes. Every step comes with an activity you can do at home, and at the end you'll find free printable worksheets.",
+    "crumbsLabel": "Breadcrumb",
+    "startCta": "Start with step 1",
+    "worksheetsCta": "Free worksheets",
+    "tocTitle": "In this guide",
+    "stepLabel": "Step",
+    "tryThis": "Try this:",
+    "before": {
+      "title": "Before you start",
+      "text": "There's no perfect age to begin. Many children are ready in their first school years, but readiness matters more than age. These three skills make learning the clock much easier:",
+      "c1": "Recognising the numbers 1 to 12",
+      "c2": "Counting to 60, or counting in fives with a little help",
+      "c3": "Understanding words like before, after, morning and evening"
+    },
+    "s1": {
+      "title": "Meet the two hands",
+      "text": "Start with what the clock is made of. The short hand shows the hour and the long hand shows the minutes. Both hands always turn the same way, the way we call clockwise. While the long hand goes once around the face, the short hand moves from one number to the next.",
+      "tip": "Point at each hand and give it a name: the short pink hand for hours and the long blue hand for minutes. In Clocklings the colours stay the same in every lesson, so children always know which hand is which."
+    },
+    "s2": {
+      "title": "Whole hours",
+      "text": "When the long hand points straight up at 12, it's something o'clock. Then you only need to look at the short hand: the number it points to is the hour. This is the first and most important step, so take your time with it.",
+      "tip": "Say the time out loud at fixed moments of the day: “It's seven o'clock, time for breakfast.” Children learn fastest when the clock is connected to their own day."
+    },
+    "s3": {
+      "title": "Half hours",
+      "text": "When the long hand points down at 6, it has travelled half the way around: it's half past. Now the short hand sits halfway between two numbers. In English we say the hour it has already passed, so halfway between 3 and 4 is half past three.",
+      "tip": "Cut a paper circle in half and lay it over the clock face. Half of the circle is half of an hour, which is thirty minutes."
+    },
+    "s4": {
+      "title": "Quarter hours",
+      "text": "Split the face into four parts, like a pizza. When the long hand points at 3, a quarter of the hour has passed: it's quarter past. When it points at 9, only a quarter is left until the next hour: it's quarter to, and we name the coming hour.",
+      "tip": "Draw a clock and colour the four quarters in different colours. Move the long hand slice by slice and say the times together."
+    },
+    "s5": {
+      "title": "Five-minute steps",
+      "text": "Each number on the face is worth five minutes for the long hand: 1 is five, 2 is ten, 3 is fifteen and so on, up to 12, which is sixty. Up to half past, we count minutes past the hour. After half past, we count how many minutes are left until the next hour.",
+      "tip": "Make a paper plate clock and write 5, 10, 15 and so on next to the numbers. Practise counting in fives while moving the long hand around."
+    },
+    "s6": {
+      "title": "Exact minutes",
+      "text": "The small marks between the numbers are single minutes. To read an exact time, find the last number the long hand has passed, count in fives up to it, then add the small marks one by one.",
+      "tip": "Play “guess the minute”: you set the clock, your child counts the minutes, and then you swap roles."
+    },
+    "s7": {
+      "title": "The 24-hour day",
+      "text": "The short hand goes around the face twice every day. Digital clocks and timetables often use the 24-hour clock, where the afternoon continues from 13 onwards. So 15:30 is half past three in the afternoon. Teach this last, once reading the analog clock feels easy.",
+      "tip": "Look at a bus timetable or a TV guide together and turn the times into clock times: “15:30, that's half past three in the afternoon.”"
+    },
+    "tips": {
+      "title": "Everyday ways to practise",
+      "lead": "A few minutes a day is better than a long lesson once a week. These small habits keep the clock part of everyday life:",
+      "t1": "Hang an analog clock at your child's eye level, where they can see it often.",
+      "t2": "Mention times during routines: waking up, lunch, bath time and bedtime.",
+      "t3": "Put your child in charge: “Tell me when the long hand reaches 6, then we'll go to the park.”",
+      "t4": "Make a paper plate clock with movable hands and play with it together.",
+      "t5": "Keep it light. Praise effort, stop while it's still fun and come back tomorrow."
+    },
+    "mistakes": {
+      "title": "Common mistakes and how to help",
+      "m1": {
+        "title": "Mixing up the hands",
+        "text": "Children often read the long hand as the hour. Remind them: short hand, hour. Long hand, minutes. Using the same colours every time helps a lot."
+      },
+      "m2": {
+        "title": "Choosing the wrong hour",
+        "text": "At 3:50 the short hand is almost at 4, so children often read it as 4:50. The hour is the number the short hand has passed, not the one it is closest to: it's 3:50, or ten to four."
+      },
+      "m3": {
+        "title": "Reading minutes as numbers",
+        "text": "When the long hand points at 4, children may say four minutes instead of twenty. Practise counting in fives around the face until it feels natural."
+      }
+    },
+    "cta": {
+      "title": "Practise with a friend",
+      "text": "Clocklings turns every step of this guide into short, playful tasks with gentle hints, stars to collect and a companion who cheers your child on.",
+      "try": "Try a mini lesson"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Free worksheets",
+    "title": "Free printable telling time worksheets",
+    "lead": "Each PDF has two practice pages and an answer key. First read the clocks and write the time, then draw the hands to show a given time. Print them for home or the classroom.",
+    "d1": "Read and draw o'clock times. A great first worksheet.",
+    "d2": "Half past times mixed with whole hours.",
+    "d3": "Quarter past and quarter to, with a few half hours.",
+    "d4": "Times in five-minute steps all around the clock.",
+    "download": "Download PDF",
+    "note": "Free to print and share for home and classroom use.",
+    "fileBase": "telling-time-worksheet",
+    "pdf": {
+      "sheet": "Telling time worksheet",
+      "name": "Name",
+      "readTitle": "What time is it?",
+      "readInstr": "Look at each clock and write the time.",
+      "drawTitle": "Draw the hands",
+      "drawInstr": "Draw the hands so the clock shows the time.",
+      "keyTitle": "Answer key",
+      "footer": "Free worksheet from Clocklings, the clock learning app for kids"
+    }
+  }
+}

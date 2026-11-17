@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "htmlLang": "sv",
+    "short": "SV",
+    "native": "Svenska",
+    "ogLocale": "sv_SE",
+    "title": "Clocklings: App för barn som lär sig klockan",
+    "description": "Clocklings är en app där barn lär sig klockan. Steg för steg lär de sig läsa av en analog klocka med en lekfull kompis, från hela timmar till exakta minuter. Kommer snart till Android.",
+    "ogDescription": "Lär dig den analoga klockan steg för steg, samla stjärnor och klä upp din alldeles egna kompis.",
+    "suggestText": "Den här sidan finns också på svenska.",
+    "suggestLink": "Till den svenska sidan",
+    "ogImageAlt": "Clocklings-kompisar bredvid en regnbågsklocka"
+  },
+  "nav": {
+    "skip": "Hoppa till innehållet",
+    "home": "Clocklings, startsida",
+    "label": "Huvudmeny",
+    "companions": "Kompisar",
+    "try": "Prova",
+    "parents": "För föräldrar",
+    "pricing": "Pris",
+    "cta": "Skaffa appen",
+    "language": "Språk",
+    "close": "Stäng",
+    "guide": "Guide"
+  },
+  "play": {
+    "soon": "Kommer snart på"
+  },
+  "price": {
+    "default": "6,99 US$",
+    "zero": "0 US$",
+    "noteDefault": "Priset visas i amerikanska dollar. Google Play visar slutpriset i din egen valuta."
+  },
+  "hero": {
+    "pill": "Kommer snart till Android",
+    "title": "Det är roligare att lära sig klockan med en kompis",
+    "lead": "Clocklings gör den analoga klockan till ett lekfullt äventyr. Barnen lär sig steg för steg, övar på att läsa av och ställa klockan, samlar stjärnor och klär upp sin alldeles egna kompis.",
+    "tryCta": "Prova en minilektion",
+    "noteBefore": "Gratis att prova. Hela versionen för",
+    "noteAfter": "en gång, utan reklam och utan prenumeration.",
+    "stageLabel": "En Clocklings-kompis står bredvid en regnbågsklocka som visar vad klockan är just nu",
+    "bubble": "Nu ska vi lära oss klockan!"
+  },
+  "stats": {
+    "label": "Clocklings i siffror",
+    "companions": "Kompisar",
+    "outfits": "Kläddelar",
+    "stars": "Stjärnor att samla",
+    "languages": "Språk"
+  },
+  "companions": {
+    "eyebrow": "Möt Clocklings",
+    "title": "Välj en kompis att lära dig med",
+    "lead": "Nio kompisar med var sin stil. Din kompis hejar på, firar varje stjärna och älskar att prova nya kläder.",
+    "hint": "Kompisen du väljer följer med dig på hela sidan, även in i minilektionen.",
+    "pickerLabel": "Välj en kompis"
+  },
+  "how": {
+    "eyebrow": "Så fungerar det",
+    "title": "Små steg, stora leenden",
+    "lead": "Clocklings guidar barnen från den allra första hela timmen ända fram till exakta minuter.",
+    "learn": {
+      "title": "Lär dig",
+      "text": "Tydliga lektioner visar vad visarna gör, med animationer och en berättare som läser allt högt."
+    },
+    "practise": {
+      "title": "Spela",
+      "text": "Läs av klockan och ställ den sedan själv. Efter ett misstag kommer en ledtråd, så ingen kör fast."
+    },
+    "stars": {
+      "title": "Samla stjärnor",
+      "text": "Varje nivå ger upp till tre stjärnor. Spela igen när du vill och slå ditt eget rekord."
+    },
+    "dress": {
+      "title": "Klä upp",
+      "text": "Stjärnorna låser upp hattar, kronor, halsdukar och mycket mer. Över 140 kläddelar väntar i garderoben."
+    }
+  },
+  "path": {
+    "title": "Vägen till klockan",
+    "whole": "Hela timmar",
+    "half": "Halva timmar",
+    "quarter": "Kvartar",
+    "five": "Fem minuter i taget",
+    "exact": "Exakta minuter",
+    "day": "Hela dygnet"
+  },
+  "journey": {
+    "whole": "Den långa visaren pekar rakt upp mot 12. Läs av den korta visaren så vet du timmen.",
+    "half": "Den långa visaren har gått halva varvet till 6. Den korta visaren står mellan två siffror, och efter halv säger man nästa timme.",
+    "quarter": "Kvart över när den långa visaren pekar på 3, kvart i när den pekar på 9. Urtavlan delas i fyra enkla bitar.",
+    "five": "Varje siffra är värd fem minuter. Räkna femtal medan den långa visaren går runt.",
+    "exact": "De små strecken är enstaka minuter. Räkna till sista femtalet och lägg till resten.",
+    "day": "Den korta visaren går två varv per dygn. 15.30 är samma sak som halv fyra på eftermiddagen."
+  },
+  "try": {
+    "eyebrow": "Prova själv",
+    "title": "Ett litet smakprov",
+    "lead": "Fem snabba uppgifter med hela och halva timmar, precis som de första nivåerna i appen. Redo?",
+    "back": "Vrid klockan 30 minuter bakåt",
+    "forward": "Vrid klockan 30 minuter framåt",
+    "ready": "Nu kör vi!",
+    "readQuestion": "Vad är klockan?",
+    "check": "Kontrollera",
+    "next": "Nästa",
+    "start": "Starta",
+    "more": "Appen fortsätter med kvartar, fem minuter i taget, exakta minuter, hela dygnet och en snabb Minututmaning.",
+    "get": "Skaffa Clocklings",
+    "again": "Spela igen"
+  },
+  "features": {
+    "eyebrow": "Mer att upptäcka",
+    "title": "Massor av sätt att leka",
+    "explore": {
+      "title": "Utforska",
+      "text": "Snurra fritt på visarna och hör vad klockan är."
+    },
+    "together": {
+      "title": "Spela tillsammans",
+      "text": "En ställer in en tid, den andra gissar. Sedan byter ni tur."
+    },
+    "challenge": {
+      "title": "Minututmaningen",
+      "text": "Hur många klockor hinner du läsa av på sextio sekunder?"
+    },
+    "styles": {
+      "title": "Klockstilar",
+      "text": "Regnbåge, Rymden, Havet, Skogen och fler. Eller designa din egen."
+    },
+    "voice": {
+      "title": "Uppläst",
+      "text": "En vänlig berättare guidar de små som fortfarande lär sig läsa."
+    },
+    "languages": {
+      "title": "Sju språk",
+      "text": "Svenska, finska, engelska, tyska, franska, spanska och brasiliansk portugisiska."
+    }
+  },
+  "outfits": {
+    "eyebrow": "Garderoben",
+    "title": "Varje stjärna är en liten belöning",
+    "lead": "Kronor, trollkarlshattar, älvvingar och partyhattar låses upp när barnen samlar stjärnor. Varje kompis finns dessutom i fyra färger.",
+    "point1": "Över 140 kläddelar till nio kompisar",
+    "point2": "Stjärnorna tar aldrig slut, så belöningarna förblir upplåsta",
+    "point3": "Ge din kompis ett namn och gör den helt till din egen",
+    "label": "Exempel på kläder",
+    "alt1": "Docka med älvvingar och prickig klänning",
+    "alt2": "Blå katt med guldkrona och bjällerhalsband",
+    "alt3": "Blå dinosaurie med partyhatt och badring formad som en anka",
+    "alt4": "Robot med hörlurar och superhjältemantel"
+  },
+  "parents": {
+    "eyebrow": "För föräldrar",
+    "title": "Gjord med omsorg, byggd för att hålla",
+    "lead": "Clocklings är en lugn och trygg plats att lära sig på. Inga överraskningar, inga distraktioner.",
+    "ads": {
+      "title": "Aldrig någon reklam",
+      "text": "Ingenting dyker upp och ingenting försöker sälja till ditt barn."
+    },
+    "accounts": {
+      "title": "Inga konton",
+      "text": "Ingen registrering och inga profiler. Framstegen stannar på din enhet."
+    },
+    "gate": {
+      "title": "Föräldraspärr",
+      "text": "Köp ligger bakom en liten gåta som bara vuxna löser."
+    },
+    "kind": {
+      "title": "För alla som lär sig",
+      "text": "Stor text, stöd för skärmläsare och lugnare rörelser vid behov."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pris",
+    "title": "Prova gratis, lås upp en gång",
+    "lead": "Ett enda köp låser upp allt för alltid. Ingen prenumeration och inga mynt i appen.",
+    "free": {
+      "title": "Gratis",
+      "sub": "Gratis för alltid",
+      "point1": "Lektionen om hela timmar och första övningsnivån",
+      "point2": "Utforska och Spela tillsammans",
+      "point3": "Alla klockstilar",
+      "point4": "Kompisarna Docka och Katt"
+    },
+    "full": {
+      "badge": "Allt ingår",
+      "title": "Hela versionen",
+      "sub": "Engångsköp",
+      "point1": "Alla lektioner, från hela timmar till exakta minuter",
+      "point2": "Alla fem övningsnivåer och Minututmaningen",
+      "point3": "Alla nio kompisar i fyra färger",
+      "point4": "Hela garderoben med kläder"
+    }
+  },
+  "learnMore": {
+    "eyebrow": "För föräldrar och lärare",
+    "title": "Lär du ut klockan hemma eller i skolan?",
+    "lead": "Vår guide visar steg för steg hur man lär ett barn klockan, och de kostnadsfria övningsbladen ger extra träning utan skärm.",
+    "guideCta": "Läs guiden",
+    "worksheetsCta": "Gratis övningsblad"
+  },
+  "faq": {
+    "eyebrow": "Frågor",
+    "title": "Bra att veta",
+    "q1": "Vem är Clocklings till för?",
+    "a1": "Barn som börjar lära sig den analoga klockan. Lektionerna börjar med vad de två visarna gör, så inga förkunskaper behövs.",
+    "q2": "Vilka enheter fungerar den på?",
+    "a2": "Android-telefoner och surfplattor med Android 8.0 eller senare. Appen anpassar sig också till vikbara enheter och större skärmar.",
+    "q3": "Finns det en version för iPhone eller iPad?",
+    "a3": "Inte än. Clocklings släpps först för Android.",
+    "q4": "Går gratisversionen ut?",
+    "a4": "Nej. Gratisdelen är gratis så länge du vill. Uppgradera bara om ditt barn vill ha mer.",
+    "q5": "Behöver mitt barn kunna läsa?",
+    "a5": "Inte direkt. Instruktioner, ledtrådar och klockslag kan läsas upp, och kompisen visar hur allt fungerar.",
+    "q6": "Kan vi använda 24-timmarsklockan?",
+    "a6": "Ja. En inställning växlar mellan 12- och 24-timmarstid, och en sista lektion förklarar hur dygnets alla timmar fungerar."
+  },
+  "footer": {
+    "top": "Tillbaka till toppen",
+    "tagline": "Vi lär oss klockan, ett glatt steg i taget.",
+    "legal": "© 2026 Clocklings. Google Play är ett varumärke som tillhör Google LLC.",
+    "homeLink": "Startsida"
+  },
+  "js": {
+    "timeSeparator": ".",
+    "bubbleFirst": "Titta på klockan. Vilken tid visar den?",
+    "bubbleRead": "Vad visar den här klockan?",
+    "bubbleSet": "Dra i visarna eller använd pilknapparna. Tryck sedan på Kontrollera.",
+    "readQuestion": "Vad är klockan?",
+    "setQuestion": "Ställ klockan på",
+    "praise": [
+      "Rätt!",
+      "Bra gjort!",
+      "Fint jobbat!",
+      "Du klarade det!",
+      "Snyggt jobbat!",
+      "Strålande!",
+      "Underbart!"
+    ],
+    "hintReadWhole": "Titta på den långa blå visaren. När den pekar rakt upp mot 12 är det en hel timme.",
+    "hintReadHalf": "Den långa blå visaren pekar ner mot 6. Då är klockan halv.",
+    "hintReadHourHalf": "Vid halv står den korta rosa visaren mellan två siffror. Efter halv säger man nästa timme: halv fyra är mellan tre och fyra.",
+    "hintReadHour": "Den korta rosa visaren visar timmen. Vilken siffra pekar den på?",
+    "hintSetMinute": "Titta på den långa blå visaren. Vid hel timme pekar den på 12 och vid halv på 6.",
+    "hintSetHour": "Den långa visaren är rätt! Titta nu på den korta rosa visaren. Den visar timmen.",
+    "revealRead": "Klockan är {time}. Nästa går säkert bättre!",
+    "revealSet": "Så här ser {time} ut. Se var båda visarna pekar.",
+    "result3": "Underbart!",
+    "result2": "Bra gjort!",
+    "result1": "Fortsätt utforska!",
+    "starsOne": "Du fick {n} stjärna!",
+    "starsOther": "Du fick {n} stjärnor!",
+    "resultUnlock": "I appen låser stjärnorna upp nya kläder åt din kompis.",
+    "progress": "Uppgift {n} av {total}",
+    "clockLabel": "Regnbågsklocka som visar {time}",
+    "practiceClock": "Övningsklocka. Läs av tiden och välj ett svar.",
+    "sliderLabel": "Klockans visare. Flytta dem en halvtimme i taget med piltangenterna.",
+    "priceNoteDefault": "Priset visas i amerikanska dollar. Google Play visar slutpriset i din egen valuta.",
+    "priceNoteLocal": "Priset baseras på var du befinner dig. Google Play bekräftar slutpriset innan du köper.",
+    "playGet": "Ladda ned på",
+    "playPill": "Nu på Android",
+    "companions": {
+      "doll": {
+        "name": "Docka",
+        "line": "Älskar att snurra runt i en ny klänning och är alltid redo för nästa lektion."
+      },
+      "cat": {
+        "name": "Katt",
+        "line": "Nyfiken, mysig och väldigt bra på att se exakt vart visarna pekar."
+      },
+      "dog": {
+        "name": "Hund",
+        "line": "Viftar glatt på svansen vid varje rätt svar och ger aldrig upp."
+      },
+      "robot": {
+        "name": "Robot",
+        "line": "Piper glatt vid varje tick och varje tack. Noggrannhet är dess mellannamn."
+      },
+      "dragon": {
+        "name": "Drake",
+        "line": "En liten tidstrollkarl som sprutar glitter i stället för eld."
+      },
+      "dinosaur": {
+        "name": "Dinosaurie",
+        "line": "Urgammal, men helt ny på att läsa klockan. Lär sig tillsammans med dig."
+      },
+      "bunny": {
+        "name": "Kanin",
+        "line": "Skuttar från timme till timme och kommer alltid fram i tid."
+      },
+      "unicorn": {
+        "name": "Enhörning",
+        "line": "Strör lite magi över varje hel och halv timme."
+      },
+      "car": {
+        "name": "Bil",
+        "line": "Susar runt urtavlan och älskar en snabb Minututmaning."
+      }
+    },
+    "greetings": {
+      "morning": "God morgon!",
+      "day": "Hej!",
+      "evening": "God kväll!",
+      "night": "Hej, nattuggla!"
+    },
+    "dragHint": "Dra i visarna",
+    "backToNow": "Tillbaka till nu",
+    "heroClockLabel": "Klocka. Dra i visarna eller använd piltangenterna för att ändra tiden."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "hur-lar-man-barn-klockan",
+    "navTitle": "Guide för föräldrar",
+    "title": "Hur lär man barn klockan: steg-för-steg-guide och gratis övningsblad",
+    "description": "En steg-för-steg-guide för föräldrar och lärare om hur barn lär sig den analoga klockan, från hela timmar till exakta minuter. Med gratis övningsblad att skriva ut.",
+    "h1": "Hur lär man barn klockan?",
+    "intro": "Den analoga klockan är lättast att lära sig i små steg och i en bestämd ordning. Den här guiden följer samma väg som appen Clocklings: först visarna, sedan hela timmar, halvtimmar, kvartar, fem minuter i taget och till sist exakta minuter. Till varje steg finns en övning ni kan göra hemma, och sist hittar du gratis övningsblad att skriva ut.",
+    "crumbsLabel": "Brödsmulor",
+    "startCta": "Börja med steg 1",
+    "worksheetsCta": "Gratis övningsblad",
+    "tocTitle": "I den här guiden",
+    "stepLabel": "Steg",
+    "tryThis": "Prova:",
+    "before": {
+      "title": "Innan ni börjar",
+      "text": "Det finns ingen perfekt ålder att börja. Många barn är redo under de första skolåren, men mognaden betyder mer än åldern. De här tre färdigheterna gör det mycket lättare att lära sig klockan:",
+      "c1": "Att känna igen siffrorna 1 till 12",
+      "c2": "Att räkna till 60, eller räkna femtal med lite hjälp",
+      "c3": "Att förstå ord som före, efter, morgon och kväll"
+    },
+    "s1": {
+      "title": "Lär känna de två visarna",
+      "text": "Börja med vad klockan består av. Den korta visaren visar timmen och den långa visaren visar minuterna. Båda visarna snurrar alltid åt samma håll, medsols. Medan den långa visaren går ett varv runt urtavlan flyttar sig den korta visaren från en siffra till nästa.",
+      "tip": "Peka på visarna och ge dem namn: den korta rosa visaren för timmar och den långa blå för minuter. I Clocklings har visarna samma färger i varje lektion, så barnet vet alltid vilken som är vilken."
+    },
+    "s2": {
+      "title": "Hela timmar",
+      "text": "När den långa visaren pekar rakt upp mot 12 är klockan en hel timme. Då räcker det att titta på den korta visaren: siffran den pekar på är timmen. Det här är det första och viktigaste steget, så ta god tid på dig.",
+      "tip": "Säg klockslaget högt vid bestämda tillfällen under dagen: ”Klockan är sju, nu äter vi frukost.” Barn lär sig snabbast när klockan hör ihop med deras egen dag."
+    },
+    "s3": {
+      "title": "Halva timmar",
+      "text": "När den långa visaren pekar ner mot 6 har den gått halva varvet, och klockan är halv. Den korta visaren står nu mitt emellan två siffror. På svenska säger man nästa timme efter halv: när den korta visaren står mellan 3 och 4 är klockan halv fyra.",
+      "tip": "Klipp ut en cirkel av papper, vik den på mitten och lägg halvan över urtavlan. En halv cirkel är en halvtimme, alltså trettio minuter."
+    },
+    "s4": {
+      "title": "Kvartar",
+      "text": "Dela urtavlan i fyra delar, som en pizza. När den långa visaren pekar på 3 har en kvart gått: klockan är kvart över. När den pekar på 9 är det en kvart kvar till nästa timme: klockan är kvart i, och då säger man den kommande timmen.",
+      "tip": "Rita en klocka och färglägg de fyra kvartarna i olika färger. Flytta den långa visaren en bit i taget och säg tiderna tillsammans."
+    },
+    "s5": {
+      "title": "Fem minuter i taget",
+      "text": "Varje siffra på urtavlan är fem minuter för den långa visaren: 1 är fem, 2 är tio, 3 är femton och så vidare upp till 12, som är sextio. Fram till tjugo säger man över, till exempel tio över tre. Runt halvtimmen säger man fem i halv fyra och fem över halv fyra. Från tjugo i räknar man hur många minuter som är kvar till nästa timme: tio i fyra.",
+      "tip": "Gör en klocka av en papperstallrik och skriv 5, 10, 15 och så vidare bredvid siffrorna. Öva att räkna femtal medan den långa visaren går runt."
+    },
+    "s6": {
+      "title": "Exakta minuter",
+      "text": "De små strecken mellan siffrorna är enstaka minuter. För att läsa av en exakt tid letar man upp den sista siffran som den långa visaren har passerat, räknar femtal fram till den och lägger sedan till de små strecken ett i taget.",
+      "tip": "Lek ”gissa minuten”: du ställer klockan, barnet räknar minuterna, och sedan byter ni roller."
+    },
+    "s7": {
+      "title": "Hela dygnet",
+      "text": "Den korta visaren går två varv runt urtavlan varje dygn. Digitala klockor och tidtabeller använder ofta 24-timmarstid, där eftermiddagen fortsätter från 13 och framåt. Därför är 15.30 halv fyra på eftermiddagen. Lär ut det här sist, när den analoga klockan redan känns lätt.",
+      "tip": "Titta på en busstidtabell eller en tv-tablå tillsammans och gör om tiderna till klockslag: ”15.30, det är halv fyra på eftermiddagen.”"
+    },
+    "tips": {
+      "title": "Vardagliga sätt att öva",
+      "lead": "Några minuter om dagen är bättre än en lång lektion en gång i veckan. Med de här små vanorna blir klockan en del av vardagen:",
+      "t1": "Häng upp en analog klocka i barnets ögonhöjd, där barnet ser den ofta.",
+      "t2": "Nämn klockslag i vardagens rutiner: när ni vaknar, äter lunch, badar och går och lägger er.",
+      "t3": "Ge barnet ansvaret: ”Säg till när den långa visaren pekar på 6, då går vi till parken.”",
+      "t4": "Gör en klocka av en papperstallrik med rörliga visare och lek med den tillsammans.",
+      "t5": "Håll det lätt. Beröm försöken, sluta medan det fortfarande är roligt och fortsätt i morgon."
+    },
+    "mistakes": {
+      "title": "Vanliga misstag och hur du hjälper",
+      "m1": {
+        "title": "Visarna blandas ihop",
+        "text": "Barn läser ofta den långa visaren som timmen. Påminn: kort visare, timmar. Lång visare, minuter. Samma färger varje gång hjälper mycket."
+      },
+      "m2": {
+        "title": "Fel timme vid halv",
+        "text": "När klockan är 3.30 har den korta visaren redan passerat 3, och barnet säger lätt halv tre. Påminn om att halv betyder en halvtimme kvar till nästa hela timme: halv fyra."
+      },
+      "m3": {
+        "title": "Minuterna läses som siffror",
+        "text": "När den långa visaren pekar på 4 kan barnet säga fyra minuter i stället för tjugo. Öva att räkna femtal runt urtavlan tills det känns naturligt."
+      }
+    },
+    "cta": {
+      "title": "Öva med en kompis",
+      "text": "Clocklings gör varje steg i guiden till korta, lekfulla uppgifter med vänliga ledtrådar, stjärnor att samla och en kompis som hejar på ditt barn.",
+      "try": "Prova en minilektion"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Övningsblad",
+    "title": "Gratis övningsblad om klockan att skriva ut",
+    "lead": "Varje PDF har två övningssidor och ett facit. Först läser man av klockorna och skriver tiden, sedan ritar man visarna för en given tid. Skriv ut dem hemma eller i klassrummet.",
+    "d1": "Läs av och rita hela timmar. Ett bra första övningsblad.",
+    "d2": "Halvtimmar blandat med hela timmar.",
+    "d3": "Kvart över och kvart i, med några halvtimmar.",
+    "d4": "Tider fem minuter i taget runt hela urtavlan.",
+    "download": "Ladda ned PDF",
+    "note": "Fritt att skriva ut och dela hemma och i skolan.",
+    "fileBase": "ovningsblad-klockan",
+    "pdf": {
+      "sheet": "Övningsblad om klockan",
+      "name": "Namn",
+      "readTitle": "Vad är klockan?",
+      "readInstr": "Titta på varje klocka och skriv tiden.",
+      "drawTitle": "Rita visarna",
+      "drawInstr": "Rita visarna så att klockan visar tiden.",
+      "keyTitle": "Facit",
+      "footer": "Gratis övningsblad från Clocklings, appen där barn lär sig klockan"
+    }
+  }
+}

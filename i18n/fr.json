@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "htmlLang": "fr",
+    "short": "FR",
+    "native": "Français",
+    "ogLocale": "fr_FR",
+    "title": "Clocklings : appli pour apprendre l’heure aux enfants",
+    "description": "Clocklings est une appli pour apprendre l’heure aux enfants. Avec un compagnon espiègle, ils apprennent pas à pas à lire l’horloge à aiguilles, des heures pile aux minutes précises. Bientôt sur Android.",
+    "ogDescription": "Apprendre l’horloge à aiguilles pas à pas, gagner des étoiles et habiller son propre compagnon.",
+    "suggestText": "Cette page existe aussi en français.",
+    "suggestLink": "Voir la page en français",
+    "ogImageAlt": "Les compagnons Clocklings à côté d’une horloge arc-en-ciel"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Clocklings, accueil",
+    "label": "Menu principal",
+    "companions": "Compagnons",
+    "try": "Essayer",
+    "parents": "Parents",
+    "pricing": "Prix",
+    "cta": "Obtenir l’appli",
+    "language": "Langue",
+    "close": "Fermer",
+    "guide": "Guide"
+  },
+  "play": {
+    "soon": "Bientôt sur"
+  },
+  "price": {
+    "default": "6,99 €",
+    "zero": "0 €",
+    "noteDefault": "Google Play affiche le prix final dans votre devise locale."
+  },
+  "hero": {
+    "pill": "Bientôt sur Android",
+    "title": "Lire l’heure, c’est plus amusant avec un ami",
+    "lead": "Clocklings transforme l’horloge à aiguilles en aventure ludique. Les enfants apprennent pas à pas, s’entraînent à lire et à régler l’horloge, gagnent des étoiles et habillent leur propre compagnon.",
+    "tryCta": "Essayer une mini-leçon",
+    "noteBefore": "Gratuit à l’essai. Version complète à",
+    "noteAfter": "en une fois, sans publicité ni abonnement.",
+    "stageLabel": "Un compagnon Clocklings à côté d’une horloge arc-en-ciel qui affiche l’heure actuelle",
+    "bubble": "C’est l’heure d’apprendre !"
+  },
+  "stats": {
+    "label": "Clocklings en chiffres",
+    "companions": "Compagnons",
+    "outfits": "Accessoires",
+    "stars": "Étoiles à gagner",
+    "languages": "Langues"
+  },
+  "companions": {
+    "eyebrow": "Voici les Clocklings",
+    "title": "Choisis un compagnon pour apprendre",
+    "lead": "Neuf amis, chacun avec son style. Ton compagnon t’encourage, fête chaque étoile et adore essayer de nouvelles tenues.",
+    "hint": "Ton choix te suit sur toute la page, même dans la mini-leçon.",
+    "pickerLabel": "Choisir un compagnon"
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Petits pas, grands sourires",
+    "lead": "Clocklings accompagne les enfants de leur toute première heure pile jusqu’aux minutes précises.",
+    "learn": {
+      "title": "Apprendre",
+      "text": "Des leçons claires montrent ce que font les aiguilles, avec des animations et un narrateur qui lit tout à voix haute."
+    },
+    "practise": {
+      "title": "Jouer",
+      "text": "Lire l’horloge, puis la régler soi-même. Après une erreur, un indice aide à avancer, personne ne reste bloqué."
+    },
+    "stars": {
+      "title": "Gagner des étoiles",
+      "text": "Chaque niveau rapporte jusqu’à trois étoiles. On peut rejouer à tout moment pour faire mieux."
+    },
+    "dress": {
+      "title": "Habiller",
+      "text": "Les étoiles débloquent chapeaux, couronnes, écharpes et bien plus. Plus de 140 accessoires attendent dans la garde-robe."
+    }
+  },
+  "path": {
+    "title": "Le parcours",
+    "whole": "Heures pile",
+    "half": "Demi-heures",
+    "quarter": "Quarts d’heure",
+    "five": "De cinq en cinq",
+    "exact": "Minutes précises",
+    "day": "Toute la journée"
+  },
+  "journey": {
+    "whole": "La grande aiguille pointe tout en haut vers le 12. Lis la petite aiguille et tu connais l’heure.",
+    "half": "La grande aiguille a fait la moitié du tour jusqu’au 6. La petite aiguille est entre deux chiffres : c’est la demie.",
+    "quarter": "Et quart quand la grande aiguille est sur le 3, moins le quart quand elle est sur le 9. Le cadran se partage en quatre parts faciles.",
+    "five": "Chaque chiffre vaut cinq minutes. Compte de cinq en cinq pendant que la grande aiguille avance.",
+    "exact": "Les petits traits sont les minutes. Compte jusqu’au dernier multiple de cinq, puis ajoute le reste.",
+    "day": "La petite aiguille fait deux tours par jour. 15 h 30, c’est trois heures et demie de l’après-midi."
+  },
+  "try": {
+    "eyebrow": "Essaie toi-même",
+    "title": "Un petit avant-goût",
+    "lead": "Cinq exercices rapides avec des heures pile et des demi-heures, comme dans les premiers niveaux de l’appli. Prêt ?",
+    "back": "Reculer l’horloge de 30 minutes",
+    "forward": "Avancer l’horloge de 30 minutes",
+    "ready": "C’est parti !",
+    "readQuestion": "Quelle heure est-il ?",
+    "check": "Vérifier",
+    "next": "Suivant",
+    "start": "Commencer",
+    "more": "L’appli continue avec les quarts d’heure, les minutes de cinq en cinq, les minutes précises, toute la journée et un Défi minute plein de rythme.",
+    "get": "Obtenir Clocklings",
+    "again": "Rejouer"
+  },
+  "features": {
+    "eyebrow": "Encore plus à découvrir",
+    "title": "Plein de façons de jouer",
+    "explore": {
+      "title": "Explorer",
+      "text": "Faire tourner les aiguilles librement et entendre l’heure qu’il est."
+    },
+    "together": {
+      "title": "Jouer ensemble",
+      "text": "L’un règle une heure, l’autre devine. Puis on échange les rôles."
+    },
+    "challenge": {
+      "title": "Défi minute",
+      "text": "Combien d’horloges peux-tu lire en soixante secondes ?"
+    },
+    "styles": {
+      "title": "Styles d’horloge",
+      "text": "Arc-en-ciel, Espace, Océan, Forêt et d’autres. Ou crée ta propre horloge."
+    },
+    "voice": {
+      "title": "Lu à voix haute",
+      "text": "Un narrateur bienveillant guide les petits qui apprennent encore à lire."
+    },
+    "languages": {
+      "title": "Sept langues",
+      "text": "Français, anglais, finnois, suédois, allemand, espagnol et portugais du Brésil."
+    }
+  },
+  "outfits": {
+    "eyebrow": "La garde-robe",
+    "title": "Chaque étoile est une petite récompense",
+    "lead": "Couronnes, chapeaux de magicien, ailes de fée et chapeaux de fête se débloquent au fil des étoiles. Chaque compagnon existe aussi en quatre couleurs.",
+    "point1": "Plus de 140 accessoires pour neuf compagnons",
+    "point2": "Les étoiles ne se dépensent jamais, les récompenses restent débloquées",
+    "point3": "Donne un nom à ton compagnon et rends-le unique",
+    "label": "Exemples de tenues",
+    "alt1": "Poupée avec des ailes de fée et une robe à pois",
+    "alt2": "Chat bleu avec une couronne dorée et un collier à grelot",
+    "alt3": "Dinosaure bleu avec un chapeau de fête et une bouée canard",
+    "alt4": "Robot avec un casque audio et une cape de super-héros"
+  },
+  "parents": {
+    "eyebrow": "Pour les parents",
+    "title": "Conçu avec soin, fait pour durer",
+    "lead": "Clocklings est un endroit calme et sûr pour apprendre. Pas de surprises, pas de distractions.",
+    "ads": {
+      "title": "Jamais de publicité",
+      "text": "Rien ne surgit à l’écran et rien n’essaie de vendre quoi que ce soit à votre enfant."
+    },
+    "accounts": {
+      "title": "Aucun compte",
+      "text": "Pas d’inscription ni de profil. La progression reste sur votre appareil."
+    },
+    "gate": {
+      "title": "Contrôle parental",
+      "text": "Les achats sont protégés par une petite énigme que seuls les adultes résolvent."
+    },
+    "kind": {
+      "title": "Pour tous les enfants",
+      "text": "Grand texte, prise en charge des lecteurs d’écran et animations plus calmes si besoin."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Prix",
+    "title": "Essai gratuit, déblocage unique",
+    "lead": "Un seul achat débloque tout pour toujours. Pas d’abonnement, pas de pièces dans l’appli.",
+    "free": {
+      "title": "Gratuit",
+      "sub": "Gratuit pour toujours",
+      "point1": "La leçon sur les heures pile et le premier niveau",
+      "point2": "Explorer et Jouer ensemble",
+      "point3": "Tous les styles d’horloge",
+      "point4": "Les compagnons Poupée et Chat"
+    },
+    "full": {
+      "badge": "Tout compris",
+      "title": "Version complète",
+      "sub": "Achat unique",
+      "point1": "Toutes les leçons, des heures pile aux minutes précises",
+      "point2": "Les cinq niveaux d’entraînement et le Défi minute",
+      "point3": "Les neuf compagnons en quatre couleurs",
+      "point4": "Toute la garde-robe"
+    }
+  },
+  "learnMore": {
+    "eyebrow": "Pour les parents et les enseignants",
+    "title": "Vous apprenez l’heure à la maison ou en classe ?",
+    "lead": "Notre guide explique pas à pas comment apprendre l’heure à un enfant, et les fiches gratuites à imprimer offrent de l’entraînement loin des écrans.",
+    "guideCta": "Lire le guide",
+    "worksheetsCta": "Fiches gratuites"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Bon à savoir",
+    "q1": "À qui s’adresse Clocklings ?",
+    "a1": "Aux enfants qui commencent à apprendre l’horloge à aiguilles. Les leçons partent de ce que font les deux aiguilles, aucune connaissance préalable n’est nécessaire.",
+    "q2": "Sur quels appareils fonctionne l’appli ?",
+    "a2": "Sur les téléphones et tablettes Android équipés d’Android 8.0 ou plus récent. Elle s’adapte aussi aux appareils pliables et aux grands écrans.",
+    "q3": "Existe-t-il une version pour iPhone ou iPad ?",
+    "a3": "Pas encore. Clocklings sort d’abord sur Android.",
+    "q4": "La version gratuite expire-t-elle ?",
+    "a4": "Non. La partie gratuite reste gratuite aussi longtemps que vous le souhaitez. Passez à la version complète seulement si votre enfant en veut plus.",
+    "q5": "Mon enfant doit-il savoir lire ?",
+    "a5": "Pas vraiment. Les consignes, les indices et les heures peuvent être lus à voix haute, et le compagnon montre comment tout fonctionne.",
+    "q6": "Peut-on utiliser l’horloge de 24 heures ?",
+    "a6": "Oui. Un réglage permet de passer du format 12 heures au format 24 heures, et une dernière leçon explique les heures de toute la journée."
+  },
+  "footer": {
+    "top": "Retour en haut",
+    "tagline": "Apprendre l’heure, un joyeux petit pas à la fois.",
+    "legal": "© 2026 Clocklings. Google Play est une marque de Google LLC.",
+    "homeLink": "Accueil"
+  },
+  "js": {
+    "timeSeparator": " h ",
+    "bubbleFirst": "Regarde l’horloge. Quelle heure indique-t-elle ?",
+    "bubbleRead": "Que dit cette horloge ?",
+    "bubbleSet": "Fais glisser les aiguilles ou utilise les flèches. Appuie ensuite sur Vérifier.",
+    "readQuestion": "Quelle heure est-il ?",
+    "setQuestion": "Règle l’horloge sur",
+    "praise": [
+      "C’est ça !",
+      "Bravo !",
+      "Très bien !",
+      "Tu as trouvé !",
+      "Beau travail !",
+      "Super !",
+      "Formidable !"
+    ],
+    "hintReadWhole": "Regarde la grande aiguille bleue. Quand elle pointe tout en haut vers le 12, c’est une heure pile.",
+    "hintReadHalf": "La grande aiguille bleue pointe vers le bas, sur le 6. C’est donc la demie.",
+    "hintReadHourHalf": "À la demie, la petite aiguille rose se trouve entre deux chiffres. On dit l’heure qu’elle vient de passer : trois heures et demie, c’est entre trois et quatre.",
+    "hintReadHour": "La petite aiguille rose indique l’heure. Vers quel chiffre pointe-t-elle ?",
+    "hintSetMinute": "Regarde la grande aiguille bleue. Pour une heure pile, elle pointe vers le 12, pour la demie vers le 6.",
+    "hintSetHour": "La grande aiguille est bien placée ! Regarde maintenant la petite aiguille rose. Elle indique l’heure.",
+    "revealRead": "Il est {time}. Tu auras la prochaine !",
+    "revealSet": "Voici {time}. Tu vois où pointent les deux aiguilles ?",
+    "result3": "Formidable !",
+    "result2": "Bravo !",
+    "result1": "Continue à explorer !",
+    "starsOne": "Tu as gagné {n} étoile !",
+    "starsOther": "Tu as gagné {n} étoiles !",
+    "resultUnlock": "Dans l’appli, les étoiles débloquent de nouvelles tenues pour ton compagnon.",
+    "progress": "Exercice {n} sur {total}",
+    "clockLabel": "Horloge arc-en-ciel indiquant {time}",
+    "practiceClock": "Horloge d’entraînement. Lis l’heure et choisis une réponse.",
+    "sliderLabel": "Aiguilles de l’horloge. Utilise les flèches pour les déplacer d’une demi-heure.",
+    "priceNoteDefault": "Prix en dollars américains. Google Play affiche le prix final dans votre devise locale.",
+    "priceNoteLocal": "Prix selon votre région. Google Play confirme le prix final avant l’achat.",
+    "playGet": "Disponible sur",
+    "playPill": "Disponible sur Android",
+    "companions": {
+      "doll": {
+        "name": "Poupée",
+        "line": "Adore tourbillonner dans une nouvelle robe et toujours prête pour la prochaine leçon."
+      },
+      "cat": {
+        "name": "Chat",
+        "line": "Curieux, câlin et très doué pour repérer où pointent les aiguilles."
+      },
+      "dog": {
+        "name": "Chien",
+        "line": "Remue la queue à chaque bonne réponse et n’abandonne jamais."
+      },
+      "robot": {
+        "name": "Robot",
+        "line": "Bipe joyeusement à chaque tic et à chaque tac. La précision, c’est son truc."
+      },
+      "dragon": {
+        "name": "Dragon",
+        "line": "Un petit magicien du temps qui crache des paillettes au lieu du feu."
+      },
+      "dinosaur": {
+        "name": "Dinosaure",
+        "line": "Vieux comme le monde, mais tout neuf pour lire l’heure. Il apprend avec toi."
+      },
+      "bunny": {
+        "name": "Lapin",
+        "line": "Saute d’heure en heure et arrive toujours pile à l’heure."
+      },
+      "unicorn": {
+        "name": "Licorne",
+        "line": "Saupoudre un peu de magie sur chaque heure pile et chaque demie."
+      },
+      "car": {
+        "name": "Voiture",
+        "line": "File autour du cadran et adore le Défi minute."
+      }
+    },
+    "greetings": {
+      "morning": "Bonjour !",
+      "day": "Salut !",
+      "evening": "Bonsoir !",
+      "night": "Salut, oiseau de nuit !"
+    },
+    "dragHint": "Fais glisser les aiguilles",
+    "backToNow": "Revenir à maintenant",
+    "heroClockLabel": "Horloge. Fais glisser les aiguilles ou utilise les flèches pour changer l’heure."
+  }
+}
