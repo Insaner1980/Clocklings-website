@@ -26,7 +26,7 @@
     },
     "s2": {
       "title": "Les heures pile",
-      "text": "Quand la grande aiguille pointe tout en haut vers le 12, il est une heure pile. Il suffit alors de regarder la petite aiguille : le chiffre qu’elle indique, c’est l’heure. C’est la première étape et la plus importante, prenez votre temps.",
+      "text": "Quand la grande aiguille pointe tout en haut vers le 12, les minutes sont à zéro : c’est l’heure pile. Il suffit alors de regarder la petite aiguille : le chiffre qu’elle indique, c’est l’heure. C’est la première étape et la plus importante, prenez votre temps.",
       "tip": "Dites l’heure à voix haute à des moments fixes de la journée : « Il est sept heures, c’est l’heure du petit-déjeuner. » Les enfants apprennent plus vite quand l’horloge est liée à leur propre journée."
     },
     "s3": {
@@ -36,7 +36,7 @@
     },
     "s4": {
       "title": "Les quarts d’heure",
-      "text": "Partagez le cadran en quatre parts, comme une pizza. Quand la grande aiguille pointe sur le 3, un quart d’heure est passé : il est trois heures et quart. Quand elle pointe sur le 9, il reste un quart d’heure avant l’heure suivante : on dit alors l’heure qui arrive, moins le quart, par exemple quatre heures moins le quart.",
+      "text": "Partagez le cadran en quatre parts, comme une pizza. Quand la grande aiguille pointe sur le 3, un quart d’heure est passé : il est telle heure et quart, par exemple sept heures et quart. Quand elle pointe sur le 9, il reste un quart d’heure avant l’heure suivante : on dit alors l’heure qui arrive, moins le quart, par exemple quatre heures moins le quart.",
       "tip": "Dessinez une horloge et coloriez les quatre quarts de couleurs différentes. Avancez la grande aiguille part par part et dites les heures ensemble."
     },
     "s5": {

@@ -375,6 +375,11 @@
 
     svg.addEventListener("pointermove", (e) => {
       if (!drag) return;
+      if (!opts.enabled()) {
+        drag = null;
+        svg.classList.remove("dragging");
+        return;
+      }
       const a = pointerAngle(e);
       const delta = ((a - drag.last) % 360 + 540) % 360 - 180;
       drag.last = a;
@@ -534,6 +539,7 @@
       if (e.key === "Home") { e.preventDefault(); backToNow(); return; }
       if (!(e.key in steps)) return;
       e.preventDefault();
+      clock.stop();
       leaveLive();
       t = Math.round(t) + steps[e.key];
       clock.setTime(t);
@@ -839,7 +845,7 @@
         btnCheck.hidden = true;
         title.textContent = T.readQuestion;
         clock.setTime(task.answer);
-        clock.svg.setAttribute("aria-label", T.practiceClock);
+        clock.svg.setAttribute("aria-label", `${T.practiceClock} ${T.clockLabel.replace("{time}", digital(task.answer))}`);
         say(index === 0 ? T.bubbleFirst : T.bubbleRead);
         readChoices(task.answer).forEach((t) => {
           const b = document.createElement("button");

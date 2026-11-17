@@ -377,7 +377,7 @@ a { color: var(--primary); }
 
 /* ---------- Kokeile ---------- */
 
-.try { background: var(--play-surface); border-radius: var(--radius-xl); margin-inline: 12px; }
+.section.try { background: var(--play-surface); border-radius: var(--radius-xl); margin-inline: 12px; }
 .trainer {
   background: var(--surface); border-radius: var(--radius-xl); padding: 28px 40px 40px;
   max-width: 980px; margin: 0 auto; position: relative; overflow: hidden;
@@ -580,7 +580,7 @@ a { color: var(--primary); }
 @media (max-width: 560px) {
   body { font-size: 1rem; }
   .section { padding: 64px 0; }
-  .companions, .try, .outfits { margin-inline: 0; border-radius: var(--radius-l); }
+  .companions, .section.try, .outfits { margin-inline: 0; border-radius: var(--radius-l); }
   .section-head { margin-bottom: 32px; }
   .header-cta { padding: 0 16px; white-space: nowrap; }
   .lang-banner-row { gap: 10px; }

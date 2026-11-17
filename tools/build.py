@@ -80,16 +80,23 @@ def page_path(code, page, data):
 
 def load_languages():
     raw = {}
+    missing = 0
     for code in LANGS:
         f = ROOT / "i18n" / f"{code}.json"
-        if f.exists():
-            raw[code] = json.loads(f.read_text(encoding="utf-8"))
-            # Oppaan ja harjoitusarkkien tekstit ovat omassa tiedostossaan.
-            g = ROOT / "i18n" / "guide" / f"{code}.json"
-            if g.exists():
-                raw[code] = merge(raw[code], json.loads(g.read_text(encoding="utf-8")))
+        if not f.exists():
+            print(f"[{code}] puuttuu tiedosto: {f.relative_to(ROOT)}")
+            missing += 1
+            continue
+        raw[code] = json.loads(f.read_text(encoding="utf-8"))
+        # Oppaan ja harjoitusarkkien tekstit ovat omassa tiedostossaan.
+        g = ROOT / "i18n" / "guide" / f"{code}.json"
+        if g.exists():
+            raw[code] = merge(raw[code], json.loads(g.read_text(encoding="utf-8")))
+        else:
+            print(f"[{code}] puuttuu tiedosto: {g.relative_to(ROOT)}")
+            missing += 1
     base = raw[DEFAULT]
-    problems = 0
+    problems = missing
     data = {}
     for code, values in raw.items():
         for key in missing_keys(base, values):

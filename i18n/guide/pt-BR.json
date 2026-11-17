@@ -26,7 +26,7 @@
     },
     "s2": {
       "title": "Horas exatas",
-      "text": "Quando o ponteiro comprido aponta bem para cima, para o 12, é uma hora exata. Aí basta olhar o ponteiro curto: o número para o qual ele aponta é a hora. Este é o primeiro passo e o mais importante, então vá com calma.",
+      "text": "Quando o ponteiro comprido aponta bem para cima, para o 12, os minutos estão no zero: é hora cheia. Aí basta olhar o ponteiro curto: o número para o qual ele aponta é a hora. Este é o primeiro passo e o mais importante, então vá com calma.",
       "tip": "Diga a hora em voz alta em momentos fixos do dia: “São sete horas, hora do café da manhã.” As crianças aprendem mais rápido quando o relógio faz parte do dia delas."
     },
     "s3": {
@@ -36,7 +36,7 @@
     },
     "s4": {
       "title": "Quartos de hora",
-      "text": "Divida o mostrador em quatro partes, como uma pizza. Quando o ponteiro comprido aponta para o 3, passou um quarto de hora: são três e quinze. Quando aponta para o 9, falta um quarto de hora para a próxima hora: dizemos quinze para a hora que vem, por exemplo, quinze para as quatro.",
+      "text": "Divida o mostrador em quatro partes, como uma pizza. Quando o ponteiro comprido aponta para o 3, passou um quarto de hora: são tantas e quinze, por exemplo, sete e quinze. Quando aponta para o 9, falta um quarto de hora para a próxima hora: dizemos quinze para a hora que vem, por exemplo, quinze para as quatro.",
       "tip": "Desenhe um relógio e pinte os quatro quartos com cores diferentes. Mova o ponteiro comprido pedaço por pedaço e falem as horas juntos."
     },
     "s5": {
