@@ -216,6 +216,17 @@
     "q6": "Voiko käyttää 24 tunnin kelloa?",
     "a6": "Kyllä. Asetuksista voi valita 12 tai 24 tunnin ajan, ja viimeinen oppitunti kertoo, miten koko vuorokauden tunnit toimivat."
   },
+  "notFound": {
+    "title": "Clocklings: Sivua ei löytynyt",
+    "description": "Tätä sivua ei ole olemassa. Palaa Clocklingsin etusivulle tai lue opas kellon opettamisesta lapselle.",
+    "stageLabel": "Clocklings-kaveri sateenkaarikellon vieressä. Kello on pysähtynyt aikaan 4.04.",
+    "bubble": "Hups!",
+    "pill": "Virhe 404",
+    "h1": "Hups! Tämä sivu eksyi ajassa",
+    "lead": "Kello pysähtyi aikaan 4.04, eikä etsimääsi sivua löydy mistään. Se on ehkä siirtynyt, tai linkissä on kirjoitusvirhe. Sillä aikaa voit kokeilla kääntää kellon viisareita.",
+    "homeCta": "Takaisin etusivulle",
+    "more": "Tai siirry suoraan:"
+  },
   "footer": {
     "top": "Takaisin ylös",
     "tagline": "Kellon oppimista, yksi iloinen askel kerrallaan.",
@@ -306,6 +317,7 @@
     },
     "dragHint": "Raahaa viisareita",
     "backToNow": "Takaisin nykyhetkeen",
-    "heroClockLabel": "Kello. Muuta aikaa raahaamalla viisareita tai nuolinäppäimillä."
+    "heroClockLabel": "Kello. Muuta aikaa raahaamalla viisareita tai nuolinäppäimillä.",
+    "lostGreeting": "Hups, eksyimme!"
   }
 }

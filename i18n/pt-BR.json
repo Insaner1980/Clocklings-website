@@ -216,6 +216,17 @@
     "q6": "Dá para usar o relógio de 24 horas?",
     "a6": "Sim. Uma configuração alterna entre 12 e 24 horas, e uma última lição explica as horas do dia inteiro."
   },
+  "notFound": {
+    "title": "Clocklings: página não encontrada",
+    "description": "Esta página não existe. Volte para a página inicial do Clocklings ou leia o guia para ensinar as horas para crianças.",
+    "stageLabel": "Um amigo do Clocklings ao lado de um relógio arco-íris parado às 4:04",
+    "bubble": "Opa!",
+    "pill": "Erro 404",
+    "h1": "Opa! Esta página se perdeu no tempo",
+    "lead": "O relógio parou às 4:04, e a página que você procurava não está em lugar nenhum. Talvez ela tenha mudado de endereço, ou o link tenha um erro de digitação. Enquanto isso, experimente girar os ponteiros do relógio.",
+    "homeCta": "Voltar para o início",
+    "more": "Ou vá direto para:"
+  },
   "footer": {
     "top": "Voltar ao topo",
     "tagline": "Aprendendo as horas, um passo feliz de cada vez.",
@@ -306,6 +317,7 @@
     },
     "dragHint": "Arraste os ponteiros",
     "backToNow": "Voltar para agora",
-    "heroClockLabel": "Relógio. Arraste os ponteiros ou use as setas para mudar a hora."
+    "heroClockLabel": "Relógio. Arraste os ponteiros ou use as setas para mudar a hora.",
+    "lostGreeting": "Opa, nos perdemos!"
   }
 }

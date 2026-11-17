@@ -216,6 +216,17 @@
     "q6": "Können wir die 24-Stunden-Uhr verwenden?",
     "a6": "Ja. Eine Einstellung wechselt zwischen 12- und 24-Stunden-Zeit, und eine letzte Lektion erklärt, wie die Stunden des ganzen Tages funktionieren."
   },
+  "notFound": {
+    "title": "Clocklings: Seite nicht gefunden",
+    "description": "Diese Seite gibt es nicht. Gehen Sie zurück zur Clocklings-Startseite oder lesen Sie den Ratgeber, wie Kinder die Uhr lernen.",
+    "stageLabel": "Ein Clocklings-Freund neben einer Regenbogenuhr, die um 4:04 stehen geblieben ist",
+    "bubble": "Hoppla!",
+    "pill": "Fehler 404",
+    "h1": "Hoppla! Diese Seite hat sich in der Zeit verirrt",
+    "lead": "Die Uhr ist um 4:04 stehen geblieben, und die gesuchte Seite ist nirgends zu finden. Vielleicht wurde sie verschoben, oder der Link enthält einen Tippfehler. Drehen Sie in der Zwischenzeit doch einmal an den Zeigern.",
+    "homeCta": "Zurück zur Startseite",
+    "more": "Oder direkt weiter zu:"
+  },
   "footer": {
     "top": "Nach oben",
     "tagline": "Uhrlesen lernen, ein fröhlicher Schritt nach dem anderen.",
@@ -306,6 +317,7 @@
     },
     "dragHint": "Zieh an den Zeigern",
     "backToNow": "Zurück zu jetzt",
-    "heroClockLabel": "Uhr. Zieh an den Zeigern oder nutze die Pfeiltasten, um die Uhrzeit zu ändern."
+    "heroClockLabel": "Uhr. Zieh an den Zeigern oder nutze die Pfeiltasten, um die Uhrzeit zu ändern.",
+    "lostGreeting": "Hoppla, wir haben uns verirrt!"
   }
 }

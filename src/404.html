@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="{{meta.htmlLang}}">
+<head>
+{{> head}}
+</head>
+<body class="page-404">
+{{> header}}
+
+  <main id="main">
+    <section class="hero lost">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="pill pill-gold">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 0-19zm1 4.5v4.6l3.2 1.9-1 1.7L11 12.7V7z"/></svg>
+            <span>{{notFound.pill}}</span>
+          </p>
+          <h1>{{notFound.h1}}</h1>
+          <p class="lead">{{notFound.lead}}</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="{{paths.home}}">{{notFound.homeCta}}</a>
+            <a class="btn btn-tonal" href="{{paths.guide}}">{{learnMore.guideCta}}</a>
+          </div>
+          <nav class="lost-links" aria-label="{{notFound.more}}">
+            <p>{{notFound.more}}</p>
+            <ul>
+              <li><a href="{{paths.home}}#try">{{nav.try}}</a></li>
+              <li><a href="{{paths.home}}#companions">{{nav.companions}}</a></li>
+              <li><a href="{{paths.guide}}#worksheets">{{learnMore.worksheetsCta}}</a></li>
+            </ul>
+          </nav>
+        </div>
+
+{{> stage}}
+      </div>
+    </section>
+  </main>
+
+{{> footer}}
+</body>
+</html>

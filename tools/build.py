@@ -3,6 +3,7 @@
 Sivut (PAGES) ja kielet (LANGS):
   etusivu  src/page.html   ->  /index.html, /fi/index.html, ...
   opas     src/guide.html  ->  /<opas-slug>/index.html, /fi/<opas-slug>/index.html, ...
+  404      src/404.html    ->  /404.html, /fi/404.html, ... (Cloudflare Pages valitsee lähimmän, noindex)
 
 Mallissa:
   {{avain.polku}}   HTML-turvallinen teksti kielitiedostosta i18n/<kieli>.json
@@ -24,7 +25,10 @@ DEFAULT = "en"
 PAGES = [
     {"id": "home", "template": "page.html", "slug": None},
     {"id": "guide", "template": "guide.html", "slug": "guide.slug"},
+    # Ei hakukoneille: ei sitemapia, hreflangia, canonicalia eikä JSON-LD:tä.
+    {"id": "404", "template": "404.html", "slug": None, "file": "404.html", "listed": False},
 ]
+DOC_SOURCE = {"home": "meta", "guide": "guide", "404": "notFound"}  # mistä otsikko ja kuvaus tulevat
 PLACEHOLDER = re.compile(r"\{\{(\{?)\s*([\w.-]+)\s*\}?\}\}")
 PARTIAL = re.compile(r"\{\{>\s*([\w-]+)\s*\}\}")
 FRENCH_SPACE = re.compile(r" ([?!:;»])|(«) ")
@@ -151,6 +155,10 @@ def json_ld(page, code, data, url, origin):
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1).replace("</", "<\\/")
 
 
+def json_ld_block(page, code, data, url, origin):
+    return f'  <script type="application/ld+json">\n{json_ld(page, code, data, url, origin)}\n  </script>'
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     global ALL
@@ -181,11 +189,14 @@ def main():
             data = dict(ALL[code])
             data["paths"] = {"home": lang_root(code), "guide": page_path(code, PAGES[1], ALL[code])}
             # Sivukohtaiset otsikko- ja kuvaustiedot head-osalle.
-            source = data["meta"] if page["id"] == "home" else data["guide"]
+            source = data[DOC_SOURCE[page["id"]]]
             data["doc"] = {
                 "title": source["title"],
                 "description": source["description"],
                 "ogDescription": source.get("ogDescription", source["description"]),
+                # Näyttämö (src/partials/stage.html) on etusivulla ja 404-sivulla.
+                "stageLabel": source.get("stageLabel", data["hero"]["stageLabel"]),
+                "bubble": source.get("bubble", data["hero"]["bubble"]),
             }
 
             def links(indent, current=code):
@@ -201,13 +212,15 @@ def main():
 
             js = dict(data["js"])
             js.update({"lang": code, "locale": data["meta"]["htmlLang"], "page": page["id"], "suggest": suggest})
-            url = absolute[code] if origin else ""
+            listed = page.get("listed", True)
+            url = absolute[code] if origin and listed else ""
             extra = {
-                "alternates": alternates,
+                "robots": "" if listed else '  <meta name="robots" content="noindex">',
+                "alternates": alternates if listed else "",
                 "canonical": f'  <link rel="canonical" href="{url}">' if url else "",
                 "ogUrl": f'  <meta property="og:url" content="{url}">' if url else "",
                 "ogImage": f"{origin}/assets/img/og-image.png",
-                "jsonLd": json_ld(page, code, data, url, origin),
+                "jsonLd": json_ld_block(page, code, data, url, origin) if listed else "",
                 "languageLinks": links("            "),
                 "footerLanguageLinks": links("        "),
                 "jsData": json.dumps(js, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
@@ -226,12 +239,12 @@ def main():
                 return str(value) if raw_mode else html.escape(str(value), quote=True)
 
             result = PLACEHOLDER.sub(replace, template)
-            target = ROOT / paths[code].lstrip("/") / "index.html"
+            target = ROOT / paths[code].lstrip("/") / page.get("file", "index.html")
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(result, encoding="utf-8", newline="\n")
             print(f"{code:6} {page['id']:6} -> {target.relative_to(ROOT)}")
 
-        if origin:
+        if origin and page.get("listed", True):
             for code in langs:
                 alts = "".join(
                     f'\n    <xhtml:link rel="alternate" hreflang="{ALL[c]["meta"]["htmlLang"]}" href="{absolute[c]}"/>'

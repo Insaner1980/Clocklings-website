@@ -216,6 +216,17 @@
     "q6": "Peut-on utiliser l’horloge de 24 heures ?",
     "a6": "Oui. Un réglage permet de passer du format 12 heures au format 24 heures, et une dernière leçon explique les heures de toute la journée."
   },
+  "notFound": {
+    "title": "Clocklings : page introuvable",
+    "description": "Cette page n’existe pas. Revenez à l’accueil de Clocklings ou lisez le guide pour apprendre l’heure à un enfant.",
+    "stageLabel": "Un compagnon Clocklings à côté d’une horloge arc-en-ciel arrêtée à 4 h 04",
+    "bubble": "Oups !",
+    "pill": "Erreur 404",
+    "h1": "Oups ! Cette page s’est perdue dans le temps",
+    "lead": "L’horloge s’est arrêtée à 4 h 04, et la page que vous cherchez est introuvable. Elle a peut-être été déplacée, ou le lien contient une faute de frappe. En attendant, essayez de faire tourner les aiguilles.",
+    "homeCta": "Retour à l’accueil",
+    "more": "Ou allez directement à :"
+  },
   "footer": {
     "top": "Retour en haut",
     "tagline": "Apprendre l’heure, un joyeux petit pas à la fois.",
@@ -306,6 +317,7 @@
     },
     "dragHint": "Fais glisser les aiguilles",
     "backToNow": "Revenir à maintenant",
-    "heroClockLabel": "Horloge. Fais glisser les aiguilles ou utilise les flèches pour changer l’heure."
+    "heroClockLabel": "Horloge. Fais glisser les aiguilles ou utilise les flèches pour changer l’heure.",
+    "lostGreeting": "Oups, on s’est perdus !"
   }
 }
