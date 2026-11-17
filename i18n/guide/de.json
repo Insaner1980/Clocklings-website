@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "kindern-die-uhr-beibringen",
+    "navTitle": "Ratgeber für Eltern",
+    "title": "Kindern die Uhr beibringen: Schritt-für-Schritt-Anleitung und kostenlose Arbeitsblätter",
+    "description": "Eine Schritt-für-Schritt-Anleitung für Eltern und Lehrkräfte: So lernen Kinder die analoge Uhr, von vollen Stunden bis zu genauen Minuten. Mit kostenlosen Arbeitsblättern zum Ausdrucken.",
+    "h1": "Wie bringt man Kindern die Uhr bei?",
+    "intro": "Die analoge Uhr lernt man am leichtesten in kleinen Schritten und in einer festen Reihenfolge. Dieser Ratgeber folgt demselben Weg wie die App Clocklings: zuerst die Zeiger, dann volle Stunden, halbe Stunden, Viertelstunden, Fünf-Minuten-Schritte und zum Schluss genaue Minuten. Zu jedem Schritt gibt es eine Übung für zu Hause, und am Ende finden Sie kostenlose Arbeitsblätter zum Ausdrucken.",
+    "crumbsLabel": "Brotkrümelnavigation",
+    "startCta": "Mit Schritt 1 beginnen",
+    "worksheetsCta": "Kostenlose Arbeitsblätter",
+    "tocTitle": "In diesem Ratgeber",
+    "stepLabel": "Schritt",
+    "tryThis": "Ausprobieren:",
+    "before": {
+      "title": "Bevor Sie beginnen",
+      "text": "Ein perfektes Alter gibt es nicht. Viele Kinder sind in den ersten Schuljahren bereit, doch die Bereitschaft zählt mehr als das Alter. Diese drei Fähigkeiten machen das Uhrlernen viel leichter:",
+      "c1": "Die Zahlen von 1 bis 12 erkennen",
+      "c2": "Bis 60 zählen oder mit etwas Hilfe in Fünferschritten zählen",
+      "c3": "Wörter wie vorher, nachher, morgens und abends verstehen"
+    },
+    "s1": {
+      "title": "Die beiden Zeiger kennenlernen",
+      "text": "Beginnen Sie damit, woraus die Uhr besteht. Der kurze Zeiger zeigt die Stunde, der lange Zeiger die Minuten. Beide drehen sich immer in dieselbe Richtung, im Uhrzeigersinn. Während der lange Zeiger einmal ganz herum wandert, rückt der kurze Zeiger von einer Zahl zur nächsten.",
+      "tip": "Zeigen Sie auf beide Zeiger und geben Sie ihnen Namen: der kurze rosa Zeiger für die Stunden, der lange blaue für die Minuten. In Clocklings bleiben die Farben in jeder Lektion gleich, so weiß Ihr Kind immer, welcher Zeiger welcher ist."
+    },
+    "s2": {
+      "title": "Volle Stunden",
+      "text": "Zeigt der lange Zeiger genau nach oben auf die 12, ist es eine volle Stunde. Dann muss man nur noch auf den kurzen Zeiger schauen: Die Zahl, auf die er zeigt, ist die Stunde. Das ist der erste und wichtigste Schritt, nehmen Sie sich dafür ruhig Zeit.",
+      "tip": "Sagen Sie die Uhrzeit zu festen Momenten des Tages laut: „Es ist sieben Uhr, Zeit fürs Frühstück.“ Kinder lernen am schnellsten, wenn die Uhr mit ihrem eigenen Tag verbunden ist."
+    },
+    "s3": {
+      "title": "Halbe Stunden",
+      "text": "Zeigt der lange Zeiger nach unten auf die 6, hat er den halben Weg geschafft: Es ist halb. Der kurze Zeiger steht jetzt genau zwischen zwei Zahlen. Im Deutschen nennt man nach halb die kommende Stunde: Steht der kurze Zeiger zwischen 3 und 4, ist es halb vier.",
+      "tip": "Schneiden Sie einen Papierkreis aus, falten Sie ihn in der Mitte und legen Sie die Hälfte auf das Zifferblatt. Ein halber Kreis ist eine halbe Stunde, also dreißig Minuten."
+    },
+    "s4": {
+      "title": "Viertelstunden",
+      "text": "Teilen Sie das Zifferblatt in vier Teile, wie eine Pizza. Zeigt der lange Zeiger auf die 3, ist eine Viertelstunde vergangen: Es ist Viertel nach. Zeigt er auf die 9, fehlt noch eine Viertelstunde bis zur nächsten Stunde: Es ist Viertel vor, und man nennt die kommende Stunde.",
+      "tip": "Malen Sie eine Uhr und färben Sie die vier Viertel unterschiedlich ein. Bewegen Sie den langen Zeiger Stück für Stück und sagen Sie die Uhrzeiten gemeinsam."
+    },
+    "s5": {
+      "title": "Fünf-Minuten-Schritte",
+      "text": "Jede Zahl auf dem Zifferblatt steht für den langen Zeiger für fünf Minuten: Die 1 ist fünf, die 2 zehn, die 3 fünfzehn und so weiter bis zur 12, die sechzig ist. Bis zwanzig sagt man nach, zum Beispiel zehn nach drei. Rund um die halbe Stunde sagt man fünf vor halb vier und fünf nach halb vier. Ab zwanzig vor zählt man, wie viele Minuten bis zur nächsten Stunde fehlen: zehn vor vier.",
+      "tip": "Basteln Sie eine Uhr aus einem Pappteller und schreiben Sie 5, 10, 15 und so weiter neben die Zahlen. Üben Sie das Zählen in Fünferschritten, während der lange Zeiger herumwandert."
+    },
+    "s6": {
+      "title": "Genaue Minuten",
+      "text": "Die kleinen Striche zwischen den Zahlen sind einzelne Minuten. Um eine genaue Uhrzeit zu lesen, sucht man die letzte Zahl, die der lange Zeiger passiert hat, zählt bis dorthin in Fünferschritten und addiert dann die kleinen Striche einzeln.",
+      "tip": "Spielen Sie „Minuten raten“: Sie stellen die Uhr, Ihr Kind zählt die Minuten, dann tauschen Sie die Rollen."
+    },
+    "s7": {
+      "title": "Der ganze Tag",
+      "text": "Der kurze Zeiger wandert jeden Tag zweimal um das Zifferblatt. Digitaluhren und Fahrpläne verwenden oft die 24-Stunden-Zeit, in der der Nachmittag ab 13 weiterzählt. Deshalb ist 15:30 Uhr halb vier am Nachmittag. Bringen Sie das zuletzt bei, wenn das Lesen der analogen Uhr schon leichtfällt.",
+      "tip": "Schauen Sie sich gemeinsam einen Busfahrplan oder ein Fernsehprogramm an und übersetzen Sie die Zeiten: „15:30 Uhr, das ist halb vier am Nachmittag.“"
+    },
+    "tips": {
+      "title": "Üben im Alltag",
+      "lead": "Ein paar Minuten am Tag bringen mehr als eine lange Lerneinheit pro Woche. Mit diesen kleinen Gewohnheiten wird die Uhr Teil des Alltags:",
+      "t1": "Hängen Sie eine analoge Uhr auf Augenhöhe Ihres Kindes auf, wo es sie oft sieht.",
+      "t2": "Nennen Sie Uhrzeiten bei festen Abläufen: beim Aufstehen, beim Mittagessen, beim Baden und vor dem Schlafengehen.",
+      "t3": "Übertragen Sie Ihrem Kind Verantwortung: „Sag Bescheid, wenn der lange Zeiger auf der 6 steht, dann gehen wir auf den Spielplatz.“",
+      "t4": "Basteln Sie eine Pappteller-Uhr mit beweglichen Zeigern und spielen Sie gemeinsam damit.",
+      "t5": "Bleiben Sie locker. Loben Sie die Mühe, hören Sie auf, solange es noch Spaß macht, und machen Sie morgen weiter."
+    },
+    "mistakes": {
+      "title": "Typische Fehler und wie Sie helfen",
+      "m1": {
+        "title": "Die Zeiger werden verwechselt",
+        "text": "Kinder lesen den langen Zeiger oft als Stunde. Erinnern Sie: kurzer Zeiger, Stunden. Langer Zeiger, Minuten. Immer gleiche Farben helfen sehr."
+      },
+      "m2": {
+        "title": "Falsche Stunde bei halb",
+        "text": "Um 3:30 Uhr hat der kurze Zeiger die 3 schon passiert, und Kinder sagen leicht halb drei. Erinnern Sie daran, dass halb eine halbe Stunde vor der nächsten vollen Stunde bedeutet: halb vier."
+      },
+      "m3": {
+        "title": "Minuten werden als Zahlen gelesen",
+        "text": "Zeigt der lange Zeiger auf die 4, sagen Kinder manchmal vier Minuten statt zwanzig. Üben Sie das Zählen in Fünferschritten rund um das Zifferblatt, bis es sich selbstverständlich anfühlt."
+      }
+    },
+    "cta": {
+      "title": "Mit einem Freund üben",
+      "text": "Clocklings macht aus jedem Schritt dieses Ratgebers kurze, verspielte Aufgaben mit sanften Tipps, Sternen zum Sammeln und einem Freund, der Ihr Kind anfeuert.",
+      "try": "Mini-Lektion ausprobieren"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Arbeitsblätter",
+    "title": "Kostenlose Arbeitsblätter zur Uhrzeit zum Ausdrucken",
+    "lead": "Jedes PDF enthält zwei Übungsseiten und eine Lösungsseite. Zuerst werden Uhren abgelesen und die Uhrzeit aufgeschrieben, dann werden Zeiger zu einer vorgegebenen Uhrzeit eingezeichnet. Drucken Sie sie für zu Hause oder für den Unterricht aus.",
+    "d1": "Volle Stunden ablesen und einzeichnen. Ein ideales erstes Arbeitsblatt.",
+    "d2": "Halbe Stunden gemischt mit vollen Stunden.",
+    "d3": "Viertel nach und Viertel vor, dazu einige halbe Stunden.",
+    "d4": "Uhrzeiten in Fünf-Minuten-Schritten rund um das Zifferblatt.",
+    "download": "PDF herunterladen",
+    "note": "Kostenlos zum Ausdrucken und Weitergeben für Familie und Unterricht.",
+    "fileBase": "arbeitsblatt-uhrzeit",
+    "pdf": {
+      "sheet": "Arbeitsblatt Uhrzeit",
+      "name": "Name",
+      "readTitle": "Wie spät ist es?",
+      "readInstr": "Schau dir jede Uhr an und schreib die Uhrzeit auf.",
+      "drawTitle": "Zeichne die Zeiger",
+      "drawInstr": "Zeichne die Zeiger so ein, dass die Uhr die Uhrzeit zeigt.",
+      "keyTitle": "Lösungen",
+      "footer": "Kostenloses Arbeitsblatt von Clocklings, der Uhr-lernen-App für Kinder"
+    }
+  }
+}

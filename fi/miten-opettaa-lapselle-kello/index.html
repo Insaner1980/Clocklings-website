@@ -1,0 +1,336 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miten opettaa lapselle kello: vaiheittainen opas ja ilmaiset tehtäväarkit</title>
+  <meta name="description" content="Vaiheittainen opas vanhemmille ja opettajille viisarikellon opettamiseen tasatunneista tarkkoihin minuutteihin. Mukana maksuttomat tulostettavat kellotehtävät.">
+  <meta name="theme-color" content="#FFF5FA">
+  <meta name="color-scheme" content="light">
+
+  <link rel="alternate" hreflang="en" href="/how-to-teach-a-child-to-tell-time/">
+  <link rel="alternate" hreflang="fi" href="/fi/miten-opettaa-lapselle-kello/">
+  <link rel="alternate" hreflang="sv" href="/sv/hur-lar-man-barn-klockan/">
+  <link rel="alternate" hreflang="de" href="/de/kindern-die-uhr-beibringen/">
+  <link rel="alternate" hreflang="fr" href="/fr/apprendre-l-heure-a-un-enfant/">
+  <link rel="alternate" hreflang="es" href="/es/como-ensenar-la-hora-a-un-nino/">
+  <link rel="alternate" hreflang="pt-BR" href="/pt-br/como-ensinar-as-horas-para-criancas/">
+  <link rel="alternate" hreflang="x-default" href="/how-to-teach-a-child-to-tell-time/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clocklings">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:title" content="Miten opettaa lapselle kello: vaiheittainen opas ja ilmaiset tehtäväarkit">
+  <meta property="og:description" content="Vaiheittainen opas vanhemmille ja opettajille viisarikellon opettamiseen tasatunneista tarkkoihin minuutteihin. Mukana maksuttomat tulostettavat kellotehtävät.">
+  <meta property="og:image" content="/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Clocklings-kaverit sateenkaarikellon vieressä">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Miten opettaa lapselle kello: vaiheittainen opas ja ilmaiset tehtäväarkit">
+  <meta name="twitter:description" content="Vaiheittainen opas vanhemmille ja opettajille viisarikellon opettamiseen tasatunneista tarkkoihin minuutteihin. Mukana maksuttomat tulostettavat kellotehtävät.">
+  <meta name="twitter:image" content="/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="Clocklings-kaverit sateenkaarikellon vieressä">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/fredoka_bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/nunito_semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "Miten opettaa lapselle kello",
+   "description": "Vaiheittainen opas vanhemmille ja opettajille viisarikellon opettamiseen tasatunneista tarkkoihin minuutteihin. Mukana maksuttomat tulostettavat kellotehtävät.",
+   "inLanguage": "fi",
+   "image": "/assets/img/og-image.png",
+   "author": {
+    "@type": "Organization",
+    "name": "Clocklings"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Clocklings"
+   },
+   "datePublished": "2026-11-17"
+  }
+ ]
+}
+  </script>
+  <script id="i18n" type="application/json">{"timeSeparator":".","bubbleFirst":"Katso kelloa. Mitä aikaa se näyttää?","bubbleRead":"Mitä tämä kello näyttää?","bubbleSet":"Raahaa viisareita tai käytä nuolinappeja. Paina sitten Tarkista.","readQuestion":"Mitä kello on?","setQuestion":"Aseta kelloon aika","praise":["Oikein!","Hyvin tehty!","Hienoa työtä!","Sinä osasit!","Mainiosti!","Loistavaa!","Upeaa!"],"hintReadWhole":"Katso pitkää sinistä viisaria. Kun se osoittaa suoraan ylös 12:een, kello on tasan.","hintReadHalf":"Pitkä sininen viisari osoittaa alas 6:een. Silloin kello on puoli.","hintReadHourHalf":"Kun kello on puoli, lyhyt pinkki viisari on kahden numeron välissä. Puoli-sanan jälkeen sanotaan seuraava tunti: puoli neljä on kolmen ja neljän välissä.","hintReadHour":"Lyhyt pinkki viisari näyttää tunnin. Mihin numeroon se osoittaa?","hintSetMinute":"Tarkista pitkä sininen viisari. Tasan-ajoissa se osoittaa 12:een ja puolen tunnin kohdalla 6:een.","hintSetHour":"Pitkä viisari on oikein! Katso nyt lyhyttä pinkkiä viisaria. Se näyttää tunnin.","revealRead":"Kello on {time}. Seuraava menee varmasti!","revealSet":"Tältä näyttää {time}. Katso, mihin kumpikin viisari osoittaa.","result3":"Upeaa!","result2":"Hyvin tehty!","result1":"Jatka tutkimista!","starsOne":"Sait {n} tähden!","starsOther":"Sait {n} tähteä!","resultUnlock":"Sovelluksessa tähdillä avataan uusia asuja kaverillesi.","progress":"Tehtävä {n}/{total}","clockLabel":"Sateenkaarikello näyttää: {time}","practiceClock":"Harjoituskello. Lue aika ja valitse vastaus.","sliderLabel":"Kellon viisarit. Siirrä niitä puoli tuntia kerrallaan nuolinäppäimillä.","priceNoteDefault":"Hinta Yhdysvaltain dollareina. Google Play näyttää lopullisen hinnan omassa valuutassasi.","priceNoteLocal":"Hinta sijaintisi mukaan. Google Play vahvistaa lopullisen hinnan ennen ostoa.","playGet":"Lataa","playPill":"Nyt Androidilla","companions":{"doll":{"name":"Nukke","line":"Rakastaa pyörähdellä uudessa mekossa ja on aina valmis seuraavaan oppituntiin."},"cat":{"name":"Kissa","line":"Utelias ja lempeä, ja huomaa tarkasti, mihin viisarit osoittavat."},"dog":{"name":"Koira","line":"Heiluttaa häntäänsä jokaiselle oikealle vastaukselle eikä luovuta koskaan."},"robot":{"name":"Robotti","line":"Piippaa iloisesti jokaiselle tikille ja takille. Tarkkuus on sen toinen nimi."},"dragon":{"name":"Lohikäärme","line":"Pieni ajan velho, joka puhaltaa tulen sijaan kimalletta."},"dinosaur":{"name":"Dinosaurus","line":"Ikivanha, mutta kellon lukemisessa ihan uusi. Oppii yhdessä sinun kanssasi."},"bunny":{"name":"Pupu","line":"Hyppii tunnista toiseen ja ehtii aina ajoissa perille."},"unicorn":{"name":"Yksisarvinen","line":"Ripottelee taikaa jokaiseen tasatuntiin ja puoleen tuntiin."},"car":{"name":"Auto","line":"Kiitää kellotaulun ympäri ja rakastaa vauhdikasta Minuuttihaastetta."}},"greetings":{"morning":"Hyvää huomenta!","day":"Hei!","evening":"Hyvää iltaa!","night":"Hei, yökukkuja!"},"dragHint":"Raahaa viisareita","backToNow":"Takaisin nykyhetkeen","heroClockLabel":"Kello. Muuta aikaa raahaamalla viisareita tai nuolinäppäimillä.","lang":"fi","locale":"fi","page":"guide","suggest":{"en":{"text":"This page is also available in English.","link":"Switch to English","paths":{"home":"/","guide":"/how-to-teach-a-child-to-tell-time/"}},"fi":{"text":"Tämä sivu on saatavilla myös suomeksi.","link":"Suomenkieliselle sivulle","paths":{"home":"/fi/","guide":"/fi/miten-opettaa-lapselle-kello/"}},"sv":{"text":"Den här sidan finns också på svenska.","link":"Till den svenska sidan","paths":{"home":"/sv/","guide":"/sv/hur-lar-man-barn-klockan/"}},"de":{"text":"Diese Seite gibt es auch auf Deutsch.","link":"Zur deutschen Seite","paths":{"home":"/de/","guide":"/de/kindern-die-uhr-beibringen/"}},"fr":{"text":"Cette page existe aussi en français.","link":"Voir la page en français","paths":{"home":"/fr/","guide":"/fr/apprendre-l-heure-a-un-enfant/"}},"es":{"text":"Esta página también está disponible en español.","link":"Ir a la página en español","paths":{"home":"/es/","guide":"/es/como-ensenar-la-hora-a-un-nino/"}},"pt-BR":{"text":"Esta página também está disponível em português.","link":"Ir para a página em português","paths":{"home":"/pt-br/","guide":"/pt-br/como-ensinar-as-horas-para-criancas/"}}}}</script>
+  <script src="/assets/js/main.js" defer></script>
+
+</head>
+<body class="page-guide">
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+
+  <div class="lang-banner" data-lang-banner hidden>
+    <div class="wrap lang-banner-row">
+      <p data-lang-banner-text></p>
+      <div class="lang-banner-actions">
+        <a class="btn btn-primary btn-small" data-lang-banner-link href="/"></a>
+        <button type="button" class="round-btn round-btn-small" data-lang-banner-close aria-label="Sulje">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/fi/" class="wordmark" aria-label="Clocklings, etusivu">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <nav class="site-nav" aria-label="Päävalikko">
+        <a href="/fi/#companions">Kaverit</a>
+        <a href="/fi/#try">Kokeile</a>
+        <a href="/fi/miten-opettaa-lapselle-kello/">Opas</a>
+        <a href="/fi/#pricing">Hinta</a>
+      </nav>
+      <div class="header-actions">
+        <details class="lang-menu" data-lang-menu>
+          <summary aria-label="Kieli">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.5 3.9 5.5 3.9 9s-1.3 6.5-3.9 9c-2.6-2.5-3.9-5.5-3.9-9S9.4 5.5 12 3z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <span>FI</span>
+          </summary>
+          <ul class="lang-list">
+            <li><a href="/how-to-teach-a-child-to-tell-time/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+            <li><a href="/fi/miten-opettaa-lapselle-kello/" hreflang="fi" lang="fi" data-lang-link="fi" aria-current="page">Suomi</a></li>
+            <li><a href="/sv/hur-lar-man-barn-klockan/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+            <li><a href="/de/kindern-die-uhr-beibringen/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+            <li><a href="/fr/apprendre-l-heure-a-un-enfant/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+            <li><a href="/es/como-ensenar-la-hora-a-un-nino/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+            <li><a href="/pt-br/como-ensinar-as-horas-para-criancas/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+          </ul>
+        </details>
+        <a href="/fi/#pricing" class="btn btn-primary btn-small header-cta">Hanki sovellus</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <article class="guide">
+      <header class="guide-hero">
+        <div class="wrap guide-hero-grid">
+          <div class="guide-hero-copy">
+            <nav class="crumbs" aria-label="Murupolku">
+              <a href="/fi/">Clocklings</a>
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span aria-current="page">Opas vanhemmille</span>
+            </nav>
+            <h1>Miten opettaa lapselle kello</h1>
+            <p class="lead">Viisarikellon lukeminen on helpointa oppia pienin askelin ja aina samassa järjestyksessä. Tämä opas noudattaa samaa polkua kuin Clocklings-sovellus: ensin viisarit, sitten tasatunnit, puolet tunnit, vartit, viiden minuutin välit ja lopuksi tarkat minuutit. Jokaiseen vaiheeseen on kotona tehtävä harjoitus, ja lopusta löydät maksuttomat tulostettavat tehtäväarkit.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#step-1">Aloita vaiheesta 1</a>
+              <a class="btn btn-tonal" href="#worksheets">Maksuttomat tehtäväarkit</a>
+            </div>
+          </div>
+          <div class="guide-hero-art" aria-hidden="true">
+            <div class="guide-hero-clock" data-clock="live"></div>
+            <img class="guide-hero-companion" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
+          </div>
+        </div>
+      </header>
+
+      <div class="wrap guide-body">
+        <nav class="guide-toc" aria-labelledby="toc-title">
+          <p class="toc-title" id="toc-title">Tässä oppaassa</p>
+          <ol>
+            <li><a href="#before">Ennen kuin aloitat</a></li>
+            <li><a href="#step-1">Tutustu kahteen viisariin</a></li>
+            <li><a href="#step-2">Tasatunnit</a></li>
+            <li><a href="#step-3">Puoli tuntia</a></li>
+            <li><a href="#step-4">Vartit</a></li>
+            <li><a href="#step-5">Viiden minuutin välein</a></li>
+            <li><a href="#step-6">Tarkat minuutit</a></li>
+            <li><a href="#step-7">Koko vuorokausi</a></li>
+            <li><a href="#everyday">Arjen tapoja harjoitella</a></li>
+            <li><a href="#mistakes">Yleiset virheet ja miten auttaa</a></li>
+            <li><a href="#worksheets">Maksuttomat tulostettavat kellotehtävät</a></li>
+          </ol>
+        </nav>
+
+        <div class="guide-content">
+          <section class="guide-block" id="before">
+            <h2>Ennen kuin aloitat</h2>
+            <p>Täydellistä ikää aloittamiselle ei ole. Moni lapsi on valmis ensimmäisinä kouluvuosina, mutta valmius ratkaisee enemmän kuin ikä. Nämä kolme taitoa helpottavat kellon oppimista paljon:</p>
+            <ul class="checks">
+              <li>Numeroiden 1–12 tunnistaminen</li>
+              <li>Laskeminen 60:een tai viiden välein pienellä avulla</li>
+              <li>Sanojen ennen, jälkeen, aamu ja ilta ymmärtäminen</li>
+            </ul>
+          </section>
+
+          <ol class="guide-steps">
+            <li class="guide-step tint-1" id="step-1">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="600" data-full-clock></span></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 1</p>
+                <h2>Tutustu kahteen viisariin</h2>
+                <p>Aloita siitä, mistä kello koostuu. Lyhyt viisari näyttää tunnin ja pitkä viisari minuutit. Molemmat kiertävät aina samaan suuntaan, myötäpäivään. Kun pitkä viisari kiertää kerran koko kellotaulun ympäri, lyhyt viisari siirtyy numerosta seuraavaan.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Osoita kumpaakin viisaria ja anna niille nimet: lyhyt pinkki viisari näyttää tunnit ja pitkä sininen minuutit. Clocklingsissa värit pysyvät samoina jokaisella oppitunnilla, joten lapsi tietää aina, kumpi viisari on kumpi.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-2" id="step-2">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="180" data-full-clock></span><p class="clock-caption" data-time-caption="180"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 2</p>
+                <h2>Tasatunnit</h2>
+                <p>Kun pitkä viisari osoittaa suoraan ylös 12:een, kello on tasan. Silloin riittää katsoa lyhyttä viisaria: numero, johon se osoittaa, on tunti. Tämä on ensimmäinen ja tärkein vaihe, joten siihen kannattaa käyttää aikaa.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Sano kellonaika ääneen tiettyinä hetkinä päivässä: ”Kello on tasan seitsemän, nyt syödään aamupalaa.” Lapsi oppii nopeimmin, kun kello liittyy hänen omaan päiväänsä.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-3" id="step-3">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="270" data-full-clock></span><p class="clock-caption" data-time-caption="270"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 3</p>
+                <h2>Puoli tuntia</h2>
+                <p>Kun pitkä viisari osoittaa alas 6:een, se on kulkenut puolet kierroksesta, ja kello on puoli. Lyhyt viisari on nyt kahden numeron puolivälissä. Suomessa puoli-sanan perään sanotaan seuraava tunti: kun lyhyt viisari on 3:n ja 4:n välissä, kello on puoli neljä.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Leikkaa paperista ympyrä, taita se kahtia ja aseta puolikas kellotaulun päälle. Puolikas ympyrä on puoli tuntia eli kolmekymmentä minuuttia.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-4" id="step-4">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="435" data-full-clock></span><p class="clock-caption" data-time-caption="435"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 4</p>
+                <h2>Vartit</h2>
+                <p>Jaa kellotaulu neljään osaan kuin pizza. Kun pitkä viisari osoittaa 3:een, tunnista on kulunut vartti: kello on varttia yli. Kun se osoittaa 9:ään, seuraavaan tuntiin on vartti jäljellä: kello on varttia vaille, ja silloin sanotaan tuleva tunti.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Piirrä kello ja väritä sen neljä neljännestä eri väreillä. Siirrä pitkää viisaria pala kerrallaan ja sanokaa ajat yhdessä.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-5" id="step-5">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="565" data-full-clock></span><p class="clock-caption" data-time-caption="565"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 5</p>
+                <h2>Viiden minuutin välein</h2>
+                <p>Jokainen kellotaulun numero on pitkälle viisarille viisi minuuttia: 1 on viisi, 2 on kymmenen, 3 on viisitoista ja niin edelleen aina 12:een, joka on kuusikymmentä. Suomessa kahteenkymmeneen asti sanotaan yli, esimerkiksi kymmentä yli kolme. Puolen tunnin ympärillä sanotaan viittä vaille puoli neljä ja viittä yli puoli neljä. Neljästäkymmenestä eteenpäin lasketaan, montako minuuttia on seuraavaan tuntiin: kymmentä vaille neljä.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Tee kello paperilautasesta ja kirjoita numeroiden viereen 5, 10, 15 ja niin edelleen. Harjoitelkaa laskemista viiden välein samalla kun pitkä viisari kiertää.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-6" id="step-6">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="227" data-full-clock></span><p class="clock-caption" data-time-caption="227"></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 6</p>
+                <h2>Tarkat minuutit</h2>
+                <p>Numeroiden väliset pienet viivat ovat yksittäisiä minuutteja. Tarkan ajan lukemiseksi etsi viimeisin numero, jonka pitkä viisari on ohittanut, laske siihen asti viiden välein ja lisää sitten pienet viivat yksi kerrallaan.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Leikkikää ”arvaa minuutti” -peliä: sinä asetat kellon, lapsi laskee minuutit, ja sitten vaihdatte rooleja.</p>
+              </div>
+            </li>
+            <li class="guide-step tint-7" id="step-7">
+              <div class="guide-step-clock"><span class="mini-clock guide-clock" data-mini-clock="930" data-full-clock></span><p class="clock-caption" data-time-caption="930" data-h24></p></div>
+              <div class="guide-step-copy">
+                <p class="step-label">Vaihe 7</p>
+                <h2>Koko vuorokausi</h2>
+                <p>Lyhyt viisari kiertää kellotaulun ympäri kahdesti päivässä. Digitaalikelloissa ja aikatauluissa käytetään 24 tunnin aikaa, jossa iltapäivä jatkuu luvusta 13 eteenpäin. Siksi 15.30 on puoli neljä iltapäivällä. Opeta tämä viimeisenä, kun viisarikellon lukeminen sujuu jo helposti.</p>
+                <p class="guide-tip"><strong>Kokeile:</strong> Katsokaa yhdessä bussiaikataulua tai tv-ohjelmaa ja muuttakaa ajat kellonajoiksi: ”15.30, se on puoli neljä iltapäivällä.”</p>
+              </div>
+            </li>
+          </ol>
+
+          <section class="guide-block" id="everyday">
+            <h2>Arjen tapoja harjoitella</h2>
+            <p>Muutama minuutti päivässä on parempi kuin pitkä oppitunti kerran viikossa. Näillä pienillä tavoilla kello pysyy osana arkea:</p>
+            <ul class="checks">
+              <li>Ripusta viisarikello lapsen silmien korkeudelle paikkaan, jossa hän näkee sen usein.</li>
+              <li>Kerro kellonajat arjen rutiinien yhteydessä: herätessä, lounaalla, kylpyhetkellä ja nukkumaan mennessä.</li>
+              <li>Anna lapselle vastuu: ”Kerro, kun pitkä viisari on kuutosessa, niin lähdetään puistoon.”</li>
+              <li>Tehkää paperilautasesta kello, jonka viisarit liikkuvat, ja leikkikää sillä yhdessä.</li>
+              <li>Pidä tunnelma kevyenä. Kehu yrittämistä, lopeta kun on vielä kivaa, ja jatka huomenna.</li>
+            </ul>
+          </section>
+
+          <section class="guide-block" id="mistakes">
+            <h2>Yleiset virheet ja miten auttaa</h2>
+            <div class="mistakes">
+              <div class="mistake"><h3>Viisarit menevät sekaisin</h3><p>Lapsi lukee usein pitkän viisarin tunniksi. Muistuta: lyhyt viisari, tunnit. Pitkä viisari, minuutit. Samat värit joka kerta auttavat paljon.</p></div>
+              <div class="mistake"><h3>Väärä tunti puolen kohdalla</h3><p>Kun kello on 3.30, lyhyt viisari on jo ohittanut 3:n, ja lapsi sanoo helposti puoli kolme. Muistuta, että puoli tarkoittaa puolta tuntia ennen seuraavaa tasatuntia: puoli neljä.</p></div>
+              <div class="mistake"><h3>Minuutit luetaan numeroina</h3><p>Kun pitkä viisari osoittaa 4:ään, lapsi saattaa sanoa neljä minuuttia kahdenkymmenen sijaan. Harjoitelkaa laskemista viiden välein kellotaulun ympäri, kunnes se tuntuu luontevalta.</p></div>
+            </div>
+          </section>
+
+          <section class="guide-block worksheets" id="worksheets">
+            <h2>Maksuttomat tulostettavat kellotehtävät</h2>
+            <p>Jokaisessa PDF:ssä on kaksi harjoitussivua ja vastaukset. Ensin luetaan kellot ja kirjoitetaan aika, sitten piirretään viisarit annettuun aikaan. Tulosta ne kotiin tai luokkaan.</p>
+            <ul class="sheet-grid">
+              <li class="sheet-card tint-1">
+                <span class="mini-clock" data-mini-clock="180"></span>
+                <h3>Tasatunnit</h3>
+                <p>Lue ja piirrä tasatunteja. Hyvä ensimmäinen tehtäväarkki.</p>
+                <a class="btn btn-white btn-small" href="/fi/miten-opettaa-lapselle-kello/kellotehtavat-1.pdf" download>Lataa PDF</a>
+              </li>
+              <li class="sheet-card tint-2">
+                <span class="mini-clock" data-mini-clock="270"></span>
+                <h3>Puoli tuntia</h3>
+                <p>Puolia tunteja tasatuntien seassa.</p>
+                <a class="btn btn-white btn-small" href="/fi/miten-opettaa-lapselle-kello/kellotehtavat-2.pdf" download>Lataa PDF</a>
+              </li>
+              <li class="sheet-card tint-3">
+                <span class="mini-clock" data-mini-clock="435"></span>
+                <h3>Vartit</h3>
+                <p>Varttia yli ja varttia vaille, sekä muutama puoli tuntia.</p>
+                <a class="btn btn-white btn-small" href="/fi/miten-opettaa-lapselle-kello/kellotehtavat-3.pdf" download>Lataa PDF</a>
+              </li>
+              <li class="sheet-card tint-4">
+                <span class="mini-clock" data-mini-clock="565"></span>
+                <h3>Viiden minuutin välein</h3>
+                <p>Aikoja viiden minuutin välein ympäri kellotaulun.</p>
+                <a class="btn btn-white btn-small" href="/fi/miten-opettaa-lapselle-kello/kellotehtavat-4.pdf" download>Lataa PDF</a>
+              </li>
+            </ul>
+            <p class="sheet-note">Saa tulostaa ja jakaa vapaasti kotiin ja kouluun.</p>
+          </section>
+
+          <section class="guide-cta">
+            <img data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+            <div>
+              <h2>Harjoittele kaverin kanssa</h2>
+              <p>Clocklings muuttaa oppaan jokaisen vaiheen lyhyiksi ja leikkisiksi tehtäviksi. Mukana on lempeät vihjeet, kerättävät tähdet ja kaveri, joka kannustaa lasta.</p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="/fi/#try">Kokeile minitehtäviä</a>
+                <a class="btn btn-white" href="/fi/#pricing">Hanki sovellus</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a href="/fi/" class="wordmark wordmark-small" aria-label="Takaisin ylös">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <p class="footer-copy">Kellon oppimista, yksi iloinen askel kerrallaan.</p>
+      <ul class="footer-links">
+        <li><a href="/fi/">Etusivu</a></li>
+        <li><a href="/fi/miten-opettaa-lapselle-kello/">Opas vanhemmille</a></li>
+        <li><a href="/fi/miten-opettaa-lapselle-kello/#worksheets">Tulostettavat tehtävät</a></li>
+      </ul>
+      <ul class="footer-langs" aria-label="Kieli">
+        <li><a href="/how-to-teach-a-child-to-tell-time/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+        <li><a href="/fi/miten-opettaa-lapselle-kello/" hreflang="fi" lang="fi" data-lang-link="fi" aria-current="page">Suomi</a></li>
+        <li><a href="/sv/hur-lar-man-barn-klockan/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+        <li><a href="/de/kindern-die-uhr-beibringen/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+        <li><a href="/fr/apprendre-l-heure-a-un-enfant/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+        <li><a href="/es/como-ensenar-la-hora-a-un-nino/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+        <li><a href="/pt-br/como-ensinar-as-horas-para-criancas/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+      </ul>
+      <p class="footer-legal">© 2026 Clocklings. Google Play on Google LLC:n tavaramerkki.</p>
+    </div>
+  </footer>
+
+  <a href="#main" class="scroll-clock" data-scroll-clock aria-label="Takaisin ylös" hidden>
+    <span class="scroll-clock-face" data-clock="scroll"></span>
+  </a>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "miten-opettaa-lapselle-kello",
+    "navTitle": "Opas vanhemmille",
+    "title": "Miten opettaa lapselle kello: vaiheittainen opas ja ilmaiset tehtäväarkit",
+    "description": "Vaiheittainen opas vanhemmille ja opettajille viisarikellon opettamiseen tasatunneista tarkkoihin minuutteihin. Mukana maksuttomat tulostettavat kellotehtävät.",
+    "h1": "Miten opettaa lapselle kello",
+    "intro": "Viisarikellon lukeminen on helpointa oppia pienin askelin ja aina samassa järjestyksessä. Tämä opas noudattaa samaa polkua kuin Clocklings-sovellus: ensin viisarit, sitten tasatunnit, puolet tunnit, vartit, viiden minuutin välit ja lopuksi tarkat minuutit. Jokaiseen vaiheeseen on kotona tehtävä harjoitus, ja lopusta löydät maksuttomat tulostettavat tehtäväarkit.",
+    "crumbsLabel": "Murupolku",
+    "startCta": "Aloita vaiheesta 1",
+    "worksheetsCta": "Maksuttomat tehtäväarkit",
+    "tocTitle": "Tässä oppaassa",
+    "stepLabel": "Vaihe",
+    "tryThis": "Kokeile:",
+    "before": {
+      "title": "Ennen kuin aloitat",
+      "text": "Täydellistä ikää aloittamiselle ei ole. Moni lapsi on valmis ensimmäisinä kouluvuosina, mutta valmius ratkaisee enemmän kuin ikä. Nämä kolme taitoa helpottavat kellon oppimista paljon:",
+      "c1": "Numeroiden 1–12 tunnistaminen",
+      "c2": "Laskeminen 60:een tai viiden välein pienellä avulla",
+      "c3": "Sanojen ennen, jälkeen, aamu ja ilta ymmärtäminen"
+    },
+    "s1": {
+      "title": "Tutustu kahteen viisariin",
+      "text": "Aloita siitä, mistä kello koostuu. Lyhyt viisari näyttää tunnin ja pitkä viisari minuutit. Molemmat kiertävät aina samaan suuntaan, myötäpäivään. Kun pitkä viisari kiertää kerran koko kellotaulun ympäri, lyhyt viisari siirtyy numerosta seuraavaan.",
+      "tip": "Osoita kumpaakin viisaria ja anna niille nimet: lyhyt pinkki viisari näyttää tunnit ja pitkä sininen minuutit. Clocklingsissa värit pysyvät samoina jokaisella oppitunnilla, joten lapsi tietää aina, kumpi viisari on kumpi."
+    },
+    "s2": {
+      "title": "Tasatunnit",
+      "text": "Kun pitkä viisari osoittaa suoraan ylös 12:een, kello on tasan. Silloin riittää katsoa lyhyttä viisaria: numero, johon se osoittaa, on tunti. Tämä on ensimmäinen ja tärkein vaihe, joten siihen kannattaa käyttää aikaa.",
+      "tip": "Sano kellonaika ääneen tiettyinä hetkinä päivässä: ”Kello on tasan seitsemän, nyt syödään aamupalaa.” Lapsi oppii nopeimmin, kun kello liittyy hänen omaan päiväänsä."
+    },
+    "s3": {
+      "title": "Puoli tuntia",
+      "text": "Kun pitkä viisari osoittaa alas 6:een, se on kulkenut puolet kierroksesta, ja kello on puoli. Lyhyt viisari on nyt kahden numeron puolivälissä. Suomessa puoli-sanan perään sanotaan seuraava tunti: kun lyhyt viisari on 3:n ja 4:n välissä, kello on puoli neljä.",
+      "tip": "Leikkaa paperista ympyrä, taita se kahtia ja aseta puolikas kellotaulun päälle. Puolikas ympyrä on puoli tuntia eli kolmekymmentä minuuttia."
+    },
+    "s4": {
+      "title": "Vartit",
+      "text": "Jaa kellotaulu neljään osaan kuin pizza. Kun pitkä viisari osoittaa 3:een, tunnista on kulunut vartti: kello on varttia yli. Kun se osoittaa 9:ään, seuraavaan tuntiin on vartti jäljellä: kello on varttia vaille, ja silloin sanotaan tuleva tunti.",
+      "tip": "Piirrä kello ja väritä sen neljä neljännestä eri väreillä. Siirrä pitkää viisaria pala kerrallaan ja sanokaa ajat yhdessä."
+    },
+    "s5": {
+      "title": "Viiden minuutin välein",
+      "text": "Jokainen kellotaulun numero on pitkälle viisarille viisi minuuttia: 1 on viisi, 2 on kymmenen, 3 on viisitoista ja niin edelleen aina 12:een, joka on kuusikymmentä. Suomessa kahteenkymmeneen asti sanotaan yli, esimerkiksi kymmentä yli kolme. Puolen tunnin ympärillä sanotaan viittä vaille puoli neljä ja viittä yli puoli neljä. Neljästäkymmenestä eteenpäin lasketaan, montako minuuttia on seuraavaan tuntiin: kymmentä vaille neljä.",
+      "tip": "Tee kello paperilautasesta ja kirjoita numeroiden viereen 5, 10, 15 ja niin edelleen. Harjoitelkaa laskemista viiden välein samalla kun pitkä viisari kiertää."
+    },
+    "s6": {
+      "title": "Tarkat minuutit",
+      "text": "Numeroiden väliset pienet viivat ovat yksittäisiä minuutteja. Tarkan ajan lukemiseksi etsi viimeisin numero, jonka pitkä viisari on ohittanut, laske siihen asti viiden välein ja lisää sitten pienet viivat yksi kerrallaan.",
+      "tip": "Leikkikää ”arvaa minuutti” -peliä: sinä asetat kellon, lapsi laskee minuutit, ja sitten vaihdatte rooleja."
+    },
+    "s7": {
+      "title": "Koko vuorokausi",
+      "text": "Lyhyt viisari kiertää kellotaulun ympäri kahdesti päivässä. Digitaalikelloissa ja aikatauluissa käytetään 24 tunnin aikaa, jossa iltapäivä jatkuu luvusta 13 eteenpäin. Siksi 15.30 on puoli neljä iltapäivällä. Opeta tämä viimeisenä, kun viisarikellon lukeminen sujuu jo helposti.",
+      "tip": "Katsokaa yhdessä bussiaikataulua tai tv-ohjelmaa ja muuttakaa ajat kellonajoiksi: ”15.30, se on puoli neljä iltapäivällä.”"
+    },
+    "tips": {
+      "title": "Arjen tapoja harjoitella",
+      "lead": "Muutama minuutti päivässä on parempi kuin pitkä oppitunti kerran viikossa. Näillä pienillä tavoilla kello pysyy osana arkea:",
+      "t1": "Ripusta viisarikello lapsen silmien korkeudelle paikkaan, jossa hän näkee sen usein.",
+      "t2": "Kerro kellonajat arjen rutiinien yhteydessä: herätessä, lounaalla, kylpyhetkellä ja nukkumaan mennessä.",
+      "t3": "Anna lapselle vastuu: ”Kerro, kun pitkä viisari on kuutosessa, niin lähdetään puistoon.”",
+      "t4": "Tehkää paperilautasesta kello, jonka viisarit liikkuvat, ja leikkikää sillä yhdessä.",
+      "t5": "Pidä tunnelma kevyenä. Kehu yrittämistä, lopeta kun on vielä kivaa, ja jatka huomenna."
+    },
+    "mistakes": {
+      "title": "Yleiset virheet ja miten auttaa",
+      "m1": {
+        "title": "Viisarit menevät sekaisin",
+        "text": "Lapsi lukee usein pitkän viisarin tunniksi. Muistuta: lyhyt viisari, tunnit. Pitkä viisari, minuutit. Samat värit joka kerta auttavat paljon."
+      },
+      "m2": {
+        "title": "Väärä tunti puolen kohdalla",
+        "text": "Kun kello on 3.30, lyhyt viisari on jo ohittanut 3:n, ja lapsi sanoo helposti puoli kolme. Muistuta, että puoli tarkoittaa puolta tuntia ennen seuraavaa tasatuntia: puoli neljä."
+      },
+      "m3": {
+        "title": "Minuutit luetaan numeroina",
+        "text": "Kun pitkä viisari osoittaa 4:ään, lapsi saattaa sanoa neljä minuuttia kahdenkymmenen sijaan. Harjoitelkaa laskemista viiden välein kellotaulun ympäri, kunnes se tuntuu luontevalta."
+      }
+    },
+    "cta": {
+      "title": "Harjoittele kaverin kanssa",
+      "text": "Clocklings muuttaa oppaan jokaisen vaiheen lyhyiksi ja leikkisiksi tehtäviksi. Mukana on lempeät vihjeet, kerättävät tähdet ja kaveri, joka kannustaa lasta.",
+      "try": "Kokeile minitehtäviä"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Tulostettavat tehtävät",
+    "title": "Maksuttomat tulostettavat kellotehtävät",
+    "lead": "Jokaisessa PDF:ssä on kaksi harjoitussivua ja vastaukset. Ensin luetaan kellot ja kirjoitetaan aika, sitten piirretään viisarit annettuun aikaan. Tulosta ne kotiin tai luokkaan.",
+    "d1": "Lue ja piirrä tasatunteja. Hyvä ensimmäinen tehtäväarkki.",
+    "d2": "Puolia tunteja tasatuntien seassa.",
+    "d3": "Varttia yli ja varttia vaille, sekä muutama puoli tuntia.",
+    "d4": "Aikoja viiden minuutin välein ympäri kellotaulun.",
+    "download": "Lataa PDF",
+    "note": "Saa tulostaa ja jakaa vapaasti kotiin ja kouluun.",
+    "fileBase": "kellotehtavat",
+    "pdf": {
+      "sheet": "Kellotehtävät",
+      "name": "Nimi",
+      "readTitle": "Mitä kello on?",
+      "readInstr": "Katso jokaista kelloa ja kirjoita aika.",
+      "drawTitle": "Piirrä viisarit",
+      "drawInstr": "Piirrä viisarit niin, että kello näyttää annetun ajan.",
+      "keyTitle": "Vastaukset",
+      "footer": "Maksuton tehtäväarkki Clocklingsilta, lasten kellosovellukselta"
+    }
+  }
+}

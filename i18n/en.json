@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "htmlLang": "en",
+    "short": "EN",
+    "native": "English",
+    "ogLocale": "en_US",
+    "title": "Clocklings: Learn to Tell Time App for Kids",
+    "description": "Clocklings is a telling time app for kids. Children learn to read an analog clock step by step with a playful companion, from o'clock to exact minutes. Coming soon to Android.",
+    "ogDescription": "Learn the analog clock step by step, earn stars and dress up your very own companion.",
+    "suggestText": "This page is also available in English.",
+    "suggestLink": "Switch to English",
+    "ogImageAlt": "Clocklings companions next to a rainbow clock"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Clocklings home",
+    "label": "Main",
+    "companions": "Companions",
+    "try": "Try it",
+    "parents": "For parents",
+    "pricing": "Pricing",
+    "cta": "Get the app",
+    "language": "Language",
+    "close": "Close",
+    "guide": "Guide"
+  },
+  "play": {
+    "soon": "Coming soon on"
+  },
+  "price": {
+    "default": "$6.99",
+    "zero": "$0",
+    "noteDefault": "Price shown in US dollars. Google Play shows the final price in your local currency."
+  },
+  "hero": {
+    "pill": "Coming soon to Android",
+    "title": "Telling time is more fun with a friend",
+    "lead": "Clocklings turns the analog clock into a playful adventure. Kids learn step by step, practise reading and setting the clock, earn stars and dress up their very own companion.",
+    "tryCta": "Try a mini lesson",
+    "noteBefore": "Free to try. Full version",
+    "noteAfter": "once, with no ads and no subscription.",
+    "stageLabel": "A Clocklings companion standing next to a rainbow clock that shows the current time",
+    "bubble": "It's time to learn!"
+  },
+  "stats": {
+    "label": "Clocklings in numbers",
+    "companions": "Companions",
+    "outfits": "Outfit pieces",
+    "stars": "Stars to earn",
+    "languages": "Languages"
+  },
+  "companions": {
+    "eyebrow": "Meet the Clocklings",
+    "title": "Pick a companion to learn with",
+    "lead": "Nine friends, each with their own style. Your companion cheers you on, celebrates every star and loves trying on new outfits.",
+    "hint": "Your pick follows you around this page, even into the mini lesson.",
+    "pickerLabel": "Choose a companion"
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Small steps, big smiles",
+    "lead": "Clocklings guides kids from their very first “o'clock” all the way to reading exact minutes.",
+    "learn": {
+      "title": "Learn",
+      "text": "Friendly lessons show what the hands do, with animated demos and a narrator who reads everything aloud."
+    },
+    "practise": {
+      "title": "Practise",
+      "text": "Read the clock, then set it yourself. A gentle hint helps after a mistake, so nobody gets stuck."
+    },
+    "stars": {
+      "title": "Earn stars",
+      "text": "Every level can earn up to three stars. Play again any time to beat your best."
+    },
+    "dress": {
+      "title": "Dress up",
+      "text": "Stars unlock hats, crowns, scarves and more. Over 140 outfit pieces wait in the wardrobe."
+    }
+  },
+  "path": {
+    "title": "The learning path",
+    "whole": "Whole hours",
+    "half": "Half hours",
+    "quarter": "Quarter hours",
+    "five": "Five minutes",
+    "exact": "Exact minutes",
+    "day": "The 24-hour day"
+  },
+  "journey": {
+    "whole": "The long hand points straight up to 12. Read the short hand and you know the hour.",
+    "half": "The long hand has gone halfway around to 6. The short hand sits between two numbers.",
+    "quarter": "Quarter past at 3, quarter to at 9. The clock face splits into four easy slices.",
+    "five": "Every number is worth five minutes. Count in fives as the long hand travels.",
+    "exact": "The little marks are single minutes. Count to the last five, then add the rest.",
+    "day": "The short hand goes around twice a day. 15:30 is the same as half past three in the afternoon."
+  },
+  "try": {
+    "eyebrow": "Try it yourself",
+    "title": "A tiny taste of practice",
+    "lead": "Five quick tasks with whole and half hours, just like the first levels in the app. Ready?",
+    "back": "Turn the clock back 30 minutes",
+    "forward": "Turn the clock forward 30 minutes",
+    "ready": "Let's start!",
+    "readQuestion": "What time is it?",
+    "check": "Check",
+    "next": "Next",
+    "start": "Start",
+    "more": "The app keeps going with quarter hours, five minutes, exact minutes, the 24-hour day and a speedy Minute Challenge.",
+    "get": "Get Clocklings",
+    "again": "Play again"
+  },
+  "features": {
+    "eyebrow": "More to discover",
+    "title": "Lots of ways to play",
+    "explore": {
+      "title": "Explore",
+      "text": "Spin the hands freely and hear what time it shows."
+    },
+    "together": {
+      "title": "Play Together",
+      "text": "One sets a time, the other guesses. Then swap turns."
+    },
+    "challenge": {
+      "title": "Minute Challenge",
+      "text": "How many clocks can you read in sixty seconds?"
+    },
+    "styles": {
+      "title": "Clock styles",
+      "text": "Rainbow, Space, Ocean, Forest and more. Or design your own."
+    },
+    "voice": {
+      "title": "Read aloud",
+      "text": "A friendly narrator guides little ones who are still learning to read."
+    },
+    "languages": {
+      "title": "Seven languages",
+      "text": "English, Finnish, Swedish, German, French, Spanish and Brazilian Portuguese."
+    }
+  },
+  "outfits": {
+    "eyebrow": "The wardrobe",
+    "title": "Every star is a little reward",
+    "lead": "Crowns, wizard hats, fairy wings and party hats unlock as kids collect stars. Each companion also comes in four colours.",
+    "point1": "Over 140 outfit pieces across nine companions",
+    "point2": "Stars are never spent, so rewards stay unlocked",
+    "point3": "Name your companion and make it truly yours",
+    "label": "Outfit examples",
+    "alt1": "Doll with fairy wings and a polka-dot dress",
+    "alt2": "Blue cat wearing a golden crown and a bell collar",
+    "alt3": "Blue dinosaur with a party hat and a duck swim ring",
+    "alt4": "Robot with headphones and a superhero cape"
+  },
+  "parents": {
+    "eyebrow": "For parents",
+    "title": "Made with care, built to last",
+    "lead": "Clocklings is a calm, safe place to learn. No surprises, no distractions.",
+    "ads": {
+      "title": "No ads, ever",
+      "text": "Nothing pops up and nothing tries to sell to your child."
+    },
+    "accounts": {
+      "title": "No accounts",
+      "text": "No sign-up and no profiles. Progress stays on your device."
+    },
+    "gate": {
+      "title": "Parent gate",
+      "text": "Purchases sit behind a little puzzle that only grown-ups solve."
+    },
+    "kind": {
+      "title": "Kind to every learner",
+      "text": "Large text, screen reader support and calmer motion when needed."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Try it free, unlock it once",
+    "lead": "One purchase unlocks everything for good. No subscription, no in-app coins.",
+    "free": {
+      "title": "Free",
+      "sub": "Free forever",
+      "point1": "Whole-hours lesson and first practice level",
+      "point2": "Explore and Play Together",
+      "point3": "All clock styles",
+      "point4": "Doll and Cat companions"
+    },
+    "full": {
+      "badge": "Everything",
+      "title": "Full version",
+      "sub": "One-time purchase",
+      "point1": "All lessons, from o'clock to exact minutes",
+      "point2": "All five practice levels and the Minute Challenge",
+      "point3": "All nine companions in four colours",
+      "point4": "The whole wardrobe of outfits"
+    }
+  },
+  "learnMore": {
+    "eyebrow": "For parents and teachers",
+    "title": "Teaching the clock at home or at school?",
+    "lead": "Our step-by-step guide explains how to teach a child to tell time, and the free printable worksheets give extra practice away from the screen.",
+    "guideCta": "Read the guide",
+    "worksheetsCta": "Free worksheets"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Good to know",
+    "q1": "Who is Clocklings for?",
+    "a1": "Children who are starting to learn the analog clock. Lessons begin with what the two hands do, so no earlier knowledge is needed.",
+    "q2": "Which devices does it run on?",
+    "a2": "Android phones and tablets running Android 8.0 or newer. It also adapts to foldables and larger screens.",
+    "q3": "Is there an iPhone or iPad version?",
+    "a3": "Not yet. Clocklings launches on Android first.",
+    "q4": "Does the free version expire?",
+    "a4": "No. The free part stays free for as long as you like. Upgrade only if your child wants more.",
+    "q5": "Does my child need to read?",
+    "a5": "Not really. Instructions, hints and times can be read aloud, and the companion shows how things work.",
+    "q6": "Can we use the 24-hour clock?",
+    "a6": "Yes. A setting switches between 12-hour and 24-hour time, and a final lesson explains how the hours of the whole day work."
+  },
+  "footer": {
+    "top": "Back to top",
+    "tagline": "Learning to tell time, one happy step at a time.",
+    "legal": "© 2026 Clocklings. Google Play is a trademark of Google LLC.",
+    "homeLink": "Home"
+  },
+  "js": {
+    "timeSeparator": ":",
+    "bubbleFirst": "Look at the clock. Which time does it show?",
+    "bubbleRead": "What does this clock say?",
+    "bubbleSet": "Drag the hands, or use the arrow buttons. Then press Check.",
+    "readQuestion": "What time is it?",
+    "setQuestion": "Set the clock to",
+    "praise": [
+      "That's right!",
+      "Well done!",
+      "Great work!",
+      "You got it!",
+      "Nice work!",
+      "Brilliant!",
+      "Wonderful!"
+    ],
+    "hintReadWhole": "Look at the long blue hand. When it points straight up to 12, it's something o'clock.",
+    "hintReadHalf": "The long blue hand points down to 6. That means half past.",
+    "hintReadHourHalf": "At half past, the short pink hand sits between two numbers. Which one did it just pass?",
+    "hintReadHour": "The short pink hand shows the hour. Which number does it point to?",
+    "hintSetMinute": "Check the long blue hand. It points to 12 for o'clock and to 6 for half past.",
+    "hintSetHour": "The long hand is right! Now look at the short pink hand. It shows the hour.",
+    "revealRead": "It's {time}. You'll get the next one!",
+    "revealSet": "This is {time}. See where both hands point?",
+    "result3": "Wonderful!",
+    "result2": "Well done!",
+    "result1": "Keep exploring!",
+    "starsOne": "You earned {n} star!",
+    "starsOther": "You earned {n} stars!",
+    "resultUnlock": "In the app, stars unlock new outfits for your companion.",
+    "progress": "Task {n} of {total}",
+    "clockLabel": "Rainbow clock showing {time}",
+    "practiceClock": "Practice clock. Read the time and choose an answer.",
+    "sliderLabel": "Clock hands. Use the arrow keys to move them by half an hour.",
+    "priceNoteDefault": "Price shown in US dollars. Google Play shows the final price in your local currency.",
+    "priceNoteLocal": "Price based on your location. Google Play confirms the final price before you buy.",
+    "playGet": "Get it on",
+    "playPill": "Now on Android",
+    "companions": {
+      "doll": {
+        "name": "Doll",
+        "line": "Loves twirling in a new dress and is always ready for the next lesson."
+      },
+      "cat": {
+        "name": "Cat",
+        "line": "Curious, cosy and very good at noticing exactly where the hands point."
+      },
+      "dog": {
+        "name": "Dog",
+        "line": "Wags with joy at every right answer and never, ever gives up."
+      },
+      "robot": {
+        "name": "Robot",
+        "line": "Beeps happily at every tick and every tock. Precision is its middle name."
+      },
+      "dragon": {
+        "name": "Dragon",
+        "line": "A little wizard of time who breathes sparkles instead of fire."
+      },
+      "dinosaur": {
+        "name": "Dinosaur",
+        "line": "Older than the hills, yet brand new at telling time. Learns right along with you."
+      },
+      "bunny": {
+        "name": "Bunny",
+        "line": "Hops from hour to hour and always arrives just in time."
+      },
+      "unicorn": {
+        "name": "Unicorn",
+        "line": "Brings a sprinkle of magic to every half past and quarter to."
+      },
+      "car": {
+        "name": "Car",
+        "line": "Zooms around the clock face and loves a speedy Minute Challenge."
+      }
+    },
+    "greetings": {
+      "morning": "Good morning!",
+      "day": "Hello!",
+      "evening": "Good evening!",
+      "night": "Hello, night owl!"
+    },
+    "dragHint": "Drag the hands",
+    "backToNow": "Back to now",
+    "heroClockLabel": "Clock. Drag the hands or use the arrow keys to change the time."
+  }
+}

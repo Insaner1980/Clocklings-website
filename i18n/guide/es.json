@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "como-ensenar-la-hora-a-un-nino",
+    "navTitle": "Guía para familias",
+    "title": "Cómo enseñar la hora a un niño: guía paso a paso y fichas gratuitas",
+    "description": "Una guía paso a paso para familias y docentes: cómo enseñar a leer el reloj de agujas, desde las horas en punto hasta los minutos exactos. Con fichas gratuitas para imprimir.",
+    "h1": "Cómo enseñar la hora a un niño",
+    "intro": "El reloj de agujas se aprende mejor en pasos pequeños y siempre en el mismo orden. Esta guía sigue el mismo camino que la app Clocklings: primero las agujas, luego las horas en punto, las medias horas, los cuartos de hora, los minutos de cinco en cinco y, por último, los minutos exactos. Cada paso incluye una actividad para hacer en casa, y al final encontrarás fichas gratuitas para imprimir.",
+    "crumbsLabel": "Ruta de navegación",
+    "startCta": "Empezar por el paso 1",
+    "worksheetsCta": "Fichas gratuitas",
+    "tocTitle": "En esta guía",
+    "stepLabel": "Paso",
+    "tryThis": "Prueba esto:",
+    "before": {
+      "title": "Antes de empezar",
+      "text": "No hay una edad perfecta para empezar. Muchos niños están preparados en sus primeros cursos de primaria, pero la madurez importa más que la edad. Estas tres habilidades facilitan mucho aprender la hora:",
+      "c1": "Reconocer los números del 1 al 12",
+      "c2": "Contar hasta 60, o contar de cinco en cinco con un poco de ayuda",
+      "c3": "Entender palabras como antes, después, mañana y noche"
+    },
+    "s1": {
+      "title": "Conoce las dos agujas",
+      "text": "Empieza por cómo es el reloj. La aguja corta marca la hora y la aguja larga marca los minutos. Las dos giran siempre en el mismo sentido, el de las agujas del reloj. Mientras la aguja larga da una vuelta completa a la esfera, la corta pasa de un número al siguiente.",
+      "tip": "Señala cada aguja y ponle nombre: la aguja corta rosa para las horas y la larga azul para los minutos. En Clocklings los colores son los mismos en todas las lecciones, así el niño siempre sabe cuál es cuál."
+    },
+    "s2": {
+      "title": "Horas en punto",
+      "text": "Cuando la aguja larga señala justo arriba, al 12, es una hora en punto. Entonces basta con mirar la aguja corta: el número al que señala es la hora. Es el primer paso y el más importante, así que tómatelo con calma.",
+      "tip": "Di la hora en voz alta en momentos fijos del día: «Son las siete en punto, hora de desayunar». Los niños aprenden más rápido cuando el reloj se relaciona con su propio día."
+    },
+    "s3": {
+      "title": "Y media",
+      "text": "Cuando la aguja larga señala abajo, al 6, ha recorrido media vuelta: son y media. La aguja corta está ahora a mitad de camino entre dos números. En español se dice la hora que ya ha pasado: entre el 3 y el 4 son las tres y media.",
+      "tip": "Recorta un círculo de papel, dóblalo por la mitad y coloca la mitad sobre la esfera. Medio círculo es media hora, es decir, treinta minutos."
+    },
+    "s4": {
+      "title": "Cuartos de hora",
+      "text": "Divide la esfera en cuatro partes, como una pizza. Cuando la aguja larga señala el 3, ha pasado un cuarto de hora: son las tres y cuarto. Cuando señala el 9, falta un cuarto para la hora siguiente: se dice la hora que viene menos cuarto, por ejemplo, las cuatro menos cuarto.",
+      "tip": "Dibuja un reloj y colorea los cuatro cuartos con colores distintos. Mueve la aguja larga trozo a trozo y decid las horas juntos."
+    },
+    "s5": {
+      "title": "De cinco en cinco",
+      "text": "Para la aguja larga, cada número de la esfera vale cinco minutos: el 1 son cinco, el 2 diez, el 3 quince y así hasta el 12, que son sesenta. Hasta y media se suman los minutos: las tres y diez. Después de y media se dice la hora siguiente menos los minutos que faltan: las cuatro menos diez.",
+      "tip": "Haz un reloj con un plato de cartón y escribe 5, 10, 15 y así sucesivamente junto a los números. Practicad contar de cinco en cinco mientras gira la aguja larga."
+    },
+    "s6": {
+      "title": "Minutos exactos",
+      "text": "Las rayitas entre los números son los minutos sueltos. Para leer una hora exacta, busca el último número que ha pasado la aguja larga, cuenta de cinco en cinco hasta él y después suma las rayitas una a una.",
+      "tip": "Jugad a «adivina el minuto»: tú pones el reloj, el niño cuenta los minutos y luego cambiáis los papeles."
+    },
+    "s7": {
+      "title": "El día entero",
+      "text": "La aguja corta da dos vueltas a la esfera cada día. Los relojes digitales y los horarios suelen usar el formato de 24 horas, en el que la tarde sigue a partir de las 13. Por eso, las 15:30 son las tres y media de la tarde. Enséñalo al final, cuando leer el reloj de agujas ya resulte fácil.",
+      "tip": "Mirad juntos un horario de autobús o la programación de la tele y convertid las horas: «Las 15:30, eso son las tres y media de la tarde»."
+    },
+    "tips": {
+      "title": "Formas de practicar cada día",
+      "lead": "Unos minutos al día funcionan mejor que una sesión larga una vez por semana. Estos pequeños hábitos hacen del reloj algo cotidiano:",
+      "t1": "Cuelga un reloj de agujas a la altura de los ojos de tu hijo, donde lo vea a menudo.",
+      "t2": "Menciona la hora en las rutinas: al despertarse, al comer, en el baño y al irse a dormir.",
+      "t3": "Dale una misión: «Avísame cuando la aguja larga llegue al 6 y nos vamos al parque».",
+      "t4": "Haced juntos un reloj con un plato de cartón y agujas móviles, y jugad con él.",
+      "t5": "Que sea divertido. Elogia el esfuerzo, para cuando todavía apetece y seguid mañana."
+    },
+    "mistakes": {
+      "title": "Errores frecuentes y cómo ayudar",
+      "m1": {
+        "title": "Confundir las agujas",
+        "text": "Los niños suelen leer la aguja larga como la hora. Recuérdales: aguja corta, horas. Aguja larga, minutos. Usar siempre los mismos colores ayuda mucho."
+      },
+      "m2": {
+        "title": "Equivocarse de hora",
+        "text": "A las 3:50 la aguja corta está casi en el 4. Se dice las cuatro menos diez: con «menos» se nombra la hora que viene. Fíjate con el niño en qué número ha pasado ya la aguja corta."
+      },
+      "m3": {
+        "title": "Leer los minutos como números",
+        "text": "Cuando la aguja larga señala el 4, el niño puede decir cuatro minutos en vez de veinte. Practicad contar de cinco en cinco alrededor de la esfera hasta que salga solo."
+      }
+    },
+    "cta": {
+      "title": "Practica con un amigo",
+      "text": "Clocklings convierte cada paso de esta guía en ejercicios cortos y divertidos, con pistas amables, estrellas para coleccionar y un compañero que anima a tu hijo.",
+      "try": "Prueba una minilección"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Fichas para imprimir",
+    "title": "Fichas gratuitas para aprender la hora",
+    "lead": "Cada PDF tiene dos páginas de ejercicios y las soluciones. Primero se leen los relojes y se escribe la hora, después se dibujan las agujas para una hora dada. Imprímelas para casa o para clase.",
+    "d1": "Leer y dibujar horas en punto. Una primera ficha ideal.",
+    "d2": "Medias horas mezcladas con horas en punto.",
+    "d3": "Y cuarto y menos cuarto, con algunas medias horas.",
+    "d4": "Horas de cinco en cinco minutos por toda la esfera.",
+    "download": "Descargar PDF",
+    "note": "Gratis para imprimir y compartir en casa y en clase.",
+    "fileBase": "ficha-aprender-la-hora",
+    "pdf": {
+      "sheet": "Ficha para aprender la hora",
+      "name": "Nombre",
+      "readTitle": "¿Qué hora es?",
+      "readInstr": "Mira cada reloj y escribe la hora.",
+      "drawTitle": "Dibuja las agujas",
+      "drawInstr": "Dibuja las agujas para que el reloj marque la hora.",
+      "keyTitle": "Soluciones",
+      "footer": "Ficha gratuita de Clocklings, la app infantil para aprender la hora"
+    }
+  }
+}

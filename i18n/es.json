@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "htmlLang": "es",
+    "short": "ES",
+    "native": "Español",
+    "ogLocale": "es_ES",
+    "title": "Clocklings: app para aprender la hora para niños",
+    "description": "Clocklings es una app para que los niños aprendan la hora. Con un compañero juguetón aprenden paso a paso a leer el reloj de agujas, desde las horas en punto hasta los minutos exactos. Muy pronto en Android.",
+    "ogDescription": "Aprende el reloj de agujas paso a paso, gana estrellas y viste a tu propio compañero.",
+    "suggestText": "Esta página también está disponible en español.",
+    "suggestLink": "Ir a la página en español",
+    "ogImageAlt": "Los compañeros de Clocklings junto a un reloj arcoíris"
+  },
+  "nav": {
+    "skip": "Ir al contenido",
+    "home": "Clocklings, inicio",
+    "label": "Menú principal",
+    "companions": "Compañeros",
+    "try": "Pruébalo",
+    "parents": "Para familias",
+    "pricing": "Precio",
+    "cta": "Consigue la app",
+    "language": "Idioma",
+    "close": "Cerrar",
+    "guide": "Guía"
+  },
+  "play": {
+    "soon": "Muy pronto en"
+  },
+  "price": {
+    "default": "6,99 €",
+    "zero": "0 €",
+    "noteDefault": "Google Play muestra el precio final en tu moneda local."
+  },
+  "hero": {
+    "pill": "Muy pronto en Android",
+    "title": "Aprender la hora es más divertido con un amigo",
+    "lead": "Clocklings convierte el reloj de agujas en una aventura divertida. Los niños aprenden paso a paso, practican a leer y a poner la hora, ganan estrellas y visten a su propio compañero.",
+    "tryCta": "Prueba una minilección",
+    "noteBefore": "Gratis para probar. Versión completa por",
+    "noteAfter": "en un solo pago, sin anuncios y sin suscripción.",
+    "stageLabel": "Un compañero de Clocklings junto a un reloj arcoíris que muestra la hora actual",
+    "bubble": "¡Es hora de aprender!"
+  },
+  "stats": {
+    "label": "Clocklings en cifras",
+    "companions": "Compañeros",
+    "outfits": "Prendas",
+    "stars": "Estrellas por ganar",
+    "languages": "Idiomas"
+  },
+  "companions": {
+    "eyebrow": "Conoce a los Clocklings",
+    "title": "Elige un compañero para aprender",
+    "lead": "Nueve amigos, cada uno con su estilo. Tu compañero te anima, celebra cada estrella y le encanta probarse conjuntos nuevos.",
+    "hint": "Tu elección te acompaña por toda la página, incluso en la minilección.",
+    "pickerLabel": "Elige un compañero"
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "Pasos pequeños, grandes sonrisas",
+    "lead": "Clocklings acompaña a los niños desde su primera hora en punto hasta los minutos exactos.",
+    "learn": {
+      "title": "Aprender",
+      "text": "Lecciones claras muestran qué hacen las agujas, con animaciones y un narrador que lo lee todo en voz alta."
+    },
+    "practise": {
+      "title": "Jugar",
+      "text": "Lee el reloj y luego ponlo tú. Tras un error llega una pista, así nadie se queda atascado."
+    },
+    "stars": {
+      "title": "Gana estrellas",
+      "text": "Cada nivel da hasta tres estrellas. Vuelve a jugar cuando quieras para superar tu marca."
+    },
+    "dress": {
+      "title": "Viste a tu compañero",
+      "text": "Las estrellas desbloquean sombreros, coronas, bufandas y mucho más. Más de 140 prendas esperan en el armario."
+    }
+  },
+  "path": {
+    "title": "El camino",
+    "whole": "Horas en punto",
+    "half": "Y media",
+    "quarter": "Cuartos de hora",
+    "five": "De cinco en cinco",
+    "exact": "Minutos exactos",
+    "day": "El día entero"
+  },
+  "journey": {
+    "whole": "La aguja larga señala justo arriba, al 12. Lee la aguja corta y sabrás la hora.",
+    "half": "La aguja larga ha dado media vuelta hasta el 6. La aguja corta está entre dos números: son y media.",
+    "quarter": "Y cuarto cuando la aguja larga está en el 3, menos cuarto cuando está en el 9. La esfera se divide en cuatro partes fáciles.",
+    "five": "Cada número vale cinco minutos. Cuenta de cinco en cinco mientras avanza la aguja larga.",
+    "exact": "Las rayitas son minutos sueltos. Cuenta hasta el último múltiplo de cinco y suma el resto.",
+    "day": "La aguja corta da dos vueltas al día. Las 15:30 son las tres y media de la tarde."
+  },
+  "try": {
+    "eyebrow": "Pruébalo tú",
+    "title": "Un pequeño adelanto",
+    "lead": "Cinco ejercicios rápidos con horas en punto y medias horas, como en los primeros niveles de la app. ¿Preparado?",
+    "back": "Retrasar el reloj 30 minutos",
+    "forward": "Adelantar el reloj 30 minutos",
+    "ready": "¡Vamos allá!",
+    "readQuestion": "¿Qué hora es?",
+    "check": "Comprobar",
+    "next": "Siguiente",
+    "start": "Empezar",
+    "more": "La app sigue con cuartos de hora, de cinco en cinco, minutos exactos, el día entero y el trepidante Reto del minuto.",
+    "get": "Consigue Clocklings",
+    "again": "Volver a jugar"
+  },
+  "features": {
+    "eyebrow": "Mucho más por descubrir",
+    "title": "Muchas formas de jugar",
+    "explore": {
+      "title": "Explorar",
+      "text": "Gira las agujas libremente y escucha qué hora es."
+    },
+    "together": {
+      "title": "Jugar juntos",
+      "text": "Uno pone una hora y el otro la adivina. Luego cambiáis los turnos."
+    },
+    "challenge": {
+      "title": "El reto del minuto",
+      "text": "¿Cuántos relojes puedes leer en sesenta segundos?"
+    },
+    "styles": {
+      "title": "Estilos de reloj",
+      "text": "Arcoíris, Espacio, Océano, Bosque y más. O diseña el tuyo."
+    },
+    "voice": {
+      "title": "Lectura en voz alta",
+      "text": "Un narrador amable guía a los peques que aún están aprendiendo a leer."
+    },
+    "languages": {
+      "title": "Siete idiomas",
+      "text": "Español, inglés, finés, sueco, alemán, francés y portugués de Brasil."
+    }
+  },
+  "outfits": {
+    "eyebrow": "El armario",
+    "title": "Cada estrella es un pequeño premio",
+    "lead": "Coronas, sombreros de mago, alas de hada y gorros de fiesta se desbloquean a medida que se ganan estrellas. Además, cada compañero tiene cuatro colores.",
+    "point1": "Más de 140 prendas para nueve compañeros",
+    "point2": "Las estrellas nunca se gastan: los premios siguen desbloqueados",
+    "point3": "Ponle nombre a tu compañero y hazlo tuyo",
+    "label": "Ejemplos de conjuntos",
+    "alt1": "Muñeca con alas de hada y vestido de lunares",
+    "alt2": "Gato azul con corona dorada y collar de cascabel",
+    "alt3": "Dinosaurio azul con gorro de fiesta y flotador de patito",
+    "alt4": "Robot con auriculares y capa de superhéroe"
+  },
+  "parents": {
+    "eyebrow": "Para familias",
+    "title": "Hecho con cariño, pensado para durar",
+    "lead": "Clocklings es un lugar tranquilo y seguro para aprender. Sin sorpresas ni distracciones.",
+    "ads": {
+      "title": "Nunca hay anuncios",
+      "text": "Nada aparece de repente y nada intenta venderle algo a tu hijo."
+    },
+    "accounts": {
+      "title": "Sin cuentas",
+      "text": "Sin registro y sin perfiles. El progreso se queda en tu dispositivo."
+    },
+    "gate": {
+      "title": "Control parental",
+      "text": "Las compras están protegidas por un pequeño acertijo que solo resuelven los adultos."
+    },
+    "kind": {
+      "title": "Para todos los peques",
+      "text": "Texto grande, compatibilidad con lectores de pantalla y movimientos más suaves si hace falta."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Precio",
+    "title": "Pruébalo gratis, desbloquéalo una vez",
+    "lead": "Una sola compra lo desbloquea todo para siempre. Sin suscripción ni monedas dentro de la app.",
+    "free": {
+      "title": "Gratis",
+      "sub": "Gratis para siempre",
+      "point1": "La lección de horas en punto y el primer nivel de práctica",
+      "point2": "Explorar y Jugar juntos",
+      "point3": "Todos los estilos de reloj",
+      "point4": "Los compañeros Muñeca y Gato"
+    },
+    "full": {
+      "badge": "Todo incluido",
+      "title": "Versión completa",
+      "sub": "Pago único",
+      "point1": "Todas las lecciones, de las horas en punto a los minutos exactos",
+      "point2": "Los cinco niveles de práctica y el Reto del minuto",
+      "point3": "Los nueve compañeros en cuatro colores",
+      "point4": "Todo el armario de conjuntos"
+    }
+  },
+  "learnMore": {
+    "eyebrow": "Para familias y docentes",
+    "title": "¿Enseñas la hora en casa o en clase?",
+    "lead": "Nuestra guía explica paso a paso cómo enseñar la hora a un niño, y las fichas gratuitas para imprimir ofrecen práctica extra sin pantallas.",
+    "guideCta": "Leer la guía",
+    "worksheetsCta": "Fichas gratuitas"
+  },
+  "faq": {
+    "eyebrow": "Preguntas",
+    "title": "Conviene saber",
+    "q1": "¿Para quién es Clocklings?",
+    "a1": "Para niños que empiezan a aprender el reloj de agujas. Las lecciones parten de qué hacen las dos agujas, así que no hace falta saber nada antes.",
+    "q2": "¿En qué dispositivos funciona?",
+    "a2": "En móviles y tablets Android con Android 8.0 o posterior. También se adapta a plegables y pantallas grandes.",
+    "q3": "¿Hay versión para iPhone o iPad?",
+    "a3": "Todavía no. Clocklings llega primero a Android.",
+    "q4": "¿La versión gratuita caduca?",
+    "a4": "No. La parte gratuita sigue siendo gratis todo el tiempo que quieras. Pasa a la versión completa solo si tu hijo quiere más.",
+    "q5": "¿Mi hijo necesita saber leer?",
+    "a5": "No mucho. Las instrucciones, las pistas y las horas se pueden escuchar en voz alta, y el compañero enseña cómo funciona todo.",
+    "q6": "¿Podemos usar el reloj de 24 horas?",
+    "a6": "Sí. Un ajuste cambia entre el formato de 12 y de 24 horas, y una última lección explica las horas de todo el día."
+  },
+  "footer": {
+    "top": "Volver arriba",
+    "tagline": "Aprender la hora, un paso feliz cada vez.",
+    "legal": "© 2026 Clocklings. Google Play es una marca de Google LLC.",
+    "homeLink": "Inicio"
+  },
+  "js": {
+    "timeSeparator": ":",
+    "bubbleFirst": "Mira el reloj. ¿Qué hora marca?",
+    "bubbleRead": "¿Qué hora marca este reloj?",
+    "bubbleSet": "Arrastra las agujas o usa los botones de flecha. Luego pulsa Comprobar.",
+    "readQuestion": "¿Qué hora es?",
+    "setQuestion": "Pon esta hora en el reloj:",
+    "praise": [
+      "¡Correcto!",
+      "¡Muy bien!",
+      "¡Buen trabajo!",
+      "¡Lo has conseguido!",
+      "¡Bien hecho!",
+      "¡Genial!",
+      "¡Estupendo!"
+    ],
+    "hintReadWhole": "Mira la aguja larga azul. Cuando señala justo arriba, al 12, es una hora en punto.",
+    "hintReadHalf": "La aguja larga azul señala abajo, al 6. Entonces son y media.",
+    "hintReadHourHalf": "A las y media, la aguja corta rosa está entre dos números. Se dice la hora que acaba de pasar: las tres y media está entre el tres y el cuatro.",
+    "hintReadHour": "La aguja corta rosa marca la hora. ¿A qué número señala?",
+    "hintSetMinute": "Mira la aguja larga azul. En punto señala al 12 y a las y media, al 6.",
+    "hintSetHour": "¡La aguja larga está bien! Ahora mira la aguja corta rosa. Marca la hora.",
+    "revealRead": "La respuesta es {time}. ¡La próxima te sale!",
+    "revealSet": "Así se ve esta hora: {time}. ¿Ves adónde señalan las dos agujas?",
+    "result3": "¡Estupendo!",
+    "result2": "¡Muy bien!",
+    "result1": "¡Sigue explorando!",
+    "starsOne": "¡Has ganado {n} estrella!",
+    "starsOther": "¡Has ganado {n} estrellas!",
+    "resultUnlock": "En la app, las estrellas desbloquean conjuntos nuevos para tu compañero.",
+    "progress": "Ejercicio {n} de {total}",
+    "clockLabel": "Reloj arcoíris que marca {time}",
+    "practiceClock": "Reloj de práctica. Lee la hora y elige una respuesta.",
+    "sliderLabel": "Agujas del reloj. Usa las flechas para moverlas media hora.",
+    "priceNoteDefault": "Precio en dólares estadounidenses. Google Play muestra el precio final en tu moneda local.",
+    "priceNoteLocal": "Precio según tu ubicación. Google Play confirma el precio final antes de la compra.",
+    "playGet": "Disponible en",
+    "playPill": "Ya en Android",
+    "companions": {
+      "doll": {
+        "name": "Muñeca",
+        "line": "Le encanta girar con un vestido nuevo y siempre está lista para la próxima lección."
+      },
+      "cat": {
+        "name": "Gato",
+        "line": "Curioso, mimoso y muy bueno fijándose en adónde señalan las agujas."
+      },
+      "dog": {
+        "name": "Perro",
+        "line": "Mueve la cola con cada acierto y nunca se rinde."
+      },
+      "robot": {
+        "name": "Robot",
+        "line": "Pita feliz con cada tic y cada tac. La precisión es lo suyo."
+      },
+      "dragon": {
+        "name": "Dragón",
+        "line": "Un pequeño mago del tiempo que echa purpurina en vez de fuego."
+      },
+      "dinosaur": {
+        "name": "Dinosaurio",
+        "line": "Más viejo que las montañas, pero nuevo en leer la hora. Aprende contigo."
+      },
+      "bunny": {
+        "name": "Conejo",
+        "line": "Salta de hora en hora y siempre llega puntual."
+      },
+      "unicorn": {
+        "name": "Unicornio",
+        "line": "Espolvorea un poco de magia en cada hora en punto y cada y media."
+      },
+      "car": {
+        "name": "Coche",
+        "line": "Recorre la esfera a toda velocidad y le encanta el Reto del minuto."
+      }
+    },
+    "greetings": {
+      "morning": "¡Buenos días!",
+      "day": "¡Hola!",
+      "evening": "¡Buenas tardes!",
+      "night": "¡Hola, búho nocturno!"
+    },
+    "dragHint": "Arrastra las agujas",
+    "backToNow": "Volver a ahora",
+    "heroClockLabel": "Reloj. Arrastra las agujas o usa las flechas para cambiar la hora."
+  }
+}

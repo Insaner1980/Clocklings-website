@@ -1,0 +1,109 @@
+{
+  "guide": {
+    "slug": "como-ensinar-as-horas-para-criancas",
+    "navTitle": "Guia para os pais",
+    "title": "Como ensinar as horas para crianças: guia passo a passo e atividades grátis",
+    "description": "Um guia passo a passo para pais e professores: como ensinar a ler o relógio de ponteiros, das horas exatas aos minutos exatos. Com atividades grátis para imprimir.",
+    "h1": "Como ensinar as horas para crianças",
+    "intro": "O relógio de ponteiros fica mais fácil de aprender em passos pequenos e sempre na mesma ordem. Este guia segue o mesmo caminho do app Clocklings: primeiro os ponteiros, depois as horas exatas, as meias horas, os quartos de hora, os minutos de cinco em cinco e, por fim, os minutos exatos. Cada passo traz uma atividade para fazer em casa, e no final você encontra atividades grátis para imprimir.",
+    "crumbsLabel": "Trilha de navegação",
+    "startCta": "Começar pelo passo 1",
+    "worksheetsCta": "Atividades grátis",
+    "tocTitle": "Neste guia",
+    "stepLabel": "Passo",
+    "tryThis": "Experimente:",
+    "before": {
+      "title": "Antes de começar",
+      "text": "Não existe idade perfeita para começar. Muitas crianças estão prontas nos primeiros anos do ensino fundamental, mas a prontidão importa mais do que a idade. Estas três habilidades facilitam muito aprender as horas:",
+      "c1": "Reconhecer os números de 1 a 12",
+      "c2": "Contar até 60, ou contar de cinco em cinco com uma ajudinha",
+      "c3": "Entender palavras como antes, depois, manhã e noite"
+    },
+    "s1": {
+      "title": "Conheça os dois ponteiros",
+      "text": "Comece pelo que forma o relógio. O ponteiro curto mostra a hora e o ponteiro comprido mostra os minutos. Os dois sempre giram no mesmo sentido, o sentido horário. Enquanto o ponteiro comprido dá uma volta inteira no mostrador, o curto passa de um número para o seguinte.",
+      "tip": "Aponte para cada ponteiro e dê um nome a ele: o ponteiro rosa curto para as horas e o azul comprido para os minutos. No Clocklings as cores são sempre as mesmas, então a criança sempre sabe qual é qual."
+    },
+    "s2": {
+      "title": "Horas exatas",
+      "text": "Quando o ponteiro comprido aponta bem para cima, para o 12, é uma hora exata. Aí basta olhar o ponteiro curto: o número para o qual ele aponta é a hora. Este é o primeiro passo e o mais importante, então vá com calma.",
+      "tip": "Diga a hora em voz alta em momentos fixos do dia: “São sete horas, hora do café da manhã.” As crianças aprendem mais rápido quando o relógio faz parte do dia delas."
+    },
+    "s3": {
+      "title": "Meia hora",
+      "text": "Quando o ponteiro comprido aponta para baixo, para o 6, ele deu meia volta: é e meia. O ponteiro curto agora fica no meio do caminho entre dois números. Em português, falamos a hora que ele já passou: entre o 3 e o 4 são três e meia.",
+      "tip": "Recorte um círculo de papel, dobre ao meio e coloque a metade sobre o mostrador. Meio círculo é meia hora, ou seja, trinta minutos."
+    },
+    "s4": {
+      "title": "Quartos de hora",
+      "text": "Divida o mostrador em quatro partes, como uma pizza. Quando o ponteiro comprido aponta para o 3, passou um quarto de hora: são três e quinze. Quando aponta para o 9, falta um quarto de hora para a próxima hora: dizemos quinze para a hora que vem, por exemplo, quinze para as quatro.",
+      "tip": "Desenhe um relógio e pinte os quatro quartos com cores diferentes. Mova o ponteiro comprido pedaço por pedaço e falem as horas juntos."
+    },
+    "s5": {
+      "title": "De cinco em cinco",
+      "text": "Para o ponteiro comprido, cada número do mostrador vale cinco minutos: o 1 vale cinco, o 2 dez, o 3 quinze, e assim por diante até o 12, que vale sessenta. Até a meia hora, somamos os minutos: três e dez. Depois da meia hora, é comum dizer quantos minutos faltam para a próxima hora: dez para as quatro.",
+      "tip": "Faça um relógio com um prato de papelão e escreva 5, 10, 15 e assim por diante ao lado dos números. Pratiquem contar de cinco em cinco enquanto o ponteiro comprido gira."
+    },
+    "s6": {
+      "title": "Minutos exatos",
+      "text": "Os risquinhos entre os números são os minutos. Para ler uma hora exata, encontre o último número que o ponteiro comprido já passou, conte de cinco em cinco até ele e depois some os risquinhos um a um.",
+      "tip": "Brinquem de “adivinhe o minuto”: você ajusta o relógio, a criança conta os minutos e depois vocês trocam de papel."
+    },
+    "s7": {
+      "title": "O dia inteiro",
+      "text": "O ponteiro curto dá duas voltas no mostrador por dia. Relógios digitais e horários costumam usar o formato de 24 horas, em que a tarde continua a partir das 13. Por isso, 15:30 são três e meia da tarde. Ensine isso por último, quando ler o relógio de ponteiros já estiver fácil.",
+      "tip": "Olhem juntos um horário de ônibus ou a programação da TV e transformem os horários: “15:30, isso são três e meia da tarde.”"
+    },
+    "tips": {
+      "title": "Jeitos de praticar no dia a dia",
+      "lead": "Alguns minutos por dia funcionam melhor do que uma aula longa uma vez por semana. Estes pequenos hábitos colocam o relógio na rotina:",
+      "t1": "Pendure um relógio de ponteiros na altura dos olhos da criança, onde ela o veja com frequência.",
+      "t2": "Fale as horas durante a rotina: ao acordar, no almoço, na hora do banho e na hora de dormir.",
+      "t3": "Dê uma missão à criança: “Me avise quando o ponteiro comprido chegar no 6, aí a gente vai ao parque.”",
+      "t4": "Façam juntos um relógio de prato de papelão com ponteiros móveis e brinquem com ele.",
+      "t5": "Mantenha a leveza. Elogie o esforço, pare enquanto ainda está divertido e continue amanhã."
+    },
+    "mistakes": {
+      "title": "Erros comuns e como ajudar",
+      "m1": {
+        "title": "Confundir os ponteiros",
+        "text": "As crianças muitas vezes leem o ponteiro comprido como a hora. Lembre: ponteiro curto, horas. Ponteiro comprido, minutos. Usar sempre as mesmas cores ajuda muito."
+      },
+      "m2": {
+        "title": "Errar a hora",
+        "text": "Às 3:50 o ponteiro curto está quase no 4. Dizemos dez para as quatro: com “para”, falamos a hora que vem. Mostre à criança qual número o ponteiro curto já passou."
+      },
+      "m3": {
+        "title": "Ler os minutos como números",
+        "text": "Quando o ponteiro comprido aponta para o 4, a criança pode dizer quatro minutos em vez de vinte. Pratiquem contar de cinco em cinco ao redor do mostrador até ficar natural."
+      }
+    },
+    "cta": {
+      "title": "Pratique com um amigo",
+      "text": "Clocklings transforma cada passo deste guia em atividades curtas e divertidas, com dicas gentis, estrelas para colecionar e um amigo que torce pelo seu filho.",
+      "try": "Experimente uma minilição"
+    }
+  },
+  "worksheets": {
+    "navTitle": "Atividades para imprimir",
+    "title": "Atividades grátis para imprimir sobre as horas",
+    "lead": "Cada PDF tem duas páginas de exercícios e um gabarito. Primeiro a criança lê os relógios e escreve a hora, depois desenha os ponteiros para uma hora indicada. Imprima para usar em casa ou na sala de aula.",
+    "d1": "Ler e desenhar horas exatas. Uma ótima primeira atividade.",
+    "d2": "Meias horas misturadas com horas exatas.",
+    "d3": "E quinze e quinze para, com algumas meias horas.",
+    "d4": "Horas de cinco em cinco minutos por todo o mostrador.",
+    "download": "Baixar PDF",
+    "note": "Grátis para imprimir e compartilhar em casa e na escola.",
+    "fileBase": "atividade-horas",
+    "pdf": {
+      "sheet": "Atividade sobre as horas",
+      "name": "Nome",
+      "readTitle": "Que horas são?",
+      "readInstr": "Olhe cada relógio e escreva a hora.",
+      "drawTitle": "Desenhe os ponteiros",
+      "drawInstr": "Desenhe os ponteiros para o relógio mostrar a hora.",
+      "keyTitle": "Gabarito",
+      "footer": "Atividade grátis do Clocklings, o app para crianças aprenderem as horas"
+    }
+  }
+}

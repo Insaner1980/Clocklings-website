@@ -1,0 +1,611 @@
+<!doctype html>
+<!-- Koostettu tiedosto. Muokkaa mallia src/*.html ja käännöksiä i18n/*.json, sitten aja: npm run build -->
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clocklings: Kellon opettelu -sovellus lapsille</title>
+  <meta name="description" content="Clocklings on lasten sovellus kellon opetteluun. Lapsi oppii lukemaan viisarikelloa askel kerrallaan leikkisän kaverin kanssa, tasatunneista tarkkoihin minuutteihin. Tulossa pian Androidille.">
+  <meta name="theme-color" content="#FFF5FA">
+  <meta name="color-scheme" content="light">
+
+  <link rel="alternate" hreflang="en" href="/">
+  <link rel="alternate" hreflang="fi" href="/fi/">
+  <link rel="alternate" hreflang="sv" href="/sv/">
+  <link rel="alternate" hreflang="de" href="/de/">
+  <link rel="alternate" hreflang="fr" href="/fr/">
+  <link rel="alternate" hreflang="es" href="/es/">
+  <link rel="alternate" hreflang="pt-BR" href="/pt-br/">
+  <link rel="alternate" hreflang="x-default" href="/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clocklings">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:title" content="Clocklings: Kellon opettelu -sovellus lapsille">
+  <meta property="og:description" content="Opi viisarikello askel kerrallaan, kerää tähtiä ja pue oma kaverisi.">
+  <meta property="og:image" content="/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Clocklings-kaverit sateenkaarikellon vieressä">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clocklings: Kellon opettelu -sovellus lapsille">
+  <meta name="twitter:description" content="Opi viisarikello askel kerrallaan, kerää tähtiä ja pue oma kaverisi.">
+  <meta name="twitter:image" content="/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="Clocklings-kaverit sateenkaarikellon vieressä">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/icons/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/fredoka_bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/nunito_semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "name": "Clocklings",
+   "alternateName": "Clocklings: Kellon opettelu -sovellus lapsille",
+   "description": "Clocklings on lasten sovellus kellon opetteluun. Lapsi oppii lukemaan viisarikelloa askel kerrallaan leikkisän kaverin kanssa, tasatunneista tarkkoihin minuutteihin. Tulossa pian Androidille.",
+   "operatingSystem": "Android 8.0+",
+   "applicationCategory": "EducationalApplication",
+   "inLanguage": [
+    "en",
+    "fi",
+    "sv",
+    "de",
+    "fr",
+    "es",
+    "pt-BR"
+   ],
+   "image": "/assets/img/og-image.png",
+   "offers": {
+    "@type": "Offer",
+    "price": "6.99",
+    "priceCurrency": "USD",
+    "category": "one-time purchase"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "inLanguage": "fi",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Kenelle Clocklings on tehty?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Lapsille, jotka ovat aloittamassa viisarikellon opettelua. Oppitunnit alkavat siitä, mitä kaksi viisaria tekevät, joten aiempaa osaamista ei tarvita."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Millä laitteilla se toimii?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Android-puhelimilla ja -tableteilla, joissa on Android 8.0 tai uudempi. Sovellus mukautuu myös taittuviin laitteisiin ja isoihin näyttöihin."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Onko iPhone- tai iPad-versiota?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ei vielä. Clocklings julkaistaan ensin Androidille."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Vanheneeko maksuton versio?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ei. Maksuton osa pysyy maksuttomana niin pitkään kuin haluat. Koko version voi ostaa, jos lapsi haluaa lisää."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Pitääkö lapsen osata lukea?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ei oikeastaan. Ohjeet, vihjeet ja kellonajat voi kuunnella ääneen luettuina, ja kaveri näyttää, miten asiat toimivat."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Voiko käyttää 24 tunnin kelloa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Kyllä. Asetuksista voi valita 12 tai 24 tunnin ajan, ja viimeinen oppitunti kertoo, miten koko vuorokauden tunnit toimivat."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <script id="i18n" type="application/json">{"timeSeparator":".","bubbleFirst":"Katso kelloa. Mitä aikaa se näyttää?","bubbleRead":"Mitä tämä kello näyttää?","bubbleSet":"Raahaa viisareita tai käytä nuolinappeja. Paina sitten Tarkista.","readQuestion":"Mitä kello on?","setQuestion":"Aseta kelloon aika","praise":["Oikein!","Hyvin tehty!","Hienoa työtä!","Sinä osasit!","Mainiosti!","Loistavaa!","Upeaa!"],"hintReadWhole":"Katso pitkää sinistä viisaria. Kun se osoittaa suoraan ylös 12:een, kello on tasan.","hintReadHalf":"Pitkä sininen viisari osoittaa alas 6:een. Silloin kello on puoli.","hintReadHourHalf":"Kun kello on puoli, lyhyt pinkki viisari on kahden numeron välissä. Puoli-sanan jälkeen sanotaan seuraava tunti: puoli neljä on kolmen ja neljän välissä.","hintReadHour":"Lyhyt pinkki viisari näyttää tunnin. Mihin numeroon se osoittaa?","hintSetMinute":"Tarkista pitkä sininen viisari. Tasan-ajoissa se osoittaa 12:een ja puolen tunnin kohdalla 6:een.","hintSetHour":"Pitkä viisari on oikein! Katso nyt lyhyttä pinkkiä viisaria. Se näyttää tunnin.","revealRead":"Kello on {time}. Seuraava menee varmasti!","revealSet":"Tältä näyttää {time}. Katso, mihin kumpikin viisari osoittaa.","result3":"Upeaa!","result2":"Hyvin tehty!","result1":"Jatka tutkimista!","starsOne":"Sait {n} tähden!","starsOther":"Sait {n} tähteä!","resultUnlock":"Sovelluksessa tähdillä avataan uusia asuja kaverillesi.","progress":"Tehtävä {n}/{total}","clockLabel":"Sateenkaarikello näyttää: {time}","practiceClock":"Harjoituskello. Lue aika ja valitse vastaus.","sliderLabel":"Kellon viisarit. Siirrä niitä puoli tuntia kerrallaan nuolinäppäimillä.","priceNoteDefault":"Hinta Yhdysvaltain dollareina. Google Play näyttää lopullisen hinnan omassa valuutassasi.","priceNoteLocal":"Hinta sijaintisi mukaan. Google Play vahvistaa lopullisen hinnan ennen ostoa.","playGet":"Lataa","playPill":"Nyt Androidilla","companions":{"doll":{"name":"Nukke","line":"Rakastaa pyörähdellä uudessa mekossa ja on aina valmis seuraavaan oppituntiin."},"cat":{"name":"Kissa","line":"Utelias ja lempeä, ja huomaa tarkasti, mihin viisarit osoittavat."},"dog":{"name":"Koira","line":"Heiluttaa häntäänsä jokaiselle oikealle vastaukselle eikä luovuta koskaan."},"robot":{"name":"Robotti","line":"Piippaa iloisesti jokaiselle tikille ja takille. Tarkkuus on sen toinen nimi."},"dragon":{"name":"Lohikäärme","line":"Pieni ajan velho, joka puhaltaa tulen sijaan kimalletta."},"dinosaur":{"name":"Dinosaurus","line":"Ikivanha, mutta kellon lukemisessa ihan uusi. Oppii yhdessä sinun kanssasi."},"bunny":{"name":"Pupu","line":"Hyppii tunnista toiseen ja ehtii aina ajoissa perille."},"unicorn":{"name":"Yksisarvinen","line":"Ripottelee taikaa jokaiseen tasatuntiin ja puoleen tuntiin."},"car":{"name":"Auto","line":"Kiitää kellotaulun ympäri ja rakastaa vauhdikasta Minuuttihaastetta."}},"greetings":{"morning":"Hyvää huomenta!","day":"Hei!","evening":"Hyvää iltaa!","night":"Hei, yökukkuja!"},"dragHint":"Raahaa viisareita","backToNow":"Takaisin nykyhetkeen","heroClockLabel":"Kello. Muuta aikaa raahaamalla viisareita tai nuolinäppäimillä.","lang":"fi","locale":"fi","page":"home","suggest":{"en":{"text":"This page is also available in English.","link":"Switch to English","paths":{"home":"/","guide":"/how-to-teach-a-child-to-tell-time/"}},"fi":{"text":"Tämä sivu on saatavilla myös suomeksi.","link":"Suomenkieliselle sivulle","paths":{"home":"/fi/","guide":"/fi/miten-opettaa-lapselle-kello/"}},"sv":{"text":"Den här sidan finns också på svenska.","link":"Till den svenska sidan","paths":{"home":"/sv/","guide":"/sv/hur-lar-man-barn-klockan/"}},"de":{"text":"Diese Seite gibt es auch auf Deutsch.","link":"Zur deutschen Seite","paths":{"home":"/de/","guide":"/de/kindern-die-uhr-beibringen/"}},"fr":{"text":"Cette page existe aussi en français.","link":"Voir la page en français","paths":{"home":"/fr/","guide":"/fr/apprendre-l-heure-a-un-enfant/"}},"es":{"text":"Esta página también está disponible en español.","link":"Ir a la página en español","paths":{"home":"/es/","guide":"/es/como-ensenar-la-hora-a-un-nino/"}},"pt-BR":{"text":"Esta página também está disponível em português.","link":"Ir para a página em português","paths":{"home":"/pt-br/","guide":"/pt-br/como-ensinar-as-horas-para-criancas/"}}}}</script>
+  <script src="/assets/js/main.js" defer></script>
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+
+  <div class="lang-banner" data-lang-banner hidden>
+    <div class="wrap lang-banner-row">
+      <p data-lang-banner-text></p>
+      <div class="lang-banner-actions">
+        <a class="btn btn-primary btn-small" data-lang-banner-link href="/"></a>
+        <button type="button" class="round-btn round-btn-small" data-lang-banner-close aria-label="Sulje">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="/fi/" class="wordmark" aria-label="Clocklings, etusivu">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <nav class="site-nav" aria-label="Päävalikko">
+        <a href="/fi/#companions">Kaverit</a>
+        <a href="/fi/#try">Kokeile</a>
+        <a href="/fi/miten-opettaa-lapselle-kello/">Opas</a>
+        <a href="/fi/#pricing">Hinta</a>
+      </nav>
+      <div class="header-actions">
+        <details class="lang-menu" data-lang-menu>
+          <summary aria-label="Kieli">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.5 3.9 5.5 3.9 9s-1.3 6.5-3.9 9c-2.6-2.5-3.9-5.5-3.9-9S9.4 5.5 12 3z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <span>FI</span>
+          </summary>
+          <ul class="lang-list">
+            <li><a href="/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+            <li><a href="/fi/" hreflang="fi" lang="fi" data-lang-link="fi" aria-current="page">Suomi</a></li>
+            <li><a href="/sv/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+            <li><a href="/de/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+            <li><a href="/fr/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+            <li><a href="/es/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+            <li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+          </ul>
+        </details>
+        <a href="/fi/#pricing" class="btn btn-primary btn-small header-cta">Hanki sovellus</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="pill pill-gold">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z"/></svg>
+            <span data-soon-pill>Tulossa pian Androidille</span>
+          </p>
+          <h1>Kellon oppiminen on kivempaa kaverin kanssa</h1>
+          <p class="lead">Clocklings tekee viisarikellosta leikkisän seikkailun. Lapsi oppii askel kerrallaan, harjoittelee kellon lukemista ja asettamista, kerää tähtiä ja pukee oman kaverinsa.</p>
+          <div class="hero-actions">
+            <a class="play-button" href="#pricing" data-play-link>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+              <span>
+                <small data-play-eyebrow>Tulossa pian</small>
+                Google Play
+              </span>
+            </a>
+            <a class="btn btn-tonal" href="#try">Kokeile minitehtäviä</a>
+          </div>
+          <p class="hero-note">Maksuton kokeilla. Koko versio <strong data-price>6,99 €</strong> kertamaksulla, ilman mainoksia ja tilausta.</p>
+        </div>
+
+        <div class="hero-stage" data-stage data-daypart="day" aria-label="Clocklings-kaveri seisoo sateenkaarikellon vieressä. Kello näyttää tämänhetkisen ajan.">
+          <div class="stage-sky" aria-hidden="true">
+            <span class="sky sky-dawn"></span>
+            <span class="sky sky-day"></span>
+            <span class="sky sky-dusk"></span>
+            <span class="sky sky-night"></span>
+            <span class="stars"></span>
+            <span class="sun" data-sun></span>
+            <span class="moon" data-moon></span>
+            <span class="cloud cloud-a"></span>
+            <span class="cloud cloud-b"></span>
+          </div>
+          <div class="stage-ground" aria-hidden="true"></div>
+          <img class="stage-companion" data-companion-img data-burst src="/assets/img/characters/doll.webp" alt="" width="382" height="627" fetchpriority="high">
+          <div class="stage-bubble">
+            <span data-live-words>Nyt opitaan kelloa!</span>
+          </div>
+          <div class="stage-clock" data-clock="live"></div>
+          <p class="drag-hint" data-drag-hint hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-1.5a1.5 1.5 0 0 1 3 0V11m0-1a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1-6 6h-1.2a5 5 0 0 1-4.1-2.2L4.5 14.5a1.6 1.6 0 0 1 2.4-2L9 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-drag-hint-text></span>
+          </p>
+          <button type="button" class="now-btn" data-back-to-now hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-back-to-now-text></span>
+          </button>
+          <span class="sparkle s1" aria-hidden="true"></span>
+          <span class="sparkle s2" aria-hidden="true"></span>
+          <span class="sparkle s3" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="Clocklings lukuina">
+      <div class="wrap stats-row">
+        <div class="stat stat-1"><span class="stat-num" data-count="9">9</span><span class="stat-label">Kaveria</span></div>
+        <div class="stat stat-2"><span class="stat-num" data-count="146">146</span><span class="stat-label">Asustetta</span></div>
+        <div class="stat stat-3"><span class="stat-num" data-count="15">15</span><span class="stat-label">Tähteä kerättäväksi</span></div>
+        <div class="stat stat-4"><span class="stat-num" data-count="7">7</span><span class="stat-label">Kieltä</span></div>
+      </div>
+    </section>
+
+    <!-- COMPANIONS -->
+    <section class="section companions" id="companions" aria-labelledby="companions-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Tutustu kavereihin</p>
+          <h2 id="companions-title">Valitse kaveri, jonka kanssa opit</h2>
+          <p class="section-lead">Yhdeksän kaveria, jokaisella oma tyylinsä. Kaveri kannustaa, iloitsee jokaisesta tähdestä ja rakastaa uusien asujen sovittamista.</p>
+        </header>
+
+        <div class="companion-show">
+          <div class="companion-stage">
+            <img data-companion-big data-burst src="/assets/img/characters/doll.webp" alt="Nukke" width="382" height="627" loading="lazy">
+          </div>
+          <div class="companion-info">
+            <h3 data-companion-name>Nukke</h3>
+            <p data-companion-line>Rakastaa pyörähdellä uudessa mekossa ja on aina valmis seuraavaan oppituntiin.</p>
+            <p class="companion-hint">Valitsemasi kaveri kulkee mukanasi koko sivulla, myös minitehtävissä.</p>
+          </div>
+        </div>
+
+        <div class="companion-picker" role="radiogroup" aria-label="Valitse kaveri" data-companion-picker></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how" aria-labelledby="how-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Näin se toimii</p>
+          <h2 id="how-title">Pieniä askelia, isoja hymyjä</h2>
+          <p class="section-lead">Clocklings opastaa lasta ensimmäisestä tasatunnista aina tarkkoihin minuutteihin asti.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step step-learn">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5.5c3-1.3 6-1.3 9 .6v13c-3-1.9-6-1.9-9-.6zM21 5.5c-3-1.3-6-1.3-9 .6v13c3-1.9 6-1.9 9-.6z" fill="#fff" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Opi</h3>
+            <p>Selkeät oppitunnit näyttävät, mitä viisarit tekevät. Mukana on animaatioita ja kertoja, joka lukee kaiken ääneen.</p>
+          </li>
+          <li class="step step-play">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Pelaa</h3>
+            <p>Lue kelloa ja aseta se itse. Virheen jälkeen saat vihjeen, joten kukaan ei jää jumiin.</p>
+          </li>
+          <li class="step step-stars">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8z" fill="#FCC419" stroke="#F59F00" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Kerää tähtiä</h3>
+            <p>Jokaisesta tasosta saa enintään kolme tähteä. Voit pelata uudelleen milloin haluat ja parantaa tulostasi.</p>
+          </li>
+          <li class="step step-dress">
+            <span class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8.5 3.5 4 6l1.8 4 2-.9V20.5h8.4V9.1l2 .9L20 6l-4.5-2.5c-.6 1.5-2 2.4-3.5 2.4S9.1 5 8.5 3.5z" fill="#fff" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Pue kaveri</h3>
+            <p>Tähdillä avautuu hattuja, kruunuja, huiveja ja paljon muuta. Vaatekaapissa odottaa yli 140 asustetta.</p>
+          </li>
+        </ol>
+
+        <div class="journey" data-journey>
+          <h3 class="journey-title" id="path-title">Oppimisen polku</h3>
+          <div class="journey-grid">
+            <div class="journey-visual" aria-hidden="true">
+              <div class="journey-sticky">
+                <div class="journey-clock" data-clock="journey"></div>
+                <p class="journey-caption" data-journey-caption></p>
+              </div>
+            </div>
+            <ol class="journey-steps" aria-labelledby="path-title">
+              <li class="journey-step" data-time="180"><span class="journey-num">1</span><div><h4>Tasatunnit</h4><p>Pitkä viisari osoittaa suoraan ylös 12:een. Lue lyhyt viisari, niin tiedät tunnin.</p></div></li>
+              <li class="journey-step" data-time="270"><span class="journey-num">2</span><div><h4>Puoli tuntia</h4><p>Pitkä viisari on kulkenut puoli kierrosta 6:een. Lyhyt viisari on kahden numeron välissä, ja puolen jälkeen sanotaan seuraava tunti.</p></div></li>
+              <li class="journey-step" data-time="345"><span class="journey-num">3</span><div><h4>Vartit</h4><p>Varttia yli, kun pitkä viisari on 3:ssa, ja varttia vaille, kun se on 9:ssä. Kellotaulu jakautuu neljään helppoon palaan.</p></div></li>
+              <li class="journey-step" data-time="445"><span class="journey-num">4</span><div><h4>Viiden minuutin välein</h4><p>Jokainen numero on viisi minuuttia. Laske viiden välein, kun pitkä viisari kiertää.</p></div></li>
+              <li class="journey-step" data-time="527"><span class="journey-num">5</span><div><h4>Tarkat minuutit</h4><p>Pienet viivat ovat yksittäisiä minuutteja. Laske viimeiseen viitoseen ja lisää loput.</p></div></li>
+              <li class="journey-step" data-time="930" data-h24><span class="journey-num">6</span><div><h4>Koko vuorokausi</h4><p>Lyhyt viisari kiertää kahdesti vuorokaudessa. 15.30 on sama kuin puoli neljä iltapäivällä.</p></div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRY IT -->
+    <section class="section try" id="try" aria-labelledby="try-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Kokeile itse</p>
+          <h2 id="try-title">Pieni maistiainen harjoittelusta</h2>
+          <p class="section-lead">Viisi nopeaa tehtävää tasatunneista ja puolista tunneista, samaan tapaan kuin sovelluksen ensimmäisillä tasoilla. Valmiina?</p>
+        </header>
+
+        <div class="trainer" data-trainer>
+          <div class="trainer-top">
+            <ol class="progress" data-progress aria-hidden="true"></ol>
+            <p class="visually-hidden" data-progress-text aria-live="polite"></p>
+          </div>
+
+          <div class="trainer-body">
+            <div class="trainer-clock-wrap">
+              <div class="trainer-clock" data-clock="trainer"></div>
+              <div class="set-controls" data-set-controls hidden>
+                <button type="button" class="round-btn" data-step="-30" aria-label="Siirrä kelloa 30 minuuttia taaksepäin">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <span class="set-readout" data-set-readout aria-hidden="true"></span>
+                <button type="button" class="round-btn" data-step="30" aria-label="Siirrä kelloa 30 minuuttia eteenpäin">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 7h5V2M19.4 7A8 8 0 1 0 20 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="trainer-panel">
+              <div class="buddy">
+                <img class="buddy-img" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+                <p class="bubble" data-bubble aria-live="polite">Aloitetaan!</p>
+              </div>
+
+              <h3 class="task-title" data-task-title>Mitä kello on?</h3>
+              <div class="options" data-options></div>
+              <div class="trainer-actions">
+                <button type="button" class="btn btn-primary" data-check hidden>Tarkista</button>
+                <button type="button" class="btn btn-primary" data-next hidden>Seuraava
+                  <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button type="button" class="btn btn-primary" data-start>Aloita</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="trainer-result" data-result hidden>
+            <div class="result-stars" data-result-stars aria-hidden="true"></div>
+            <img class="result-companion" data-companion-img src="/assets/img/characters/doll.webp" alt="" width="382" height="627" loading="lazy">
+            <h3 data-result-title></h3>
+            <p data-result-text></p>
+            <p class="result-more">Sovelluksessa jatketaan varteilla, viiden minuutin väleillä, tarkoilla minuuteilla, koko vuorokaudella ja vauhdikkaalla Minuuttihaasteella.</p>
+            <div class="result-actions">
+              <a class="btn btn-primary" href="#pricing">Hanki Clocklings</a>
+              <button type="button" class="btn btn-white" data-restart>
+                <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H4V2M4.6 7A8 8 0 1 1 4 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Pelaa uudelleen
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" aria-labelledby="features-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Lisää löydettävää</p>
+          <h2 id="features-title">Monta tapaa leikkiä</h2>
+        </header>
+
+        <ul class="tiles">
+          <li class="tile tile-explore">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="#3A2453" stroke-width="2"/><path d="M12 6.5V12l-3 2" fill="none" stroke="#E64980" stroke-width="2.2" stroke-linecap="round"/><path d="M12 12V5" stroke="#228BE6" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+            <h3>Tutki</h3>
+            <p>Pyörittele viisareita vapaasti ja kuule, mitä kello on.</p>
+          </li>
+          <li class="tile tile-together">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round"><circle cx="8.5" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M3.5 19.5c0-3 2.2-5 5-5s5 2 5 5M13.5 14.6c.8-.1 1.6-.1 2.5-.1 2.8 0 4.5 2 4.5 5"/></svg></span>
+            <h3>Pelaa yhdessä</h3>
+            <p>Yksi asettaa ajan, toinen arvaa. Sitten vaihdetaan vuoroa.</p>
+          </li>
+          <li class="tile tile-challenge">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V9.5M10 2.5h4M18.5 6.5l1.5-1.5"/></svg></span>
+            <h3>Minuuttihaaste</h3>
+            <p>Montako kelloa ehdit lukea kuudessakymmenessä sekunnissa?</p>
+          </li>
+          <li class="tile tile-styles">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="#FF6B6B" stroke-width="3"/><circle cx="12" cy="12" r="9" fill="none" stroke="#339AF0" stroke-width="3" stroke-dasharray="14 42.5"/><circle cx="12" cy="12" r="9" fill="none" stroke="#51CF66" stroke-width="3" stroke-dasharray="14 42.5" stroke-dashoffset="-14"/><circle cx="12" cy="12" r="9" fill="none" stroke="#FCC419" stroke-width="3" stroke-dasharray="14 42.5" stroke-dashoffset="-28"/></svg></span>
+            <h3>Kellotyylit</h3>
+            <p>Sateenkaari, Avaruus, Meri, Metsä ja muita. Voit myös suunnitella oman kellon.</p>
+          </li>
+          <li class="tile tile-voice">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg></span>
+            <h3>Ääneen luettuna</h3>
+            <p>Ystävällinen kertoja opastaa pieniä, jotka vasta opettelevat lukemaan.</p>
+          </li>
+          <li class="tile tile-lang">
+            <span class="tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#3A2453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H9l-4 3.5V14H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M17 9h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-3.5-3H14"/></svg></span>
+            <h3>Seitsemän kieltä</h3>
+            <p>Suomi, ruotsi, englanti, saksa, ranska, espanja ja brasilianportugali.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- OUTFITS -->
+    <section class="section outfits" aria-labelledby="outfits-title">
+      <div class="wrap outfits-grid">
+        <div class="outfits-copy">
+          <p class="eyebrow">Vaatekaappi</p>
+          <h2 id="outfits-title">Jokainen tähti on pieni palkinto</h2>
+          <p class="section-lead">Kruunut, velhonhatut, keijunsiivet ja juhlahatut avautuvat, kun lapsi kerää tähtiä. Jokaisesta kaverista on lisäksi neljä väriä.</p>
+          <ul class="checks">
+            <li>Yli 140 asustetta yhdeksälle kaverille</li>
+            <li>Tähdet eivät kulu, joten palkinnot pysyvät auki</li>
+            <li>Nimeä kaverisi ja tee siitä omanlaisesi</li>
+          </ul>
+        </div>
+        <div class="outfit-row" role="group" aria-label="Esimerkkejä asuista">
+          <figure class="outfit-card oc-1"><img src="/assets/img/characters/doll-fairy.webp" alt="Nukke, jolla on keijunsiivet ja pilkullinen mekko" width="354" height="626" loading="lazy"></figure>
+          <figure class="outfit-card oc-2"><img src="/assets/img/characters/cat-blue.webp" alt="Sininen kissa, jolla on kultainen kruunu ja kellopanta" width="479" height="720" loading="lazy"></figure>
+          <figure class="outfit-card oc-3"><img src="/assets/img/characters/dinosaur-blue.webp" alt="Sininen dinosaurus, jolla on juhlahattu ja ankkauimarengas" width="493" height="720" loading="lazy"></figure>
+          <figure class="outfit-card oc-4"><img src="/assets/img/characters/robot-hero.webp" alt="Robotti, jolla on kuulokkeet ja supersankarin viitta" width="580" height="720" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARENTS -->
+    <section class="section parents" id="parents" aria-labelledby="parents-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Vanhemmille</p>
+          <h2 id="parents-title">Tehty huolella, kestämään käyttöä</h2>
+          <p class="section-lead">Clocklings on rauhallinen ja turvallinen paikka oppia. Ei yllätyksiä, ei häiriötekijöitä.</p>
+        </header>
+        <ul class="promises">
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>
+            <h3>Ei mainoksia</h3>
+            <p>Mikään ei ponnahda esiin, eikä mikään yritä myydä lapsellesi.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+            <h3>Ei tilejä</h3>
+            <p>Ei rekisteröitymistä eikä profiileja. Edistyminen pysyy laitteellasi.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <h3>Vanhempien lukko</h3>
+            <p>Ostot ovat pienen tehtävän takana, jonka vain aikuinen osaa ratkaista.</p>
+          </li>
+          <li>
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15z"/><path d="M9.5 10h.01M14.5 10h.01M9 14c1.6 1.4 4.4 1.4 6 0"/></svg></span>
+            <h3>Sopii jokaiselle oppijalle</h3>
+            <p>Suuri teksti, ruudunlukijan tuki ja rauhallisempi liike tarvittaessa.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Hinta</p>
+          <h2 id="pricing-title">Kokeile maksutta, avaa kerralla</h2>
+          <p class="section-lead">Yksi osto avaa kaiken pysyvästi. Ei tilausta eikä sovelluksen sisäisiä kolikoita.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan plan-free">
+            <h3>Maksuton</h3>
+            <p class="plan-price" data-price-zero>0 €</p>
+            <p class="plan-once">Maksuton aina</p>
+            <ul class="checks">
+              <li>Tasatuntien oppitunti ja ensimmäinen harjoitustaso</li>
+              <li>Tutki ja Pelaa yhdessä</li>
+              <li>Kaikki kellotyylit</li>
+              <li>Nukke ja Kissa</li>
+            </ul>
+          </article>
+
+          <article class="plan plan-full">
+            <span class="plan-badge">Kaikki mukana</span>
+            <h3>Koko versio</h3>
+            <p class="plan-price"><span data-price>6,99 €</span></p>
+            <p class="plan-once">Kertaosto</p>
+            <ul class="checks">
+              <li>Kaikki oppitunnit tasatunneista tarkkoihin minuutteihin</li>
+              <li>Kaikki viisi harjoitustasoa ja Minuuttihaaste</li>
+              <li>Kaikki yhdeksän kaveria neljässä värissä</li>
+              <li>Koko vaatekaappi asuineen</li>
+            </ul>
+            <a class="play-button play-button-wide" href="#pricing" data-play-link>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5z"/></svg>
+              <span>
+                <small data-play-eyebrow>Tulossa pian</small>
+                Google Play
+              </span>
+            </a>
+          </article>
+        </div>
+        <p class="price-note" data-price-note>Google Play näyttää lopullisen hinnan omassa valuutassasi.</p>
+      </div>
+    </section>
+
+    <!-- GUIDE + WORKSHEETS -->
+    <section class="section learn-more" aria-labelledby="learn-more-title">
+      <div class="wrap learn-more-card">
+        <div class="learn-more-copy">
+          <p class="eyebrow">Vanhemmille ja opettajille</p>
+          <h2 id="learn-more-title">Opetatko kelloa kotona tai koulussa?</h2>
+          <p class="section-lead">Vaiheittainen oppaamme kertoo, miten lapselle opetetaan kello, ja maksuttomilla tulostettavilla tehtäväarkeilla voi harjoitella ilman ruutua.</p>
+          <div class="learn-more-actions">
+            <a class="btn btn-primary" href="/fi/miten-opettaa-lapselle-kello/">Lue opas</a>
+            <a class="btn btn-white" href="/fi/miten-opettaa-lapselle-kello/#worksheets">Maksuttomat tehtäväarkit</a>
+          </div>
+        </div>
+        <div class="learn-more-art" aria-hidden="true">
+          <span class="sheet sheet-back"></span>
+          <span class="sheet sheet-front"><span class="mini-clock" data-mini-clock="270"></span><span class="sheet-lines"></span></span>
+          <img src="/assets/img/characters/bunny.webp" alt="" width="586" height="720" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="wrap faq-wrap">
+        <header class="section-head">
+          <p class="eyebrow">Kysymyksiä</p>
+          <h2 id="faq-title">Hyvä tietää</h2>
+        </header>
+        <div class="faq-list">
+          <details><summary>Kenelle Clocklings on tehty?</summary><p>Lapsille, jotka ovat aloittamassa viisarikellon opettelua. Oppitunnit alkavat siitä, mitä kaksi viisaria tekevät, joten aiempaa osaamista ei tarvita.</p></details>
+          <details><summary>Millä laitteilla se toimii?</summary><p>Android-puhelimilla ja -tableteilla, joissa on Android 8.0 tai uudempi. Sovellus mukautuu myös taittuviin laitteisiin ja isoihin näyttöihin.</p></details>
+          <details><summary>Onko iPhone- tai iPad-versiota?</summary><p>Ei vielä. Clocklings julkaistaan ensin Androidille.</p></details>
+          <details><summary>Vanheneeko maksuton versio?</summary><p>Ei. Maksuton osa pysyy maksuttomana niin pitkään kuin haluat. Koko version voi ostaa, jos lapsi haluaa lisää.</p></details>
+          <details><summary>Pitääkö lapsen osata lukea?</summary><p>Ei oikeastaan. Ohjeet, vihjeet ja kellonajat voi kuunnella ääneen luettuina, ja kaveri näyttää, miten asiat toimivat.</p></details>
+          <details><summary>Voiko käyttää 24 tunnin kelloa?</summary><p>Kyllä. Asetuksista voi valita 12 tai 24 tunnin ajan, ja viimeinen oppitunti kertoo, miten koko vuorokauden tunnit toimivat.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a href="/fi/" class="wordmark wordmark-small" aria-label="Takaisin ylös">
+        <span>C</span><span>l</span><span>o</span><span>c</span><span>k</span><span>l</span><span>i</span><span>n</span><span>g</span><span>s</span>
+      </a>
+      <p class="footer-copy">Kellon oppimista, yksi iloinen askel kerrallaan.</p>
+      <ul class="footer-links">
+        <li><a href="/fi/">Etusivu</a></li>
+        <li><a href="/fi/miten-opettaa-lapselle-kello/">Opas vanhemmille</a></li>
+        <li><a href="/fi/miten-opettaa-lapselle-kello/#worksheets">Tulostettavat tehtävät</a></li>
+      </ul>
+      <ul class="footer-langs" aria-label="Kieli">
+        <li><a href="/" hreflang="en" lang="en" data-lang-link="en">English</a></li>
+        <li><a href="/fi/" hreflang="fi" lang="fi" data-lang-link="fi" aria-current="page">Suomi</a></li>
+        <li><a href="/sv/" hreflang="sv" lang="sv" data-lang-link="sv">Svenska</a></li>
+        <li><a href="/de/" hreflang="de" lang="de" data-lang-link="de">Deutsch</a></li>
+        <li><a href="/fr/" hreflang="fr" lang="fr" data-lang-link="fr">Français</a></li>
+        <li><a href="/es/" hreflang="es" lang="es" data-lang-link="es">Español</a></li>
+        <li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang-link="pt-BR">Português (Brasil)</a></li>
+      </ul>
+      <p class="footer-legal">© 2026 Clocklings. Google Play on Google LLC:n tavaramerkki.</p>
+    </div>
+  </footer>
+
+  <a href="#main" class="scroll-clock" data-scroll-clock aria-label="Takaisin ylös" hidden>
+    <span class="scroll-clock-face" data-clock="scroll"></span>
+  </a>
+
+</body>
+</html>
